@@ -8,3 +8,5 @@ Route::get(uri:'/', action: function (): Illuminate\View\View {
 })->name(name:'home');
 
 Route::view(uri:'presentation',view:'Pages.presentation')->name(name:'presentation');
+
+Route::view(uri:'galerie',view:'Pages.galerie')->name(name:'galerie');

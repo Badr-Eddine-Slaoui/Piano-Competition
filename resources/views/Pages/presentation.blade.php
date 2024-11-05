@@ -14,7 +14,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     </head>
-    <body>
+    <body class="text-white bg-[#231F20]">
         <header class="w-full">
             <nav class="w-full h-40 bg-HeaderBg grid bg-no-repeat bg-cover grid-cols-1 grid-rows-2">
                 <ul class="w-1/6 mr-20 ml-auto mt-5 flex items-center justify-between text-white font-bold text-xl">
@@ -24,7 +24,7 @@
                 <ul class="w-1/2 mr-20 ml-auto mb-5 flex items-center justify-between text-white font-bold text-xl">
                     <li><a href="{{ route('home') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Accueil</a></li>
                     <li><a href="{{ route('presentation') }}" class="text-decoration-none border-b-4 border-orange-600">Presentation</a></li>
-                    <li><a href="" class="text-decoration-none hover:border-b-4 border-orange-600">Galerie</a></li>
+                    <li><a href="{{ route('galerie') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Galerie</a></li>
                     <li><a href="" class="text-decoration-none hover:border-b-4 border-orange-600">Edition 2025</a></li>
                     <li><a href="" class="text-decoration-none hover:border-b-4 border-orange-600">Contactez-nous</a></li>
                 </ul>
@@ -90,7 +90,7 @@
                 </div>
             </div>
         </section>
-        <section class="w-full h-screen mt-5 m-auto grid grid-cols-2 grid-rows-1 bg-gray-300">
+        <section class="w-full h-screen mt-5 m-auto grid grid-cols-2 grid-rows-1 ">
             <form class="w-3/4 mx-auto py-5" action="" method="post">
                 @csrf
                 <p class="text-5xl mb-8">Contactez-nous</p>
@@ -116,7 +116,7 @@
                 </div>
             </div>
         </section>
-        <footer class="w-full min-h-80 bg-[#231F20]">
+        <footer class="w-full min-h-80 border-t border-white bg-[#231F20]">
             <div class="w-3/4 mx-auto grid grid-rows-1 grid-cols-2 py-4">
                 <div>
                     <img src="{{ asset('Images/logo.png') }}" alt="logo">
