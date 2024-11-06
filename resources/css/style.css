@@ -11,3 +11,22 @@
     background: #ffffff;
     border-radius: 100px;
 }
+
+.slide-text {
+    opacity: 0;
+    transform: translateX(-30%);
+    transition: opacity .5s ease-out, transform .5s ease-out;
+}
+
+.slide-text.animate {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.pic-title{
+    transition: opacity .6s ease-in-out;
+}
+
+.galerie-pic:hover ~ .pic-title{
+    opacity: 1;
+}

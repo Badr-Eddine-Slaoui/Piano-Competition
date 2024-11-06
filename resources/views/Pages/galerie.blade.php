@@ -15,8 +15,8 @@
 
     </head>
     <body class="text-white bg-[#231F20]">
-        <header class="w-full">
-            <nav class="w-full h-40 bg-HeaderBg grid bg-no-repeat bg-cover grid-cols-1 grid-rows-2">
+        <header class="w-full min-h-screen">
+            <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-HeaderBg grid bg-no-repeat bg-cover grid-cols-1 grid-rows-2">
                 <ul class="w-1/6 mr-20 ml-auto mt-5 flex items-center justify-between text-white font-bold text-xl">
                     <li><a href="" class="text-decoration-none hover:border-b-4 border-orange-600">Paris</a></li>
                     <li><a href="" class="text-decoration-none hover:border-b-4 border-orange-600">Marrakesh</a></li>
@@ -29,142 +29,236 @@
                     <li><a href="" class="text-decoration-none hover:border-b-4 border-orange-600">Contactez-nous</a></li>
                 </ul>
             </nav>
+            <img class="w-[100vw] mt-[20vh] h-[650px] object-cover" src="{{ asset('Images/Edition.png') }}">
         </header>
-        <section class="w-5/6 max-h-screen my-5 m-auto">
-                <h2 class="text-[26px] text-orange-600 font-extrabold text-center my-10">Galerie</h2>
-                <p class="text-[22px]">
+        <section class="w-full min-h-screen my-5">
+            <div class="flex h-[20vh] items-center my-10 slide-text">
+                <div class="h-[1px] w-1/5 bg-white me-5"></div>
+                <h2 class="text-[36px] font-[400] text-center ">Galerie</h2>
+            </div>
+            <div class="w-5/6 min-h-[80vh] m-auto">
+                <div class="w-full h-[35vh] my-10">
+                    <img class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.png') }}" alt="EventBanner">
+                </div>
+                <p class="text-[#a3a3a3] text-[22px]">
                     Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 23 Octobre 2023, date de début du concours. 
                     Avoir 6 ans révolus et 
                     N’ont pas encore atteint l’âge de 19 ans. 
                 </p>
-        </section>
-        <section class="w-5/6 min-h-screen my-5 m-auto flex flex-col items-center justify-center">
-            <h2 class="text-[26px] text-orange-600 font-extrabold text-center my-10">Photos</h2>
-            <div>
-                <div class="flex items-center justify-center">
-                    <div class="me-5 flex items-center justify-end">
-                        <div class="w-7 h-7 bg-gray-400 border border-black text-white rounded-full flex items-center justify-center cursor-pointer">&lt;</div>
-                    </div>
-                    <div>
-                        <img src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="ms-5 flex items-center justify-start">
-                        <div class="w-7 h-7 bg-gray-400 border border-black text-white rounded-full flex items-center justify-center cursor-pointer">&gt;</div>
-                    </div>
-                </div>
-                <div class="pics-scroller w-[500px] m-auto flex my-4 overflow-x-scroll pb-1">
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                </div>
             </div>
         </section>
-        <section class="w-5/6 min-h-screen my-5 m-auto flex flex-col items-center justify-center">
-            <h2 class="text-[26px] text-orange-600 font-extrabold text-center my-10">Videos</h2>
-            <div>
-                <div class="flex items-center justify-center">
-                    <div class="me-5 flex items-center justify-end">
-                        <div class="w-7 h-7 bg-gray-400 border border-black text-white rounded-full flex items-center justify-center cursor-pointer">&lt;</div>
+        <section class="w-full min-h-screen my-5">
+            <div class="flex h-[20vh] items-center my-10 slide-text">
+                <div class="h-[1px] w-1/5 bg-white me-5"></div>
+                <h2 class="text-[36px] font-[400] text-center ">Photos</h2>
+            </div>
+            <div class="w-5/6 min-h-[80vh] m-auto">
+                <div class="galerie-pics grid grid-cols-3 grid-rows-1 gap-10">
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
                     </div>
-                    <div class="ms-5 flex items-center justify-start">
-                        <div class="w-7 h-7 bg-gray-400 border border-black text-white rounded-full flex items-center justify-center cursor-pointer">&gt;</div>
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
+                    </div>
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
+                    </div>
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
+                    </div>
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
+                    </div>
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
+                    </div>
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
+                    </div>
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
+                    </div>
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
+                    </div>
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
+                    </div>
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
+                    </div>
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
+                    </div>
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
+                    </div>
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
+                    </div>
+                    <div class="galerie-pic-container h-[50vh] relative hidden">
+                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                            <p class="text-[26px] font-[400]">Pic Title</p>
+                        </div>
                     </div>
                 </div>
-                <div class="pics-scroller w-[500px] m-auto flex my-4 overflow-x-scroll pb-1">
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                    <div class="w-1/6 flex-shrink-0">
-                        <img class="w-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
-                    </div>
-                </div>
+                <button id="show_more_pics" class="block mx-auto text-[22px] text-center py-3 px-5 bg-orange-600 rounded-xl my-20">Show More</button>
             </div>
         </section>
-        <section class="w-full h-screen mt-5 m-auto grid grid-cols-2 grid-rows-1 ">
-            <form class="w-3/4 mx-auto py-5" action="" method="post">
+        <section class="w-full min-h-screen my-5">
+            <div class="flex h-[20vh] items-center my-10 slide-text">
+                <div class="h-[1px] w-1/5 bg-white me-5"></div>
+                <h2 class="text-[36px] font-[400] text-center">Videos</h2>
+            </div>
+            <div class="w-5/6 min-h-[80vh] m-auto">
+                <div class="galerie-vids grid grid-cols-3 grid-rows-1 gap-10">
+                    <div class="galerie-vid-container h-[50vh] hidden">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                            <source src="{{ asset('Images/v1.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="galerie-vid-container h-[50vh] hidden">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                            <source src="{{ asset('Images/v2.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="galerie-vid-container h-[50vh] hidden">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                            <source src="{{ asset('Images/v3.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="galerie-vid-container h-[50vh] hidden">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                            <source src="{{ asset('Images/v1.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="galerie-vid-container h-[50vh] hidden">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                            <source src="{{ asset('Images/v2.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="galerie-vid-container h-[50vh] hidden">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                            <source src="{{ asset('Images/v3.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="galerie-vid-container h-[50vh] hidden">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                            <source src="{{ asset('Images/v1.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="galerie-vid-container h-[50vh] hidden">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                            <source src="{{ asset('Images/v2.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="galerie-vid-container h-[50vh] hidden">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                            <source src="{{ asset('Images/v3.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="galerie-vid-container h-[50vh] hidden">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                            <source src="{{ asset('Images/v1.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="galerie-vid-container h-[50vh] hidden">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                            <source src="{{ asset('Images/v2.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="galerie-vid-container h-[50vh] hidden">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                            <source src="{{ asset('Images/v3.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="galerie-vid-container h-[50vh] hidden">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                            <source src="{{ asset('Images/v1.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="galerie-vid-container h-[50vh] hidden">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                            <source src="{{ asset('Images/v2.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <button id="show_more_vids" class="block mx-auto text-[22px] text-center py-3 px-5 bg-orange-600 rounded-xl my-20">Show More</button>
+            </div>
+        </section>
+        <section class="w-full min-h-screen mt-5 m-auto grid grid-cols-2 grid-rows-1 ">
+            <div class="flex h-[20vh] items-center col-span-2 my-10 slide-text">
+                <div class="h-[1px] w-1/5 bg-white me-5"></div>
+                <h2 class="text-[36px] font-[400] text-center ">Contactez-nous</h2>
+            </div>
+            <form class="w-full py-5 mb-5" action="" method="post">
                 @csrf
-                <p class="text-5xl mb-8">Contactez-nous</p>
-                <div class="grid grid-cols-1 grid-rows-1 gap-10">
-                    <div class="grid grid-cols-1 grid-rows-2 gap-4">
-                        <label class="text-[22px]" for="nom">Nom:</label>
-                        <input class="focus:outline-0 px-4 py-1 rounded-md" id="nom" name="nom" type="text">
+                <div class="w-3/4 mx-auto">
+                    <div class="grid grid-cols-1 grid-rows-1 gap-10">
+                        <div class="grid grid-cols-1 grid-rows-2 gap-4">
+                            <label class="text-[22px] text-[#a3a3a3]" for="nom">Nom:</label>
+                            <input class="focus:outline-0 px-4 py-1 rounded-md" id="nom" name="nom" type="text">
+                        </div>
+                        <div class="grid grid-cols-1 grid-rows-2 gap-4">
+                            <label class="text-[22px] text-[#a3a3a3]" for="email">Email:</label>
+                            <input class="focus:outline-0 px-4 py-1 rounded-md" id="email" name="email" type="email">
+                        </div>
+                        <div class="grid grid-cols-1 grid-rows-1">
+                            <label class="text-[22px] text-[#a3a3a3] mb-4" for="message">Message</label>
+                            <textarea class="focus:outline-0 px-4 py-1 rounded-md resize-none" name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
                     </div>
-                    <div class="grid grid-cols-1 grid-rows-2 gap-4">
-                        <label class="text-[22px]" for="email">Email:</label>
-                        <input class="focus:outline-0 px-4 py-1 rounded-md" id="email" name="email" type="email">
-                    </div>
-                    <div class="grid grid-cols-1 grid-rows-1">
-                        <label class="text-[22px] mb-4" for="message">Message</label>
-                        <textarea class="focus:outline-0 px-4 py-1 rounded-md resize-none" name="message" id="message" cols="30" rows="10"></textarea>
-                    </div>
+                    <input class=" bg-blue-400 py-3 px-10 rounded-md my-5 text-white text-[22px]" type="submit" value="Envoyer">
                 </div>
-                <input class=" bg-blue-400 py-3 px-10 rounded-md my-5 text-white text-[22px]" type="submit" value="Envoyer">
             </form>
             <div class="flex items-center justify-center">
                 <div class="w-4/5 mx-auto my-auto">
