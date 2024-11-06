@@ -26,7 +26,7 @@
                     <li><a href="{{ route('presentation') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Presentation</a></li>
                     <li><a href="{{ route('galerie') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Galerie</a></li>
                     <li><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Edition 2025</a></li>
-                    <li><a href="" class="text-decoration-none hover:border-b-4 border-orange-600">Contactez-nous</a></li>
+                    <li><a href="{{ route('contact') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Contactez-nous</a></li>
                 </ul>
             </nav>
             <video class="w-[100vw] h-[80vh] mt-[20vh] object-cover" src="{{ asset('Images/v3.mp4') }}" muted autoplay loop></video>
