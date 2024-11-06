@@ -25,7 +25,7 @@
                     <li><a href="{{ route('home') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Accueil</a></li>
                     <li><a href="{{ route('presentation') }}" class="text-decoration-none border-b-4 border-orange-600">Presentation</a></li>
                     <li><a href="{{ route('galerie') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Galerie</a></li>
-                    <li><a href="" class="text-decoration-none hover:border-b-4 border-orange-600">Edition 2025</a></li>
+                    <li><a href="{{ route('edition_2025') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Edition 2025</a></li>
                     <li><a href="" class="text-decoration-none hover:border-b-4 border-orange-600">Contactez-nous</a></li>
                 </ul>
             </nav>

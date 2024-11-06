@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Accueil</title>
+        <title>Presentation</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -18,36 +18,19 @@
         <header class="w-full min-h-screen">
             <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-HeaderBg grid bg-no-repeat bg-cover grid-cols-1 grid-rows-2">
                 <ul class="w-1/6 mr-20 ml-auto mt-5 flex items-center justify-between text-white font-bold text-xl">
-                    <li><a href="" class="text-decoration-none hover:border-b-4 border-orange-600">Paris</a></li>
-                    <li><a href="" class="text-decoration-none hover:border-b-4 border-orange-600">Marrakesh</a></li>
+                    <li><a href="{{ route('edition_2025_paris') }}" class="text-decoration-none border-b-4 border-orange-600">Paris</a></li>
+                    <li><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Marrakesh</a></li>
                 </ul>
                 <ul class="w-1/2 mr-20 ml-auto mb-5 flex items-center justify-between text-white font-bold text-xl">
-                    <li><a href="{{ route('home') }}" class="text-decoration-none border-b-4 border-orange-600">Accueil</a></li>
+                    <li><a href="{{ route('home') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Accueil</a></li>
                     <li><a href="{{ route('presentation') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Presentation</a></li>
                     <li><a href="{{ route('galerie') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Galerie</a></li>
-                    <li><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Edition 2025</a></li>
+                    <li><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none border-b-4 border-orange-600">Edition 2025</a></li>
                     <li><a href="" class="text-decoration-none hover:border-b-4 border-orange-600">Contactez-nous</a></li>
                 </ul>
             </nav>
-            <video class="w-[100vw] h-[80vh] mt-[20vh] object-cover" src="{{ asset('Images/v3.mp4') }}" muted autoplay loop></video>
+            <img class="w-[100vw] mt-[20vh] h-[650px] object-cover" src="{{ asset('Images/Edition.png') }}">
         </header>
-        <section class="w-full min-h-screen my-5">
-            <div class="flex h-[20vh] items-center my-10 slide-text">
-                <div class="h-[1px] w-1/5 bg-white me-5"></div>
-                <h2 class="text-[36px] font-[400] text-center">Concours</h2>
-            </div>
-            <div class="w-5/6 h-screen my-5 m-auto grid grid-cols-2 grid-rows-1">
-                <div class="flex items-center justify-center">
-                    <div class="w-2/3 h-2/5 my-auto">
-                        <h1 class="text-5xl font-extrabold w-2/3 mb-5">Concours International de Piano</h1>
-                        <p class="text-[22px] text-[#a3a3a3]">La 3ème édition<br> Du 23 Octobre 2023<br> au 30 Octobre 2023</p>
-                    </div>
-                </div>
-                <div class="h-3/4 my-auto">
-                    <img src="{{ asset('Images/EventBanner.png') }}" alt="EventBanner">
-                </div>
-            </div>
-        </section>
         <section class="w-full min-h-screen my-5">
             <div class="flex h-[20vh] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
@@ -68,10 +51,34 @@
                 </p>
             </div>
         </section>
+        <section class="w-full min-h-screen my-5">
+            <div class="flex h-[20vh] items-center my-10 slide-text">
+                <div class="h-[1px] w-1/5 bg-white me-5"></div>
+                <h2 class="text-[36px] font-[400] text-center ">Programme</h2>
+            </div>
+            <div class="w-5/6 min-h-[80vh] m-auto">
+                <div class="w-full h-[35vh] my-10">
+                    <img class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.png') }}" alt="EventBanner">
+                </div>
+                <p class="text-[#a3a3a3] text-[22px]">
+                    Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 23 Octobre 2023, date de début du concours. 
+                    Avoir 6 ans révolus et 
+                    N’ont pas encore atteint l’âge de 19 ans. 
+                </p>
+                <div class="grid grid-rows-1 grid-cols-2 my-20 gap-10">
+                    <div>
+                        <img src="{{ asset('Images/programme finale.jpg') }}" alt="Programme">
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <img src="{{ asset('Images/programme-finale2.jpg') }}" alt="Programme">
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="w-full min-h-screen mt-5 m-auto grid grid-cols-2 grid-rows-1 ">
             <div class="flex h-[20vh] items-center col-span-2 my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
-                <h2 class="text-[36px] font-[400] text-center">Contactez-nous</h2>
+                <h2 class="text-[36px] font-[400] text-center ">Contactez-nous</h2>
             </div>
             <form class="w-full py-5 mb-5" action="" method="post">
                 @csrf
