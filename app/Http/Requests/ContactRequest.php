@@ -43,7 +43,7 @@ class ContactRequest extends FormRequest
             'email.min' => 'Le nombre minimum de caractères pour le champ de l\'email est de 10.',
             'email.string' => 'Le champ de l\'email doit être une chaîne de caractères.',
             'email.email' => 'Veuillez entrer une adresse email valide.',
-            'message.required' => 'Le champ du message est requis et doit être confirmé.',
+            'message.required' => 'Le champ du message est requis.',
             'message.min' => 'Le nombre minimum de caractères pour le champ du message est de 10.',
             'message.string' => 'Le champ du message doit être une chaîne de caractères.',
         ];

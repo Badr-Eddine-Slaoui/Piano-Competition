@@ -36,9 +36,9 @@
             <img class="w-full" src="{{ asset('Images/SideImg.png')  }}" alt="SideImg">
         </aside>
         <section class="w-full min-h-screen my-5">
-            <div class="flex h-[20vh] items-center my-10 slide-text">
+            <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
-                <h2 class="text-[36px] font-[400] text-center">Concours</h2>
+                <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Concours</h2>
             </div>
             <div class="w-5/6 h-screen my-5 m-auto grid grid-cols-2 grid-rows-1">
                 <div class="flex items-center justify-center">
@@ -53,9 +53,9 @@
             </div>
         </section>
         <section class="w-full min-h-screen my-5">
-            <div class="flex h-[20vh] items-center my-10 slide-text">
+            <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
-                <h2 class="text-[36px] font-[400] text-center">Condition de participation</h2>
+                <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Condition de participation</h2>
             </div>
             <div class="w-4/5 min-h-[80vh] m-auto">
                 <div class="w-full h-[35vh] my-10">
@@ -73,9 +73,9 @@
             </div>
         </section>
         <section class="w-full min-h-screen mt-5 m-auto grid grid-cols-2 grid-rows-1 ">
-            <div class="flex h-[20vh] items-center col-span-2 my-10 slide-text">
+            <div class="flex h-[20vh] relative z-[-2] items-center col-span-2 my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
-                <h2 class="text-[36px] font-[400] text-center">Contactez-nous</h2>
+                <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Contactez-nous</h2>
             </div>
             <form class="w-full py-5 mb-5" action="{{ route('contact.store') }}" method="post">
                 @csrf
@@ -143,7 +143,7 @@
         @if (session()->has('success'))
             <div id="alert" class="w-1/4 h-[8vh] items-center z-20 fixed right-10 bottom-8 bg-green-600 text-white font-bold rounded-md">
                 <p class="ms-5">{{ session('success') }}</p>
-                <div class="alert-time-bar w-full bg-white opacity-50 h-2 absolute bottom-0 rounded-b-3xl"></div>
+                <div class="alert-time-bar w-full bg-white opacity-50 h-2 absolute bottom-0 rounded-bl-3xl"></div>
             </div>
         @endif
     </body>

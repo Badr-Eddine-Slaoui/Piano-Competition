@@ -36,7 +36,7 @@
             <img class="w-full" src="{{ asset('Images/SideImg.png')  }}" alt="SideImg">
         </aside>
         <section class="w-full min-h-screen my-5">
-            <div class="flex h-[20vh] items-center my-10 slide-text">
+            <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
                 <h2 class="text-[36px] font-[400] text-center ">Notre Histoire</h2>
             </div>
@@ -59,7 +59,7 @@
             </div>
         </section>
         <section class="w-full min-h-screen my-5">
-            <div class="flex h-[20vh] items-center my-10 slide-text">
+            <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
                 <h2 class="text-[36px] font-[400] text-center ">Nos Edition</h2>
             </div>
@@ -117,7 +117,7 @@
             </div>
         </section>
         <section class="w-full min-h-screen mt-5 m-auto grid grid-cols-2 grid-rows-1 ">
-            <div class="flex h-[20vh] items-center col-span-2 my-10 slide-text">
+            <div class="flex h-[20vh] relative z-[-2] items-center col-span-2 my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
                 <h2 class="text-[36px] font-[400] text-center">Contactez-nous</h2>
             </div>
@@ -187,7 +187,7 @@
         @if (session()->has('success'))
             <div id="alert" class="w-1/4 h-[8vh] items-center z-20 fixed right-10 bottom-8 bg-green-600 text-white font-bold rounded-md">
                 <p class="ms-5">{{ session('success') }}</p>
-                <div class="alert-time-bar w-full bg-white opacity-50 h-2 absolute bottom-0 rounded-b-3xl"></div>
+                <div class="alert-time-bar w-full bg-white opacity-50 h-2 absolute bottom-0 rounded-bl-3xl"></div>
             </div>
         @endif
     </body>

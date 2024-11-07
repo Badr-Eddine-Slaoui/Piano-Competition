@@ -37,14 +37,14 @@
 }
 
 .alert-time-bar{
-    animation: alert_time_bar 5.5s forwards;
+    animation: alert_time_bar 5.5s forwards ease-in-out;
 }
 
 @keyframes alert {
     0% {
         opacity: 1;
     }
-    99% {
+    90% {
         opacity: 1;
     }
     100% {
