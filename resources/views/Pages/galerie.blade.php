@@ -32,12 +32,15 @@
             </nav>
             <img class="w-full mt-[20vh] h-[80vh]" src="{{ asset('Images/home-header-img.png') }}">
         </header>
+        <aside class=" fixed left-0 top-[25vh] w-1/12 z-[-1]">
+            <img class="w-full" src="{{ asset('Images/SideImg.png')  }}" alt="SideImg">
+        </aside>
         <section class="w-full min-h-screen my-5">
             <div class="flex h-[20vh] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
                 <h2 class="text-[36px] font-[400] text-center ">Galerie</h2>
             </div>
-            <div class="w-5/6 min-h-[80vh] m-auto">
+            <div class="w-4/5 min-h-[80vh] m-auto">
                 <div class="w-full h-[35vh] my-10">
                     <img class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.png') }}" alt="EventBanner">
                 </div>
@@ -53,7 +56,7 @@
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
                 <h2 class="text-[36px] font-[400] text-center ">Photos</h2>
             </div>
-            <div class="w-5/6 min-h-[80vh] m-auto">
+            <div class="w-4/5 min-h-[80vh] m-auto">
                 <div class="galerie-pics grid grid-cols-3 grid-rows-1 gap-10">
                     <div class="galerie-pic-container h-[50vh] relative hidden">
                         <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
@@ -160,7 +163,7 @@
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
                 <h2 class="text-[36px] font-[400] text-center">Videos</h2>
             </div>
-            <div class="w-5/6 min-h-[80vh] m-auto">
+            <div class="w-4/5 min-h-[80vh] m-auto">
                 <div class="galerie-vids grid grid-cols-3 grid-rows-1 gap-10">
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
@@ -243,7 +246,7 @@
             </div>
             <form class="w-full py-5 mb-5" action="{{ route('contact.store') }}" method="post">
                 @csrf
-                <div class="w-3/4 mx-auto">
+                <div class="w-3/5 mx-auto">
                     <div class="grid grid-cols-1 grid-rows-1 gap-10">
                         <div class="grid grid-cols-1 grid-rows-2 gap-4">
                             <label class="text-[22px] text-[#a3a3a3]" for="nom">Nom:</label>

@@ -32,12 +32,15 @@
             </nav>
             <img class="w-full mt-[20vh] h-[80vh]" src="{{ asset('Images/home-header-img.png') }}">
         </header>
+        <aside class=" fixed left-0 top-[25vh] w-1/12 z-[-1]">
+            <img class="w-full" src="{{ asset('Images/SideImg.png')  }}" alt="SideImg">
+        </aside>
         <section class="w-full min-h-screen mt-5 mb-20">
             <div class="flex h-[20vh] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
                 <h2 class="text-[36px] font-[400] text-center">Contactez-nous</h2>
             </div>
-            <div class="w-5/6 min-h-[80vh] m-auto">
+            <div class="w-4/5 min-h-[80vh] m-auto">
                 <div class="w-full h-[35vh] my-10">
                     <img class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.png') }}" alt="EventBanner">
                 </div>
