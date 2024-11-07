@@ -18,18 +18,19 @@
         <header class="w-full min-h-screen">
             <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-HeaderBg grid bg-no-repeat bg-cover grid-cols-1 grid-rows-2">
                 <ul class="w-1/6 mr-20 ml-auto mt-5 flex items-center justify-between text-white font-bold text-xl">
-                    <li><a href="" class="text-decoration-none hover:border-b-4 border-orange-600">Paris</a></li>
-                    <li><a href="" class="text-decoration-none hover:border-b-4 border-orange-600">Marrakesh</a></li>
+                    <li><a href="{{ route('presentation_paris') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Paris</a></li>
+                    <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Marrakesh</a></li>
                 </ul>
                 <ul class="w-1/2 mr-20 ml-auto mb-5 flex items-center justify-between text-white font-bold text-xl">
                     <li><a href="{{ route('home') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Accueil</a></li>
-                    <li><a href="{{ route('presentation') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Presentation</a></li>
+                    <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Presentation</a></li>
                     <li><a href="{{ route('galerie') }}" class="text-decoration-none border-b-4 border-orange-600">Galerie</a></li>
                     <li><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Edition 2025</a></li>
+                    <li><a href="{{ route('inscription_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Inscription</a></li>
                     <li><a href="{{ route('contact') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Contactez-nous</a></li>
                 </ul>
             </nav>
-            <img class="w-[100vw] mt-[20vh] h-[650px] object-cover" src="{{ asset('Images/Edition.png') }}">
+            <img class="w-full mt-[20vh] h-[80vh]" src="{{ asset('Images/home-header-img.png') }}">
         </header>
         <section class="w-full min-h-screen my-5">
             <div class="flex h-[20vh] items-center my-10 slide-text">
@@ -41,9 +42,9 @@
                     <img class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.png') }}" alt="EventBanner">
                 </div>
                 <p class="text-[#a3a3a3] text-[22px]">
-                    Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 23 Octobre 2023, date de début du concours. 
-                    Avoir 6 ans révolus et 
-                    N’ont pas encore atteint l’âge de 19 ans. 
+                    Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 23 Octobre 2023, date de début du concours.
+                    Avoir 6 ans révolus et
+                    N’ont pas encore atteint l’âge de 19 ans.
                 </p>
             </div>
         </section>
@@ -238,26 +239,35 @@
         <section class="w-full min-h-screen mt-5 m-auto grid grid-cols-2 grid-rows-1 ">
             <div class="flex h-[20vh] items-center col-span-2 my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
-                <h2 class="text-[36px] font-[400] text-center ">Contactez-nous</h2>
+                <h2 class="text-[36px] font-[400] text-center">Contactez-nous</h2>
             </div>
-            <form class="w-full py-5 mb-5" action="" method="post">
+            <form class="w-full py-5 mb-5" action="{{ route('contact.store') }}" method="post">
                 @csrf
                 <div class="w-3/4 mx-auto">
                     <div class="grid grid-cols-1 grid-rows-1 gap-10">
                         <div class="grid grid-cols-1 grid-rows-2 gap-4">
                             <label class="text-[22px] text-[#a3a3a3]" for="nom">Nom:</label>
-                            <input class="focus:outline-0 px-4 py-1 rounded-md" id="nom" name="nom" type="text">
+                            <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md" placeholder="Entrer votre nom" id="nom" name="nom" type="text" value="{{ old('nom') }}">
+                            @error('nom')
+                                <p class="text-red-600 mt-5">{{ $message }}</p>
+                            @enderror
                         </div>
                         <div class="grid grid-cols-1 grid-rows-2 gap-4">
                             <label class="text-[22px] text-[#a3a3a3]" for="email">Email:</label>
-                            <input class="focus:outline-0 px-4 py-1 rounded-md" id="email" name="email" type="email">
+                            <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md" placeholder="Entrer votre email" id="email" name="email" type="email" value="{{ old('email') }}">
+                            @error('email')
+                                <p class="text-red-600 mt-5">{{ $message }}</p>
+                            @enderror
                         </div>
                         <div class="grid grid-cols-1 grid-rows-1">
                             <label class="text-[22px] text-[#a3a3a3] mb-4" for="message">Message</label>
-                            <textarea class="focus:outline-0 px-4 py-1 rounded-md resize-none" name="message" id="message" cols="30" rows="10"></textarea>
+                            <textarea class="text-black focus:outline-0 px-4 py-1 rounded-md resize-none" name="message" id="message" cols="30" rows="10" placeholder="Entrer votre message">{{ old('message') }}</textarea>
+                            @error('message')
+                                <p class="text-red-600 mt-5">{{ $message }}</p>
+                            @enderror
                         </div>
                     </div>
-                    <input class=" bg-blue-400 py-3 px-10 rounded-md my-5 text-white text-[22px]" type="submit" value="Envoyer">
+                    <input class="cursor-pointer bg-blue-400 py-3 px-10 rounded-md my-10 text-white text-[22px]" type="submit" value="Envoyer">
                 </div>
             </form>
             <div class="flex items-center justify-center">
@@ -293,5 +303,11 @@
                 </div>
             </div>
         </footer>
+        @if (session()->has('success'))
+            <div id="alert" class="w-1/4 h-[8vh] items-center z-20 fixed right-10 bottom-8 bg-green-600 text-white font-bold rounded-md">
+                <p class="ms-5">{{ session('success') }}</p>
+                <div class="alert-time-bar w-full bg-white opacity-50 h-2 absolute bottom-0 rounded-b-3xl"></div>
+            </div>
+        @endif
     </body>
 </html>

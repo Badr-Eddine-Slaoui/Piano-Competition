@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Edition Paris 2025</title>
+        <title>Presentation Paris</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -18,14 +18,14 @@
         <header class="w-full min-h-screen">
             <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-HeaderBg grid bg-no-repeat bg-cover grid-cols-1 grid-rows-2">
                 <ul class="w-1/6 mr-20 ml-auto mt-5 flex items-center justify-between text-white font-bold text-xl">
-                    <li><a href="{{ route('edition_2025_paris') }}" class="text-decoration-none border-b-4 border-orange-600">Paris</a></li>
-                    <li><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Marrakesh</a></li>
+                    <li><a href="{{ route('presentation_paris') }}" class="text-decoration-none border-b-4 border-orange-600">Paris</a></li>
+                    <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Marrakesh</a></li>
                 </ul>
                 <ul class="w-1/2 mr-20 ml-auto mb-5 flex items-center justify-between text-white font-bold text-xl">
                     <li><a href="{{ route('home') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Accueil</a></li>
-                    <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Presentation</a></li>
+                    <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none border-b-4 border-orange-600">Presentation</a></li>
                     <li><a href="{{ route('galerie') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Galerie</a></li>
-                    <li><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none border-b-4 border-orange-600">Edition 2025</a></li>
+                    <li><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Edition 2025</a></li>
                     <li><a href="{{ route('inscription_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Inscription</a></li>
                     <li><a href="{{ route('contact') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Contactez-nous</a></li>
                 </ul>
@@ -35,7 +35,7 @@
         <section class="w-full min-h-screen my-5">
             <div class="flex h-[20vh] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
-                <h2 class="text-[36px] font-[400] text-center">Condition de participation</h2>
+                <h2 class="text-[36px] font-[400] text-center ">Notre Histoire</h2>
             </div>
             <div class="w-5/6 min-h-[80vh] m-auto">
                 <div class="w-full h-[35vh] my-10">
@@ -48,6 +48,9 @@
                     Sont exclus du concours les jeunes inscrits à plein temps dans des études de musique. Les jeunes étudiants sont admis. Les personnes ayant eu une relation d’enseignement permanente, publique ou privée, avec un membre du jury au cours des deux dernières années ne sont pas autorisées à participer.
                     Le concours est public dans tous ses aspects. La collecte et le traitement de données personnelles sont obligatoires pour la planification et l’organisation du concours. L’organisateur assure le respect des dispositions correspondantes en matière de protection des données.
                     Les enregistrements vidéo et audio privés ne sont pas autorisés pendant le concours. L’organisateur procédera à des enregistrements visuels et sonores dont chaque participant cède gratuitement les droits d’utilisation à l’organisateur. Les demandes d’honoraires sont irrecevables.
+                    L’organisateur n’est pas responsable des dommages corporels ou matériels survenant dans le cadre des manifestations du concours. Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 23 Octobre 2023, date de début du concours.
+                    Avoir 6 ans révolus et  La collecte et le traitement de données personnelles sont obligatoires pour la planification et l’organisation du concours. L’organisateur assure le respect des dispositions correspondantes en matière de protection des données.
+                    Les enregistrements vidéo et audio privés ne sont pas autorisés pendant le concours. L’organisateur procédera à des enregistrements visuels et sonores dont chaque participant cède gratuitement les droits d’utilisation à l’organisateur. Les demandes d’honoraires sont irrecevables.
                     L’organisateur n’est pas responsable des dommages corporels ou matériels survenant dans le cadre des manifestations du concours.
                 </p>
             </div>
@@ -55,7 +58,7 @@
         <section class="w-full min-h-screen my-5">
             <div class="flex h-[20vh] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
-                <h2 class="text-[36px] font-[400] text-center ">Programme</h2>
+                <h2 class="text-[36px] font-[400] text-center ">Nos Edition</h2>
             </div>
             <div class="w-5/6 min-h-[80vh] m-auto">
                 <div class="w-full h-[35vh] my-10">
@@ -66,18 +69,49 @@
                     Avoir 6 ans révolus et
                     N’ont pas encore atteint l’âge de 19 ans.
                 </p>
-                <div class="grid grid-rows-1 grid-cols-2 my-20 gap-10">
+                <div class="grid grid-rows-1 grid-cols-2 my-20">
                     <div>
-                        <img src="{{ asset('Images/programme finale.jpg') }}" alt="Programme">
+                        <img src="{{ asset('Images/Edition.png') }}" alt="Edition">
                     </div>
                     <div class="flex items-center justify-center">
-                        <img src="{{ asset('Images/programme-finale2.jpg') }}" alt="Programme">
+                        <div class="w-full">
+                            <h2 class="text-[24px] text-white font-extrabold mb-5">Premier Edition: Titre Ici</h2>
+                            <p class="w-full text-[#a3a3a3] text-[22px]">
+                                Les enregistrements vidéo et audio privés ne sont pas autorisés pendant le concours. L’organisateur procédera à des enregistrements visuels et sonores dont chaque participant cède gratuitement les droits d’utilisation à l’organisateur. Les demandes d’honoraires sont irrecevables.
+                                L’organisateur n’est pas responsable des dommages corporels ou matériels survenant dans le cadre des manifestations du concours.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-rows-1 grid-cols-2 my-20">
+                    <div>
+                        <img src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <div class="w-full">
+                            <h2 class="text-[24px] text-white font-extrabold mb-5">Premier Edition: Titre Ici</h2>
+                            <p class="w-full text-[22px] text-[#a3a3a3]">
+                                Les enregistrements vidéo et audio privés ne sont pas autorisés pendant le concours. L’organisateur procédera à des enregistrements visuels et sonores dont chaque participant cède gratuitement les droits d’utilisation à l’organisateur. Les demandes d’honoraires sont irrecevables.
+                                L’organisateur n’est pas responsable des dommages corporels ou matériels survenant dans le cadre des manifestations du concours.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-rows-1 grid-cols-2 my-20">
+                    <div>
+                        <img src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <div class="w-full">
+                            <h2 class="text-[24px] text-white font-extrabold mb-5">Premier Edition: Titre Ici</h2>
+                            <p class="w-full text-[22px] text-[#a3a3a3]">
+                                Les enregistrements vidéo et audio privés ne sont pas autorisés pendant le concours. L’organisateur procédera à des enregistrements visuels et sonores dont chaque participant cède gratuitement les droits d’utilisation à l’organisateur. Les demandes d’honoraires sont irrecevables.
+                                L’organisateur n’est pas responsable des dommages corporels ou matériels survenant dans le cadre des manifestations du concours.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="my-20">
-            <button class="block mx-auto text-[22px] text-center py-3 px-5 bg-orange-600 rounded-xl"><a class="text-decoration-none" href="{{ route('inscription_paris') }}">Inscrivez-vous</a></button>
         </section>
         <section class="w-full min-h-screen mt-5 m-auto grid grid-cols-2 grid-rows-1 ">
             <div class="flex h-[20vh] items-center col-span-2 my-10 slide-text">

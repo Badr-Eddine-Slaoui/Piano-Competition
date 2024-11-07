@@ -30,3 +30,33 @@
 .galerie-pic:hover ~ .pic-title{
     opacity: 1;
 }
+
+#alert {
+    display: flex;
+    animation: alert 5s forwards;
+}
+
+.alert-time-bar{
+    animation: alert_time_bar 5.5s forwards;
+}
+
+@keyframes alert {
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes alert_time_bar {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: 0;
+    }
+}
