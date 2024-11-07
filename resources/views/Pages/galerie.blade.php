@@ -279,7 +279,8 @@
                 </div>
             </div>
         </section>
-        <footer class="w-full min-h-80 border-t border-white bg-[#231F20]">
+        <footer class="w-full min-h-80 bg-[#231F20]">
+            <img class="w-full" src="{{ asset('Images/footer-bg-piano.png') }}" alt="Footer Bg Piano">
             <div class="w-3/4 mx-auto grid grid-rows-1 grid-cols-2 py-4">
                 <div>
                     <img src="{{ asset('Images/logo.png') }}" alt="logo">
