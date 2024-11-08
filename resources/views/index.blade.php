@@ -43,20 +43,20 @@
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
                 <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Concours</h2>
             </div>
-            <div class="w-4/5 m-auto">
-                <q class="text-gray-400 ">
-                    Imaginé comme une rencontre musicale, le Concours de Piano Mouvement Contraire se veut un trait d’union entre le patrimoine musical et la création contemporaine. Depuis 2012, des pianistes de tout âge sont de plus en plus nombreux à participer au concours et l’exigence du message les aide à progresser. Aujourd’hui grâce au soutien des partenaires et à l’adhésions des écoles professeurs et parents, Mouvement Contraire devient un concours international de premier plan.
-                </q>
-            </div>
-            <div class="w-5/6 h-screen my-5 m-auto grid grid-cols-2 grid-rows-1">
-                <div class="flex items-center justify-center">
-                    <div class="w-2/3 h-2/5 my-auto">
+            <div class="w-5/6 min-h-[65vh] m-auto grid grid-cols-2 grid-rows-1">
+                <div class="flex h-3/4 items-center justify-center">
+                    <div class="w-2/3">
                         <h1 class="text-5xl font-extrabold w-2/3 mb-5">Concours International de Piano</h1>
                         <p class="text-[22px] text-[#a3a3a3]">La 3ème édition<br> Du 23 Octobre 2023<br> au 30 Octobre 2023</p>
                     </div>
                 </div>
-                <div class="h-3/4 my-auto">
-                    <img src="{{ asset('Images/EventBanner.png') }}" alt="EventBanner">
+                <div class="h-3/4">
+                    <img src="{{ asset('Images/PosterGlobal.png') }}" alt="PosterGlobal">
+                </div>
+                <div class="col-span-2 w-3/5 mx-auto my-20">
+                    <q class="text-gray-400 text-[20px]">
+                        Imaginé comme une rencontre musicale, le Concours de Piano Mouvement Contraire se veut un trait d’union entre le patrimoine musical et la création contemporaine. Depuis 2012, des pianistes de tout âge sont de plus en plus nombreux à participer au concours et l’exigence du message les aide à progresser. Aujourd’hui grâce au soutien des partenaires et à l’adhésions des écoles professeurs et parents, Mouvement Contraire devient un concours international de premier plan.
+                    </q>
                 </div>
             </div>
         </section>
@@ -92,16 +92,15 @@
                 </div>
                 <div class="message h-[65vh]">
                     <div class="info-container grid grid-rows-1 grid-cols-2 gap-5  mb-5">
-                        <img class="w-[90%] h-[20vh]" src="{{ asset('Images/Lamia-BOUKAA.png') }}" alt="Lamia BOUKAA">
+                        <img class="w-[90%] h-[20vh]" src="{{ asset('Images/Joshu- LAFFONT-COHEN.png') }}" alt="Joshua LAFFONT-COHEN">
                         <div class="infos">
-                            <p class="text-[26px] font-bold text-[#bc8c2d]">Lamia BOUKAA</p>
-                            <p class="text-[22px] text-gray-400 italic">Mot de la directrice du Concours</p>
-                            <p class="text-[22px] my-3">Mouvement Contraire - MAROC</p>
+                            <p class="text-[26px] font-bold text-[#bc8c2d]">Joshua LAFFONT-COHEN</p>
+                            <p class="text-[22px] text-gray-400 italic">Directeur du Concours</p>
+                            <p class="text-[22px] my-3">Mouvement Contraire - France</p>
                         </div>
                     </div>
-                    <p class="text-[22px] font-bold my-3">La musique nous réunira</p>
-                    <q class="description text-justify text-gray-400">Stimuler l’apprentissage autour d’un programme thématique, permettra à tous les pianistes d’exprimer leurs talents et leurs sensibilités ! De Bach à Schumann, de Liszt à Thomas Adès, les candidats nous feront vivre différentes émotions et leurs notes continueront de vibrer après leur passage. De Paris à Marrakech, la musique nous réunira et fera battre nos cœurs sur des notes et rythme . Êtes-vous prêt et prête pour le Concours International de Piano Mouvement Contraire édition 2024 ?
-                        A tous les inscrits au concours , Bonne chance à tous !</q>
+                    <p class="text-[22px] font-bold my-3">Une fête de notes et d’émotions</p>
+                    <q class="description text-justify text-gray-400">En tant que fondateur du concours mouvement contraire, je souhaite que tous les candidats de France et du Maroc s’unissent et frémissent le temps d’une fête de notes et d’émotions. Je rêve que chacun nous offre au piano sa version des morceaux, le reflet de son âme. Cherchez les notes susceptibles de s’aimer ! Jouez pour émouvoir, pour partager votre univers, dialoguer, aimer et être aimé ! Amusez-vous ! De la musique avant toute chose ?  Alors ensemble vibrons !</q>
                 </div>
                 <div class="message h-[65vh]">
                     <div class="info-container grid grid-rows-1 grid-cols-2 gap-5  mb-5">

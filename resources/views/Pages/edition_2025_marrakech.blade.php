@@ -58,21 +58,24 @@
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
                 <h2 class="text-[36px] font-[400] text-center">Fiche technique du concours</h2>
             </div>
-            <div class="w-4/5 min-h-[80vh] m-auto">
-                <div class="w-full h-[35vh] my-10">
-                    <img class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.png') }}" alt="EventBanner">
+            <div class="w-5/6 min-h-[65vh] m-auto grid grid-cols-2 grid-rows-1">
+                <div class="flex items-center justify-center">
+                    <div class="w-2/3">
+                        <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Nom:</span> Mouvement Contraire</p>
+                        <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Genre:</span> Concours International de Piano</p>
+                        <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Thème:</span> Vibrations</p>
+                        <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Portée:</span> Internationale</p>
+                        <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Lieu:</span> Marrakech, Maroc (Meydene- M Avenue)</p>
+                        <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Durée - Date:</span> 4 jours - (du 1 au 4 mai 2025)</p>
+                        <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Organisateur:</span> Association Cultures sans frontières - Mouvement contraire - Maroc</p>
+                        <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Partenaires institutionnels:</span> Ministère de la jeunesse, de la Culture et de la Communication, Maroc - Conseil de la Région Marrakech Safi - Mairie du 7è arrondissement de Paris</p>
+                        <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Partenaires:</span> Poly plumes - Meydene - M Avenue - Re ‘ Belle communication</p>
+                        <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Sponsors:</span> Audi - Kenzi Menara Palace - Mifa Musique - Yamaha</p>
+                    </div>
                 </div>
-                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Nom:</span> Mouvement Contraire</p>
-                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Genre:</span> Concours International de Piano</p>
-                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Thème:</span> Vibrations</p>
-                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Portée:</span> Internationale</p>
-                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Lieu:</span> Marrakech, Maroc (Meydene- M Avenue)</p>
-                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Durée - Date:</span> 4 jours - (du 1 au 4 mai 2025)</p>
-                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Organisateur:</span> Association Cultures sans frontières - Mouvement contraire - Maroc</p>
-                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Partenaires institutionnels:</span> Ministère de la jeunesse, de la Culture et de la Communication, Maroc - Conseil de la Région Marrakech Safi - Mairie du 7è arrondissement de Paris</p>
-                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Partenaires:</span> Poly plumes - Meydene - M Avenue - Re ‘ Belle communication</p>
-                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Sponsors:</span> Audi - Kenzi Menara Palace - Mifa Musique - Yamaha</p>
-
+                <div class="h-full ms-10">
+                    <img src="{{ asset('Images/PosterMarrakech.png') }}" alt="PosterMarrakech">
+                </div>
             </div>
         </section>
         <section class="w-full min-h-screen my-5">
