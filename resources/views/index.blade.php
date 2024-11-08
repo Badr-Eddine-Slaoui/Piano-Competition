@@ -42,6 +42,11 @@
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
                 <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Concours</h2>
             </div>
+            <div class="w-4/5 m-auto">
+                <q class="text-gray-400 ">
+                    Imaginé comme une rencontre musicale, le Concours de Piano Mouvement Contraire se veut un trait d’union entre le patrimoine musical et la création contemporaine. Depuis 2012, des pianistes de tout âge sont de plus en plus nombreux à participer au concours et l’exigence du message les aide à progresser. Aujourd’hui grâce au soutien des partenaires et à l’adhésions des écoles professeurs et parents, Mouvement Contraire devient un concours international de premier plan.
+                </q>
+            </div>
             <div class="w-5/6 h-screen my-5 m-auto grid grid-cols-2 grid-rows-1">
                 <div class="flex items-center justify-center">
                     <div class="w-2/3 h-2/5 my-auto">
@@ -57,21 +62,63 @@
         <section class="w-full min-h-screen my-5">
             <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
-                <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Condition de participation</h2>
+                <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Les Messages</h2>
             </div>
-            <div class="w-4/5 min-h-[80vh] m-auto">
-                <div class="w-full h-[35vh] my-10">
-                    <img class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.png') }}" alt="EventBanner">
+            <div class="w-4/5 min-h-screen mb-5 m-auto grid grid-cols-2 grid-rows-1 gap-10">
+                <div class="message h-[65vh]">
+                    <div class="info-container grid grid-rows-1 grid-cols-2 gap-x-5 mb-5">
+                        <img class="w-[90%] h-[20vh]" src="{{ asset('Images/Rachida-Dati.jpg') }}" alt="Rachida Dati">
+                        <div class="infos">
+                            <p class="text-[26px] font-bold text-[#bc8c2d]">Rachida Dati</p>
+                            <p class="text-[22px] text-gray-400 italic">Marraine du concours</p>
+                        </div>
+                    </div>
+                    <q class="description text-justify text-gray-400">Je suis très honorée d’être la marraine cette année du Concours international de piano « Mouvement contraire ». Je souhaite bonne chance à toute la jeunesse marocaine et à toute la jeunesse française dans le cadre de ce concours. Je suis également très honorée de vous annoncer que la prochaine édition de ce concours international se tiendra à la mairie du 7 ème arrondissement, à Paris l’année prochaine , et je vous accueillerais personnellement.
+                        Bon courage à tous.</q>
                 </div>
-                <p class="text-[#a3a3a3] text-[22px]">
-                    Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 23 Octobre 2023, date de début du concours.
-                    Avoir 6 ans révolus et
-                    N’ont pas encore atteint l’âge de 19 ans.
-                    Sont exclus du concours les jeunes inscrits à plein temps dans des études de musique. Les jeunes étudiants sont admis. Les personnes ayant eu une relation d’enseignement permanente, publique ou privée, avec un membre du jury au cours des deux dernières années ne sont pas autorisées à participer.
-                    Le concours est public dans tous ses aspects. La collecte et le traitement de données personnelles sont obligatoires pour la planification et l’organisation du concours. L’organisateur assure le respect des dispositions correspondantes en matière de protection des données.
-                    Les enregistrements vidéo et audio privés ne sont pas autorisés pendant le concours. L’organisateur procédera à des enregistrements visuels et sonores dont chaque participant cède gratuitement les droits d’utilisation à l’organisateur. Les demandes d’honoraires sont irrecevables.
-                    L’organisateur n’est pas responsable des dommages corporels ou matériels survenant dans le cadre des manifestations du concours.
-                </p>
+                <div class="message h-[65vh]">
+                    <div class="info-container grid grid-rows-1 grid-cols-2 gap-5  mb-5">
+                        <img class="w-[90%] h-[20vh]" src="{{ asset('Images/Lamia-BOUKAA.png') }}" alt="Lamia BOUKAA">
+                        <div class="infos">
+                            <p class="text-[26px] font-bold text-[#bc8c2d]">Lamia BOUKAA</p>
+                            <p class="text-[22px] text-gray-400 italic">Mot de la directrice du Concours</p>
+                            <p class="text-[22px] my-3">Mouvement Contraire - MAROC</p>
+                        </div>
+                    </div>
+                    <p class="text-[22px] font-bold my-3">La musique nous réunira</p>
+                    <q class="description text-justify text-gray-400">Stimuler l’apprentissage autour d’un programme thématique, permettra à tous les pianistes d’exprimer leurs talents et leurs sensibilités ! De Bach à Schumann, de Liszt à Thomas Adès, les candidats nous feront vivre différentes émotions et leurs notes continueront de vibrer après leur passage. De Paris à Marrakech, la musique nous réunira et fera battre nos cœurs sur des notes et rythme . Êtes-vous prêt et prête pour le Concours International de Piano Mouvement Contraire édition 2024 ?
+                        A tous les inscrits au concours , Bonne chance à tous !</q>
+                </div>
+                <div class="message h-[65vh]">
+                    <div class="info-container grid grid-rows-1 grid-cols-2 gap-5  mb-5">
+                        <img class="w-[90%] h-[20vh]" src="{{ asset('Images/Lamia-BOUKAA.png') }}" alt="Lamia BOUKAA">
+                        <div class="infos">
+                            <p class="text-[26px] font-bold text-[#bc8c2d]">Lamia BOUKAA</p>
+                            <p class="text-[22px] text-gray-400 italic">Mot de la directrice du Concours</p>
+                            <p class="text-[22px] my-3">Mouvement Contraire - MAROC</p>
+                        </div>
+                    </div>
+                    <p class="text-[22px] font-bold my-3">La musique nous réunira</p>
+                    <q class="description text-justify text-gray-400">Stimuler l’apprentissage autour d’un programme thématique, permettra à tous les pianistes d’exprimer leurs talents et leurs sensibilités ! De Bach à Schumann, de Liszt à Thomas Adès, les candidats nous feront vivre différentes émotions et leurs notes continueront de vibrer après leur passage. De Paris à Marrakech, la musique nous réunira et fera battre nos cœurs sur des notes et rythme . Êtes-vous prêt et prête pour le Concours International de Piano Mouvement Contraire édition 2024 ?
+                        A tous les inscrits au concours , Bonne chance à tous !</q>
+                </div>
+                <div class="message h-[65vh]">
+                    <div class="info-container grid grid-rows-1 grid-cols-2 gap-5  mb-5">
+                        <img class="w-[90%] h-[20vh]" src="{{ asset('Images/Racha-Arodaky.png') }}" alt="Racha ARODAKY">
+                        <div class="infos">
+                            <p class="text-[26px] font-bold text-[#bc8c2d]">Racha ARODAKY</p>
+                            <p class="text-[22px] text-gray-400 italic">Rrésidente du Jury</p>
+                        </div>
+                    </div>
+                    <p class="text-[22px] font-bold my-3">Partage & convivialité</p>
+                    <q class="description text-justify text-gray-400">Chers amis,
+                        J’ai eu l’honneur et le grand plaisir de présider la première édition du Concours International de piano de Marrakech en 2023. L’expérience a été riche de rencontres de découvertes et le succès nous a encouragé pour réitérer l’aventure avec vous pour mai 2024.
+                        Je suis très heureuse et enthousiaste de découvrir à nouveau des pianistes talentueux marocains et internationaux.
+                        Le concours offrira aux candidats sélectionnés de nouveaux prix et force de son succès se passera dans le cadre magique du centre culturel de Meydene.
+                        Je vous invite à nous rejoindre les 9, 10 et 11 mai 2024 avec Joshua Laurens, Louis Dugué et Lamia Boukaa, artistes internationaux et éminents pédagogues pour ces journées de découvertes musicales. Soyez prêts à vous laisser emporter par la magie de la musique et tout cela dans le partage et la convivialité.
+                        Je remercie nos sponsors pour leur engagement dans cette nouvelle aventure et espère vous retrouver aussi nombreux et enthousiastes que l’année dernière.
+                        Bon concours à tous !</q>
+                </div>
             </div>
         </section>
         <section class="w-full min-h-screen mt-5 m-auto grid grid-cols-2 grid-rows-1 ">
