@@ -1,21 +1,21 @@
-.laureats .left{
+.comite.left{
     transform: translateX(-100%);
 }
 
-.laureats .right{
+.comite.right{
     transform: translateX(100%);
 }
 
-.animateLaureatsLeft{
-    animation: animateLaureatsLeft 1s forwards;
+.animateComiteLeft{
+    animation: animateComiteLeft 1s forwards;
 }
 
-.animateLaureatsRight{
-    animation: animateLaureatsRight 1s forwards;
+.animateComiteRight{
+    animation: animateComiteRight 1s forwards;
 }
 
 
-@keyframes animateLaureatsLeft {
+@keyframes animateComiteLeft {
     from{
         transform: translateX(-100%);
     }
@@ -24,7 +24,7 @@
     }
 }
 
-@keyframes animateLaureatsRight {
+@keyframes animateComiteRight {
     from{
         transform: translateX(100%);
     }

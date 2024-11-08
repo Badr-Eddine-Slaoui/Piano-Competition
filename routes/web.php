@@ -34,4 +34,6 @@ Route::post(uri:'inscription-paris/store', action:[ParisInscriptionController::c
 
 Route::view(uri:'jury', view:'Pages.jury')->name(name:'jury');
 
+Route::view(uri:'comite-honneur', view:'Pages.comite_honneur')->name(name:'comite_honneur');
+
 Route::view(uri:'laureats', view:'Pages.laureats')->name(name:'laureats');
