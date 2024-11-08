@@ -31,3 +31,5 @@ Route::post(uri:'inscription-marrakech/store', action:[MarrakechInscriptionContr
 Route::view(uri:'inscription-paris', view:'Pages.inscription_paris')->name(name:'inscription_paris');
 
 Route::post(uri:'inscription-paris/store', action:[ParisInscriptionController::class ,'store'])->name(name:'inscription_paris.store');
+
+Route::view(uri:'jury', view:'Pages.jury')->name(name:'jury');
