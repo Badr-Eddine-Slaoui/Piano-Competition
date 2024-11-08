@@ -40,6 +40,57 @@
         <section class="w-full min-h-screen my-5">
             <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
+                <h2 class="text-[36px] font-[400] text-center">Objectifs</h2>
+            </div>
+            <div class="w-4/5 min-h-[80vh] m-auto">
+                <div class="w-full h-[35vh] my-10">
+                    <img class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.png') }}" alt="EventBanner">
+                </div>
+                <p class="text-[#a3a3a3] text-[22px]">Stimuler l’apprentissage  et permettre à tous les pianistes d’exprimer leurs talents et leurs sensibilités,
+                    Révéler et promouvoir des personnalités musicales d’intérêt, de favoriser les échanges entre candidats, formateurs et pianistes membres du jury, dans un esprit bienveillant et constructif.
+                    C’est aussi une rencontre avec le public et une expérience pour les jeunes pianistes au contact d’autres écoles de piano
+                </p>
+            </div>
+        </section>
+        <section class="w-full min-h-screen my-5">
+            <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
+                <div class="h-[1px] w-1/5 bg-white me-5"></div>
+                <h2 class="text-[36px] font-[400] text-center">Fiche technique du concours</h2>
+            </div>
+            <div class="w-4/5 min-h-[80vh] m-auto">
+                <div class="w-full h-[35vh] my-10">
+                    <img class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.png') }}" alt="EventBanner">
+                </div>
+                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Nom:</span> Mouvement Contraire</p>
+                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Genre:</span> Concours International de Piano</p>
+                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Thème:</span> Vibrations</p>
+                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Portée:</span> Internationale</p>
+                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Lieu:</span> Marrakech, Maroc (Meydene- M Avenue)</p>
+                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Durée - Date:</span> 4 jours - (du 1 au 4 mai 2025)</p>
+                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Organisateur:</span> Association Cultures sans frontières - Mouvement contraire - Maroc</p>
+                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Partenaires institutionnels:</span> Ministère de la jeunesse, de la Culture et de la Communication, Maroc - Conseil de la Région Marrakech Safi - Mairie du 7è arrondissement de Paris</p>
+                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Partenaires:</span> Poly plumes - Meydene - M Avenue - Re ‘ Belle communication</p>
+                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Sponsors:</span> Audi - Kenzi Menara Palace - Mifa Musique - Yamaha</p>
+
+            </div>
+        </section>
+        <section class="w-full min-h-screen my-5">
+            <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
+                <div class="h-[1px] w-1/5 bg-white me-5"></div>
+                <h2 class="text-[36px] font-[400] text-center">Les composantes du concours</h2>
+            </div>
+            <div class="w-4/5 min-h-[80vh] m-auto">
+                <div class="w-full h-[35vh] my-10">
+                    <img class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.png') }}" alt="EventBanner">
+                </div>
+                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Compétition:</span> Éliminatoires - Finale - Cérémonie de clôture - Masterclass</p>
+                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">Expositions:</span> Histoire du piano</p>
+                <p class="text-[#a3a3a3] text-[22px]"><span class="text-[24px] font-bold text-[#bc8c2d]">L’Afte:</span> Cérémonie de réception en l’honneur des partenaires</p>
+            </div>
+        </section>
+        <section class="w-full min-h-screen my-5">
+            <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
+                <div class="h-[1px] w-1/5 bg-white me-5"></div>
                 <h2 class="text-[36px] font-[400] text-center">Condition de participation</h2>
             </div>
             <div class="w-4/5 min-h-[80vh] m-auto">
