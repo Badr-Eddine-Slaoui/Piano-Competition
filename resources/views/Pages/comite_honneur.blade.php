@@ -14,7 +14,7 @@
         @vite(['resources/css/app.css','resources/css/comite.css', 'resources/js/comite.js', 'resources/js/app.js'])
 
     </head>
-    <body class="text-white bg-[#231F20]">
+    <body class="text-white bg-[#231F20] overflow-x-hidden">
         <header class="w-full min-h-screen">
             <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-HeaderBg grid bg-no-repeat bg-cover grid-cols-1 grid-rows-2">
                 <ul class="w-1/6 mr-12 ml-auto mt-5 flex items-center justify-between text-white font-bold text-xl">
