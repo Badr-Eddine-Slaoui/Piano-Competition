@@ -21,17 +21,18 @@
                     <li><a href="{{ route('presentation_paris') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Paris</a></li>
                     <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Marrakesh</a></li>
                 </ul>
-                <ul class="w-1/2 mr-20 ml-auto mb-5 flex items-center justify-between text-white font-bold text-xl">
+                <ul class="w-3/5 mr-20 ml-auto mb-5 flex items-center justify-between text-white font-bold text-xl">
                     <li><a href="{{ route('home') }}" class="text-decoration-none border-b-4 border-orange-600">Accueil</a></li>
                     <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Presentation</a></li>
                     <li><a href="{{ route('galerie') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Galerie</a></li>
                     <li><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Edition 2025</a></li>
                     <li><a href="{{ route('inscription_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Inscription</a></li>
                     <li><a href="{{ route('jury') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Jury</a></li>
+                    <li><a href="{{ route('laureats') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Laureats</a></li>
                     <li><a href="{{ route('contact') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Contactez-nous</a></li>
                 </ul>
             </nav>
-            <video class="w-[100vw] h-[80vh] mt-[20vh] object-cover" src="{{ asset('Images/v3.mp4') }}" muted autoplay loop></video>
+            <video class="w-[100vw] h-[80vh] mt-[20vh] object-cover" src="{{ asset('Videos/HomeHeaderVideo.mp4') }}" muted autoplay loop></video>
         </header>
         <aside class=" fixed left-0 top-[25vh] w-1/12 z-[-1]">
             <img class="w-full" src="{{ asset('Images/SideImg.png')  }}" alt="SideImg">

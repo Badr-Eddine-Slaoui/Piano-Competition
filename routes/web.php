@@ -33,3 +33,5 @@ Route::view(uri:'inscription-paris', view:'Pages.inscription_paris')->name(name:
 Route::post(uri:'inscription-paris/store', action:[ParisInscriptionController::class ,'store'])->name(name:'inscription_paris.store');
 
 Route::view(uri:'jury', view:'Pages.jury')->name(name:'jury');
+
+Route::view(uri:'laureats', view:'Pages.laureats')->name(name:'laureats');

@@ -11,7 +11,7 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Styles / Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/css/app.css','resources/css/galerie.css', 'resources/js/galerie.js'])
 
     </head>
     <body class="text-white bg-[#231F20]">
@@ -21,13 +21,14 @@
                     <li><a href="{{ route('presentation_paris') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Paris</a></li>
                     <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Marrakesh</a></li>
                 </ul>
-                <ul class="w-1/2 mr-20 ml-auto mb-5 flex items-center justify-between text-white font-bold text-xl">
+                <ul class="w-3/5 mr-20 ml-auto mb-5 flex items-center justify-between text-white font-bold text-xl">
                     <li><a href="{{ route('home') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Accueil</a></li>
                     <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Presentation</a></li>
                     <li><a href="{{ route('galerie') }}" class="text-decoration-none border-b-4 border-orange-600">Galerie</a></li>
                     <li><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Edition 2025</a></li>
                     <li><a href="{{ route('inscription_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Inscription</a></li>
                     <li><a href="{{ route('jury') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Jury</a></li>
+                    <li><a href="{{ route('laureats') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Laureats</a></li>
                     <li><a href="{{ route('contact') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Contactez-nous</a></li>
                 </ul>
             </nav>
@@ -168,72 +169,72 @@
                 <div class="galerie-vids grid grid-cols-3 grid-rows-1 gap-10">
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
-                            <source src="{{ asset('Images/v1.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
-                            <source src="{{ asset('Images/v2.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
-                            <source src="{{ asset('Images/v3.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('Videos/v3.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
-                            <source src="{{ asset('Images/v1.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
-                            <source src="{{ asset('Images/v2.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
-                            <source src="{{ asset('Images/v3.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('Videos/v3.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
-                            <source src="{{ asset('Images/v1.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
-                            <source src="{{ asset('Images/v2.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
-                            <source src="{{ asset('Images/v3.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('Videos/v3.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
-                            <source src="{{ asset('Images/v1.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
-                            <source src="{{ asset('Images/v2.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
-                            <source src="{{ asset('Images/v3.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('Videos/v3.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
-                            <source src="{{ asset('Images/v1.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
                         <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
-                            <source src="{{ asset('Images/v2.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                 </div>

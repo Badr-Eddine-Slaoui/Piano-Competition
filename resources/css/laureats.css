@@ -1,0 +1,28 @@
+.animateLaureatsLeft{
+    transform: translateX(-100%);
+    animation: animateLaureatsLeft 1s forwards;
+}
+
+.animateLaureatsRight{
+    transform: translateX(100%);
+    animation: animateLaureatsRight 1s forwards;
+}
+
+
+@keyframes animateLaureatsLeft {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes animateLaureatsRight {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
