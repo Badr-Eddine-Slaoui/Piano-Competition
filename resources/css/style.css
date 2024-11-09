@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+.slide-text {
+    opacity: 0;
+    transform: translateX(-30%);
+    transition: opacity .5s ease-out, transform .5s ease-out;
+}
+
+.slide-text.animate {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
 #alert {
     display: flex;
     animation: alert 5s forwards;
