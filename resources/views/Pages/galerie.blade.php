@@ -16,12 +16,16 @@
     </head>
     <body class="text-white bg-[#231F20]">
         <header class="w-full h-[20vh]">
-            <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-HeaderBg grid bg-no-repeat bg-cover grid-cols-1 grid-rows-2">
-                <ul class="w-1/6 mr-12 ml-auto mt-5 flex items-center justify-between text-white font-bold text-xl">
+            <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-HeaderBg bg-no-repeat bg-cover flex justify-between">
+                <div class="w-1/6 flex justify-center items-center">
+                    <a href="{{ route('home') }}"><img class="w-[90%] ms-auto" src="{{ asset('Images/Logo.png')  }}" alt="Logo"></a>
+                </div>
+                <div class="w-4/6 grid grid-cols-1 grid-rows-2 mr-12">
+                    <ul class="w-1/6 ml-auto mt-5 flex items-center justify-between text-white font-bold text-xl">
                     <li><a href="{{ route('presentation_paris') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Paris</a></li>
                     <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Marrakesh</a></li>
                 </ul>
-                <ul class="w-4/6 mr-12 ml-auto mb-5 flex items-center justify-between text-white font-bold text-xl">
+                    <ul class="w-full ml-auto mb-5 flex items-center justify-between text-white font-bold text-xl">
                     <li><a href="{{ route('home') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Accueil</a></li>
                     <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Presentation</a></li>
                     <li><a href="{{ route('galerie') }}" class="text-decoration-none border-b-4 border-orange-600">Galerie</a></li>
@@ -291,10 +295,12 @@
             <img class="w-full" src="{{ asset('Images/footer-bg-piano.png') }}" alt="Footer Bg Piano">
             <div class="w-3/4 mx-auto grid grid-rows-1 grid-cols-2 py-4">
                 <div>
-                    <img src="{{ asset('Images/logo.png') }}" alt="logo">
+                    <a href="{{ route('home') }}">
+                      <img class="block w-1/2" src="{{ asset('Images/logo.png') }}" alt="logo">
+                    </a>
                 </div>
                 <div>
-                    <p class="text-[26px] text-orange-600 font-bold mb-5 mt-3">Media</p>
+                    <p class="text-[26px] text-orange-600 font-bold mb-5">Media</p>
                     <div class="grid grid-cols-4 gap-5 w-5/6">
                         <img src="{{ asset('Images/Fb.png') }}" alt="FB">
                         <img src="{{ asset('Images/Insta.png') }}" alt="Insta">
