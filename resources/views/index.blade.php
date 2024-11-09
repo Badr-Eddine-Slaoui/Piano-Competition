@@ -174,7 +174,7 @@
                 </div>
             </div>
         </section>
-        <section class="w-full min-h-screen mt-5 m-auto grid grid-cols-2 grid-rows-1 ">
+        <section class="w-full min-h-screen mt-5 m-auto grid grid-cols-2 grid-rows-1 gap-x-10">
             <div class="flex h-[20vh] relative z-[-2] items-center col-span-2 my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
                 <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Contactez-nous</h2>
@@ -214,12 +214,12 @@
                 </div>
             </div>
         </section>
-        <footer class="w-full min-h-80 bg-[#231F20]">
+        <footer class="w-full min-h-80 bg-[#231F20] py-5">
             <img class="w-full" src="{{ asset('Images/footer-bg-piano.png') }}" alt="Footer Bg Piano">
             <div class="w-3/4 mx-auto grid grid-rows-1 grid-cols-2 py-4">
                 <div>
                     <a href="{{ route('home') }}">
-                      <img class="block w-1/2" src="{{ asset('Images/logo.png') }}" alt="logo">
+                      <img class="block w-1/2 my-10" src="{{ asset('Images/logo.png') }}" alt="logo">
                     </a>
                 </div>
                 <div>
@@ -236,11 +236,22 @@
                     <p class="text-[22px] text-white">competpianosafi@gmail.com</p>
                     <p class="text-[22px] text-white">+212 612345789</p>
                     <p class="text-[22px] text-white">Rue Ibnou Badis, Safi, Morocco</p>
-                </div>
-                <div>
                     <p class="text-[26px] text-orange-600 font-bold my-4">Horaires</p>
                     <p class="text-[22px] text-white">Lundi – Samedi: 8h – 20h</p>
                     <p class="text-[22px] text-white">Dimanche: Fermé</p>
+                </div>
+                <div>
+                    <p class="text-[26px] text-orange-600 font-bold my-4">Links</p>
+                    <div class="grid grid-cols-2 grid-rows-1 gap-y-8">
+                        <p><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none text-[22px] text-white">Presentation</a></p>
+                        <p><a href="{{ route('galerie') }}" class="text-decoration-none text-[22px] text-white">Galerie</a></p>
+                        <p><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none text-[22px] text-white">Edition 2025</a></p>
+                        <p><a href="{{ route('inscription_marrakech') }}" class="text-decoration-none text-[22px] text-white">Inscription</a></p>
+                        <p><a href="{{ route('jury') }}" class="text-decoration-none text-[22px] text-white">Jury</a></p>
+                        <p><a href="{{ route('comite_honneur') }}" class="text-decoration-none text-[22px] text-white">Comite d’Honneur</a></p>
+                        <p><a href="{{ route('laureats') }}" class="text-decoration-none text-[22px] text-white">Laureats</a></p>
+                        <p><a href="{{ route('contact') }}" class="text-decoration-none text-[22px] text-white">Contactez-nous</a></p>
+                    </div>
                 </div>
             </div>
         </footer>
