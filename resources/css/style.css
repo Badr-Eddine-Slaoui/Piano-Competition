@@ -23,6 +23,10 @@
     animation: alert_time_bar 5.5s forwards ease-in-out;
 }
 
+.carousel-track {
+    transition: transform 1s ease;
+}
+
 @keyframes alert {
     0% {
         opacity: 1;

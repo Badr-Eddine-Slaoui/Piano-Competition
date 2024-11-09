@@ -1,0 +1,20 @@
+.partners-list {
+    animation: sliding 20s linear backwards infinite;
+}
+
+.partners-track:hover .partners-list{
+    animation-play-state: paused;
+}
+
+.partner-item{
+    transition: all .5s;
+}
+
+@keyframes sliding {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

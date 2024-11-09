@@ -11,11 +11,11 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Styles / Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/css/app.css', 'resources/js/carousel.js', 'resources/js/app.js'])
 
     </head>
     <body class="text-white bg-[#231F20]">
-        <header class="w-full min-h-screen">
+        <header class="w-full h-[20vh]">
             <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-HeaderBg grid bg-no-repeat bg-cover grid-cols-1 grid-rows-2">
                 <ul class="w-1/6 mr-12 ml-auto mt-5 flex items-center justify-between text-white font-bold text-xl">
                     <li><a href="{{ route('edition_2025_paris') }}" class="text-decoration-none border-b-4 border-orange-600">Paris</a></li>
@@ -33,8 +33,13 @@
                     <li><a href="{{ route('contact') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Contactez-nous</a></li>
                 </ul>
             </nav>
-            <img class="w-full mt-[20vh] h-[80vh]" src="{{ asset('Images/home-header-img.png') }}">
         </header>
+        <main id="carousel" class="w-full h-[80vh] relative overflow-x-hidden">
+            <div id="carousel-track" class="w-full h-full flex ">
+                <img class="w-full h-full flex-shrink-0" src="{{ asset('Images/home-header-img.png') }}">
+                <img class="w-full h-full flex-shrink-0" src="{{ asset('Images/Re-Belle-Communication.png') }}">
+            </div>
+        </main>
         <aside class=" fixed left-0 top-[25vh] w-1/12 z-[-1]">
             <img class="w-full" src="{{ asset('Images/SideImg.png')  }}" alt="SideImg">
         </aside>

@@ -11,11 +11,11 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Styles / Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/css/app.css', 'resources/css/home.css', 'resources/js/app.js'])
 
     </head>
     <body class="text-white bg-[#231F20]">
-        <header class="w-full min-h-screen">
+        <header class="w-full h-[20vh]">
             <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-HeaderBg grid bg-no-repeat bg-cover grid-cols-1 grid-rows-2">
                 <ul class="w-1/6 mr-12 ml-auto mt-5 flex items-center justify-between text-white font-bold text-xl">
                     <li><a href="{{ route('presentation_paris') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Paris</a></li>
@@ -33,8 +33,10 @@
                     <li><a href="{{ route('contact') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Contactez-nous</a></li>
                 </ul>
             </nav>
-            <video class="w-[100vw] h-[80vh] mt-[20vh] object-cover" src="{{ asset('Videos/HomeHeaderVideo.mp4') }}" muted autoplay loop></video>
         </header>
+        <main class="w-full h-[80vh]">
+            <video class="w-[100vw] h-[80vh] object-cover" poster="{{ asset('Images/home-header-img.png') }}" src="{{ asset('Videos/HomeHeaderVideo.mp4') }}" muted autoplay loop></video>
+        </main>
         <aside class=" fixed left-0 top-[25vh] w-1/12 z-[-1]">
             <img class="w-full" src="{{ asset('Images/SideImg.png')  }}" alt="SideImg">
         </aside>
@@ -118,6 +120,52 @@
                         Je vous invite à nous rejoindre les 9, 10 et 11 mai 2024 avec Joshua Laurens, Louis Dugué et Lamia Boukaa, artistes internationaux et éminents pédagogues pour ces journées de découvertes musicales. Soyez prêts à vous laisser emporter par la magie de la musique et tout cela dans le partage et la convivialité.
                         Je remercie nos sponsors pour leur engagement dans cette nouvelle aventure et espère vous retrouver aussi nombreux et enthousiastes que l’année dernière.
                         Bon concours à tous !</q>
+                </div>
+            </div>
+        </section>
+        <section class="w-full max-h-screen my-5">
+            <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
+                <div class="h-[1px] w-1/5 bg-white me-5"></div>
+                <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Nos Partenaires</h2>
+            </div>
+            <div class="w-4/5 min-h-[30vh] m-auto">
+                <div class="partners-track overflow-x-hidden relative">
+                    <div class="partners-list grid grid-cols-4 grid-rows-1 w-full h-full">
+                        <div class="partner-item hover:translate-y-[-20px]">
+                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Poly-Plumes.png') }}" alt="Poly plumes">
+                            <p class="text-center text-[20px] font-bold my-5 text-gray-400">Poly Plumes</p>
+                        </div>
+                        <div class="partner-item hover:translate-y-[-20px]">
+                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Meydene.png') }}" alt="Meydene">
+                            <p class="text-center text-[20px] font-bold my-5 text-gray-400">Meydene</p>
+                        </div>
+                        <div class="partner-item hover:translate-y-[-20px]">
+                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/M-Avenue.png') }}" alt="M Avenue">
+                            <p class="text-center text-[20px] font-bold my-5 text-gray-400">M Avenue</p>
+                        </div>
+                        <div class="partner-item hover:translate-y-[-20px]">
+                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Re-Belle-Communication.png') }}" alt="Re ‘ Belle communication">
+                            <p class="text-center text-[20px] font-bold my-5 text-gray-400">Re ‘ Belle communication</p>
+                        </div>
+                    </div>
+                    <div class="partners-list grid grid-cols-4 grid-rows-1 absolute left-[100%] top-0 w-full h-full">
+                        <div class="partner-item hover:translate-y-[-20px]">
+                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Poly-Plumes.png') }}" alt="Poly plumes">
+                            <p class="text-center text-[20px] font-bold my-5 text-gray-400">Poly Plumes</p>
+                        </div>
+                        <div class="partner-item hover:translate-y-[-20px]">
+                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Meydene.png') }}" alt="Meydene">
+                            <p class="text-center text-[20px] font-bold my-5 text-gray-400">Meydene</p>
+                        </div>
+                        <div class="partner-item hover:translate-y-[-20px]">
+                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/M-Avenue.png') }}" alt="M Avenue">
+                            <p class="text-center text-[20px] font-bold my-5 text-gray-400">M Avenue</p>
+                        </div>
+                        <div class="partner-item hover:translate-y-[-20px]">
+                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Re-Belle-Communication.png') }}" alt="Re ‘ Belle communication">
+                            <p class="text-center text-[20px] font-bold my-5 text-gray-400">Re ‘ Belle communication</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
