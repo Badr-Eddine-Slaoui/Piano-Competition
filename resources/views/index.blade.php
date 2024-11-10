@@ -136,37 +136,37 @@
             <div class="w-4/5 min-h-[30vh] m-auto">
                 <div class="partners-track overflow-x-hidden relative">
                     <div class="partners-list grid grid-cols-4 grid-rows-1 w-full h-full">
-                        <div class="partner-item hover:translate-y-[-20px]">
+                        <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
                             <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Poly-Plumes.png') }}" alt="Poly plumes">
                             <p class="text-center text-[20px] font-bold my-5 text-gray-400">Poly Plumes</p>
                         </div>
-                        <div class="partner-item hover:translate-y-[-20px]">
+                        <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
                             <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Meydene.png') }}" alt="Meydene">
                             <p class="text-center text-[20px] font-bold my-5 text-gray-400">Meydene</p>
                         </div>
-                        <div class="partner-item hover:translate-y-[-20px]">
+                        <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
                             <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/M-Avenue.png') }}" alt="M Avenue">
                             <p class="text-center text-[20px] font-bold my-5 text-gray-400">M Avenue</p>
                         </div>
-                        <div class="partner-item hover:translate-y-[-20px]">
+                        <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
                             <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Re-Belle-Communication.png') }}" alt="Re ‘ Belle communication">
                             <p class="text-center text-[20px] font-bold my-5 text-gray-400">Re ‘ Belle communication</p>
                         </div>
                     </div>
                     <div class="partners-list grid grid-cols-4 grid-rows-1 absolute left-[100%] top-0 w-full h-full">
-                        <div class="partner-item hover:translate-y-[-20px]">
+                        <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
                             <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Poly-Plumes.png') }}" alt="Poly plumes">
                             <p class="text-center text-[20px] font-bold my-5 text-gray-400">Poly Plumes</p>
                         </div>
-                        <div class="partner-item hover:translate-y-[-20px]">
+                        <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
                             <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Meydene.png') }}" alt="Meydene">
                             <p class="text-center text-[20px] font-bold my-5 text-gray-400">Meydene</p>
                         </div>
-                        <div class="partner-item hover:translate-y-[-20px]">
+                        <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
                             <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/M-Avenue.png') }}" alt="M Avenue">
                             <p class="text-center text-[20px] font-bold my-5 text-gray-400">M Avenue</p>
                         </div>
-                        <div class="partner-item hover:translate-y-[-20px]">
+                        <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
                             <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Re-Belle-Communication.png') }}" alt="Re ‘ Belle communication">
                             <p class="text-center text-[20px] font-bold my-5 text-gray-400">Re ‘ Belle communication</p>
                         </div>
