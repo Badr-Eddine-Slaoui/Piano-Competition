@@ -163,14 +163,14 @@
         </section>
         <footer class="w-full min-h-80 bg-[#231F20] py-5">
             <img class="w-full" src="{{ asset('Images/footer-bg-piano.png') }}" alt="Footer Bg Piano">
-            <div class="w-3/4 mx-auto grid grid-rows-1 grid-cols-2 py-4">
+            <div class="w-4/5 mx-auto grid grid-rows-1 grid-cols-2 py-4">
                 <div>
                     <a href="{{ route('home') }}">
                       <img class="block w-1/2 my-10" src="{{ asset('Images/logo.png') }}" alt="logo">
                     </a>
                 </div>
                 <div>
-                    <p class="text-[26px] text-orange-600 font-bold mb-5">Media</p>
+                    <p class="text-[26px] text-[#bc8c2d] font-bold mb-5">Media</p>
                     <div class="grid grid-cols-4 gap-5 w-5/6">
                         <a href="#" target="_blank"><img class="hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Fb.png') }}" alt="FB"></a>
                         <a href="#" target="_blank"><img class="hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Insta.png') }}" alt="Insta"></a>
@@ -179,16 +179,16 @@
                     </div>
                 </div>
                 <div>
-                    <p class="text-[26px] text-orange-600 font-bold my-4">Contacts</p>
+                    <p class="text-[26px] text-[#bc8c2d] font-bold my-4">Contacts</p>
                     <a href="mailto:competpianosafi@gmail.com"><p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">competpianosafi@gmail.com</p></a>
                     <a href="tel:+212612345789"><p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">+212 612345789</p></a>
                     <a href="#map"><p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">Rue Ibnou Badis, Safi, Morocco</p></a>
-                    <p class="text-[26px] text-orange-600 font-bold my-4">Horaires</p>
+                    <p class="text-[26px] text-[#bc8c2d] font-bold my-4">Horaires</p>
                     <p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">Lundi – Samedi: 8h – 20h</p>
                     <p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">Dimanche: Fermé</p>
                 </div>
                 <div>
-                    <p class="text-[26px] text-orange-600 font-bold mt-4 my-6">Pages</p>
+                    <p class="text-[26px] text-[#bc8c2d] font-bold mt-4 my-6">Pages</p>
                     <div class="grid grid-cols-2 grid-rows-1 gap-y-10">
                         <p><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Presentation</a></p>
                         <p><a href="{{ route('galerie') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Galerie</a></p>

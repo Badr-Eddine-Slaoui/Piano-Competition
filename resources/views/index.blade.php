@@ -216,7 +216,7 @@
         </section>
         <footer class="w-full min-h-80 bg-[#231F20] py-5">
             <img class="w-full" src="{{ asset('Images/footer-bg-piano.png') }}" alt="Footer Bg Piano">
-            <div class="w-3/4 mx-auto grid grid-rows-1 grid-cols-2 py-4">
+            <div class="w-4/5 mx-auto grid grid-rows-1 grid-cols-2 py-4">
                 <div>
                     <a href="{{ route('home') }}">
                       <img class="block w-1/2 my-10" src="{{ asset('Images/logo.png') }}" alt="logo">
