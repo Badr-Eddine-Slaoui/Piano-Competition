@@ -94,32 +94,32 @@
                 <div>
                     <p class="text-[26px] text-orange-600 font-bold mb-5">Media</p>
                     <div class="grid grid-cols-4 gap-5 w-5/6">
-                        <img src="{{ asset('Images/Fb.png') }}" alt="FB">
-                        <img src="{{ asset('Images/Insta.png') }}" alt="Insta">
-                        <img src="{{ asset('Images/X.png') }}" alt="X">
-                        <img src="{{ asset('Images/Gmail.png') }}" alt="Gmail">
+                        <a href="#" target="_blank"><img class="hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Fb.png') }}" alt="FB"></a>
+                        <a href="#" target="_blank"><img class="hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Insta.png') }}" alt="Insta"></a>
+                        <a href="#" target="_blank"><img class="hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/X.png') }}" alt="X"></a>
+                        <a href="#" target="_blank"><img class="hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Gmail.png') }}" alt="Gmail"></a>
                     </div>
                 </div>
                 <div>
-                    <p class="text-[26px] text-orange-600 font-bold my-4">Infos</p>
-                    <p class="text-[22px] text-white">competpianosafi@gmail.com</p>
-                    <p class="text-[22px] text-white">+212 612345789</p>
-                    <p class="text-[22px] text-white">Rue Ibnou Badis, Safi, Morocco</p>
+                    <p class="text-[26px] text-orange-600 font-bold my-4">Contacts</p>
+                    <a href="mailto:competpianosafi@gmail.com"><p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">competpianosafi@gmail.com</p></a>
+                    <a href="tel:+212612345789"><p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">+212 612345789</p></a>
+                    <a href="#map"><p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">Rue Ibnou Badis, Safi, Morocco</p></a>
                     <p class="text-[26px] text-orange-600 font-bold my-4">Horaires</p>
-                    <p class="text-[22px] text-white">Lundi – Samedi: 8h – 20h</p>
-                    <p class="text-[22px] text-white">Dimanche: Fermé</p>
+                    <p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">Lundi – Samedi: 8h – 20h</p>
+                    <p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">Dimanche: Fermé</p>
                 </div>
                 <div>
-                    <p class="text-[26px] text-orange-600 font-bold my-4">Links</p>
-                    <div class="grid grid-cols-2 grid-rows-1 gap-y-8">
-                        <p><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none text-[22px] text-white">Presentation</a></p>
-                        <p><a href="{{ route('galerie') }}" class="text-decoration-none text-[22px] text-white">Galerie</a></p>
-                        <p><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none text-[22px] text-white">Edition 2025</a></p>
-                        <p><a href="{{ route('inscription_marrakech') }}" class="text-decoration-none text-[22px] text-white">Inscription</a></p>
-                        <p><a href="{{ route('jury') }}" class="text-decoration-none text-[22px] text-white">Jury</a></p>
-                        <p><a href="{{ route('comite_honneur') }}" class="text-decoration-none text-[22px] text-white">Comite d’Honneur</a></p>
-                        <p><a href="{{ route('laureats') }}" class="text-decoration-none text-[22px] text-white">Laureats</a></p>
-                        <p><a href="{{ route('contact') }}" class="text-decoration-none text-[22px] text-white">Contactez-nous</a></p>
+                    <p class="text-[26px] text-orange-600 font-bold mt-4 my-6">Pages</p>
+                    <div class="grid grid-cols-2 grid-rows-1 gap-y-10">
+                        <p><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Presentation</a></p>
+                        <p><a href="{{ route('galerie') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Galerie</a></p>
+                        <p><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Edition 2025</a></p>
+                        <p><a href="{{ route('inscription_marrakech') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Inscription</a></p>
+                        <p><a href="{{ route('jury') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Jury</a></p>
+                        <p><a href="{{ route('comite_honneur') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Comite d’Honneur</a></p>
+                        <p><a href="{{ route('laureats') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Laureats</a></p>
+                        <p><a href="{{ route('contact') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Contactez-nous</a></p>
                     </div>
                 </div>
             </div>
