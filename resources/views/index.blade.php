@@ -73,7 +73,7 @@
                 <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Les Messages</h2>
             </div>
             <div class="w-4/5 min-h-screen mb-5 m-auto grid grid-cols-2 grid-rows-1 gap-10">
-                <div class="message h-[65vh]">
+                <div class="message h-[65vh] opacity-60 cursor-pointer hover:opacity-100 hover:-translate-y-3 hover:scale-105 transition-all duration-500">
                     <div class="info-container grid grid-rows-1 grid-cols-2 mb-5">
                         <img class="w-[90%] h-[20vh]" src="{{ asset('Images/Rachida-Dati.jpg') }}" alt="Rachida Dati">
                         <div class="infos">
@@ -84,7 +84,7 @@
                     <q class="description text-justify text-gray-400">Je suis très honorée d’être la marraine cette année du Concours international de piano « Mouvement contraire ». Je souhaite bonne chance à toute la jeunesse marocaine et à toute la jeunesse française dans le cadre de ce concours. Je suis également très honorée de vous annoncer que la prochaine édition de ce concours international se tiendra à la mairie du 7 ème arrondissement, à Paris l’année prochaine , et je vous accueillerais personnellement.
                         Bon courage à tous.</q>
                 </div>
-                <div class="message h-[65vh]">
+                <div class="message h-[65vh] opacity-60 cursor-pointer hover:opacity-100 hover:-translate-y-3 hover:scale-105 transition-all duration-500">
                     <div class="info-container grid grid-rows-1 grid-cols-2 mb-5">
                         <img class="w-[90%] h-[20vh]" src="{{ asset('Images/Lamia-BOUKAA.png') }}" alt="Lamia BOUKAA">
                         <div class="infos">
@@ -97,7 +97,7 @@
                     <q class="description text-justify text-gray-400">Stimuler l’apprentissage autour d’un programme thématique, permettra à tous les pianistes d’exprimer leurs talents et leurs sensibilités ! De Bach à Schumann, de Liszt à Thomas Adès, les candidats nous feront vivre différentes émotions et leurs notes continueront de vibrer après leur passage. De Paris à Marrakech, la musique nous réunira et fera battre nos cœurs sur des notes et rythme . Êtes-vous prêt et prête pour le Concours International de Piano Mouvement Contraire édition 2024 ?
                         A tous les inscrits au concours , Bonne chance à tous !</q>
                 </div>
-                <div class="message h-[65vh]">
+                <div class="message h-[65vh] opacity-60 cursor-pointer hover:opacity-100 hover:-translate-y-3 hover:scale-105 transition-all duration-500">
                     <div class="info-container grid grid-rows-1 grid-cols-2 mb-5">
                         <img class="w-[90%] h-[20vh]" src="{{ asset('Images/Joshu- LAFFONT-COHEN.png') }}" alt="Joshua LAFFONT-COHEN">
                         <div class="infos">
@@ -109,7 +109,7 @@
                     <p class="text-[22px] font-bold my-3">Une fête de notes et d’émotions</p>
                     <q class="description text-justify text-gray-400">En tant que fondateur du concours mouvement contraire, je souhaite que tous les candidats de France et du Maroc s’unissent et frémissent le temps d’une fête de notes et d’émotions. Je rêve que chacun nous offre au piano sa version des morceaux, le reflet de son âme. Cherchez les notes susceptibles de s’aimer ! Jouez pour émouvoir, pour partager votre univers, dialoguer, aimer et être aimé ! Amusez-vous ! De la musique avant toute chose ?  Alors ensemble vibrons !</q>
                 </div>
-                <div class="message h-[65vh]">
+                <div class="message h-[65vh] opacity-60 cursor-pointer hover:opacity-100 hover:-translate-y-3 hover:scale-105 transition-all duration-500">
                     <div class="info-container grid grid-rows-1 grid-cols-2 mb-5">
                         <img class="w-[90%] h-[20vh]" src="{{ asset('Images/Racha-Arodaky.png') }}" alt="Racha ARODAKY">
                         <div class="infos">
