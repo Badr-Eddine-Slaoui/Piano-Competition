@@ -16,25 +16,25 @@
     </head>
     <body class="text-white bg-[#231F20]">
         <header class="w-full h-[20vh]">
-            <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-HeaderBg bg-no-repeat bg-cover flex justify-between">
+            <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-[#231F20] flex justify-between">
                 <div class="w-1/6 flex justify-center items-center">
                     <a href="{{ route('home') }}"><img class="w-[90%] ms-auto" src="{{ asset('Images/Logo.png')  }}" alt="Logo"></a>
                 </div>
                 <div class="w-4/6 grid grid-cols-1 grid-rows-2 mr-12">
                     <ul class="w-1/6 ml-auto mt-5 flex items-center justify-between text-white font-bold text-xl">
-                        <li><a href="{{ route('presentation_paris') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Paris</a></li>
-                        <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Marrakesh</a></li>
+                        <li><a href="{{ route('presentation_paris') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Paris</a></li>
+                        <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Marrakesh</a></li>
                     </ul>
                     <ul class="w-full ml-auto mb-5 flex items-center justify-between text-white font-bold text-xl">
-                        <li><a href="{{ route('home') }}" class="text-decoration-none border-b-4 border-orange-600">Accueil</a></li>
-                        <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Presentation</a></li>
-                        <li><a href="{{ route('galerie') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Galerie</a></li>
-                        <li><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Edition 2025</a></li>
-                        <li><a href="{{ route('inscription_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Inscription</a></li>
-                        <li><a href="{{ route('jury') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Jury</a></li>
-                        <li><a href="{{ route('comite_honneur') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Comite d’Honneur</a></li>
-                        <li><a href="{{ route('laureats') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Laureats</a></li>
-                        <li><a href="{{ route('contact') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Contactez-nous</a></li>
+                        <li><a href="{{ route('home') }}" class="text-decoration-none border-b-4 border-[#bc8c2d]">Accueil</a></li>
+                        <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Presentation</a></li>
+                        <li><a href="{{ route('galerie') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Galerie</a></li>
+                        <li><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Edition 2025</a></li>
+                        <li><a href="{{ route('inscription_marrakech') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Inscription</a></li>
+                        <li><a href="{{ route('jury') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Jury</a></li>
+                        <li><a href="{{ route('comite_honneur') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Comite d’Honneur</a></li>
+                        <li><a href="{{ route('laureats') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Laureats</a></li>
+                        <li><a href="{{ route('contact') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Contactez-nous</a></li>
                     </ul>
                 </div>
             </nav>

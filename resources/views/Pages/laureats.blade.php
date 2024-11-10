@@ -16,7 +16,7 @@
     </head>
     <body class="text-white bg-[#231F20] overflow-x-hidden">
         <header class="w-full h-[20vh]">
-            <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-HeaderBg bg-no-repeat bg-cover flex justify-between">
+            <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-[#231F20] flex justify-between">
                 <div class="w-1/6 flex justify-center items-center">
                     <a href="{{ route('home') }}"><img class="w-[90%] ms-auto" src="{{ asset('Images/Logo.png')  }}" alt="Logo"></a>
                 </div>
