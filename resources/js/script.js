@@ -15,3 +15,4 @@ let observer = new IntersectionObserver(animateOnScroll, {
 document.querySelectorAll('.slide-text').forEach(el => {
     observer.observe(el);
 });
+

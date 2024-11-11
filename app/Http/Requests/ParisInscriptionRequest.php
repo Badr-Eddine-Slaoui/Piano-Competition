@@ -30,7 +30,7 @@ class ParisInscriptionRequest extends FormRequest
             'code_postal' => 'required|string|max:10',
             'ville' => 'required|string|max:50',
             'tele' => 'required|string|max:15',
-            'email' => 'required|email|max:200',
+            'incription_email' => 'required|email|max:200',
             'langues_parlees' => 'required|string|max:100',
             'nom_professeur' => 'required|string|max:100',
             'etablissement_musical' => 'required|string|max:100',
@@ -89,9 +89,9 @@ class ParisInscriptionRequest extends FormRequest
             'tele.string' => 'Le champ "Téléphone" doit être une chaîne de caractères.',
             'tele.max' => 'Le champ "Téléphone" ne doit pas dépasser 15 caractères.',
 
-            'email.required' => 'Le champ "Email" est obligatoire.',
-            'email.email' => 'Le champ "Email" doit être une adresse e-mail valide.',
-            'email.max' => 'Le champ "Email" ne doit pas dépasser 200 caractères.',
+            'incription_email.required' => 'Le champ "Email" est obligatoire.',
+            'incription_email.email' => 'Le champ "Email" doit être une adresse e-mail valide.',
+            'incription_email.max' => 'Le champ "Email" ne doit pas dépasser 200 caractères.',
 
             'langues_parlees.required' => 'Le champ "Langues parlées" est obligatoire.',
             'langues_parlees.string' => 'Le champ "Langues parlées" doit être une chaîne de caractères.',

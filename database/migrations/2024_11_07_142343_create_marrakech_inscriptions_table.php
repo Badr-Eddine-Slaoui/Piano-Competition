@@ -24,7 +24,7 @@ return new class extends Migration
             $table->string('code_postal', 10);
             $table->string('ville', 50);
             $table->string('tele', 15);
-            $table->string('email', 200);
+            $table->string('incription_email', 200);
             $table->string('langues_parlees', 100);
             $table->string('nom_professeur', 100);
             $table->string('etablissement_musical', 100);

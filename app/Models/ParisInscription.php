@@ -18,7 +18,7 @@ class ParisInscription extends Model
         'code_postal',
         'ville',
         'tele',
-        'email',
+        'incription_email',
         'langues_parlees',
         'nom_professeur',
         'etablissement_musical',
