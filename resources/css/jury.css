@@ -3,24 +3,24 @@
 }
 
 .jury:hover .title{
-    animation: jury-title 1s forwards ease-in-out;
+    animation: jury-title .5s forwards ease-in-out;
 }
 
 .jury:hover .info-container{
     display: grid;
     opacity: 0;
-    animation: jury-img 1s forwards ease-in-out;
+    animation: jury-img .5s forwards ease-in-out;
 }
 
 .jury:hover .info-container .infos,
 .jury:hover .info-container:hover .infos{
     display: block;
-    animation: jury-info 1s forwards ease-in-out;
+    animation: jury-info .5s forwards ease-in-out;
 }
 
 .jury:hover .description{
     display: block;
-    animation: jury-description 1s forwards ease-in-out;
+    animation: jury-description .5s forwards ease-in-out;
 }
 
 @keyframes jury-title {

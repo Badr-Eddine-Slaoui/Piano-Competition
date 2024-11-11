@@ -138,21 +138,21 @@
                 <div class="w-3/5 mx-auto">
                     <div class="grid grid-cols-1 grid-rows-1 gap-10">
                         <div class="grid grid-cols-1 grid-rows-2 gap-4">
-                            <label class="text-[22px] text-[#a3a3a3]" for="nom">Nom:</label>
+                            <label class="text-[22px] text-[#a3a3a3]" for="nom">Nom: <span class=" text-red-600">*</span></label>
                             <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md" placeholder="Entrer votre nom" id="nom" name="nom" type="text" value="{{ old('nom') }}">
                             @error('nom')
                                 <p class="text-red-600 mt-5">{{ $message }}</p>
                             @enderror
                         </div>
                         <div class="grid grid-cols-1 grid-rows-2 gap-4">
-                            <label class="text-[22px] text-[#a3a3a3]" for="email">Email:</label>
+                            <label class="text-[22px] text-[#a3a3a3]" for="email">Email: <span class=" text-red-600">*</span></label>
                             <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md" placeholder="Entrer votre email" id="email" name="email" type="email" value="{{ old('email') }}">
                             @error('email')
                                 <p class="text-red-600 mt-5">{{ $message }}</p>
                             @enderror
                         </div>
                         <div class="grid grid-cols-1 grid-rows-1">
-                            <label class="text-[22px] text-[#a3a3a3] mb-4" for="message">Message</label>
+                            <label class="text-[22px] text-[#a3a3a3] mb-4" for="message">Message: <span class=" text-red-600">*</span></label>
                             <textarea class="text-black focus:outline-0 px-4 py-1 rounded-md resize-none" name="message" id="message" cols="30" rows="10" placeholder="Entrer votre message">{{ old('message') }}</textarea>
                             @error('message')
                                 <p class="text-red-600 mt-5">{{ $message }}</p>
