@@ -318,13 +318,14 @@
                     <p class="text-[26px] text-[#bc8c2d] font-bold my-4">Contacts</p>
                     <a href="mailto:competpianosafi@gmail.com"><p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">competpianosafi@gmail.com</p></a>
                     <a href="tel:+212612345789"><p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">+212 612345789</p></a>
+                    <p class="text-[26px] text-[#bc8c2d] font-bold my-4">Lieus</p>
                     <a href="#map"><p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">Rue Ibnou Badis, Safi, Morocco</p></a>
                     <p class="text-[26px] text-[#bc8c2d] font-bold my-4">Horaires</p>
                     <p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">Lundi – Samedi: 8h – 20h</p>
                     <p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">Dimanche: Fermé</p>
                 </div>
                 <div>
-                    <p class="text-[26px] text-[#bc8c2d] font-bold mt-4 my-6">Pages</p>
+                    <p class="text-[26px] text-[#bc8c2d] font-bold mt-4 my-6">Les Pages</p>
                     <div class="grid grid-cols-2 grid-rows-1 gap-y-10">
                         <p><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Presentation</a></p>
                         <p><a href="{{ route('galerie') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Galerie</a></p>
@@ -334,6 +335,8 @@
                         <p><a href="{{ route('comite_honneur') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Comite d’Honneur</a></p>
                         <p><a href="{{ route('laureats') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Laureats</a></p>
                         <p><a href="{{ route('contact') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Contactez-nous</a></p>
+                        <p><a href="{{ route('presentation_paris') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Paris</a></p>
+                        <p><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Marrakesh</a></p>
                     </div>
                 </div>
             </div>
