@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+body::-webkit-scrollbar{
+    background-color: transparent;
+    width: 3px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #bc8c2d;
+}
+
 .slide-text {
     opacity: 0;
     transform: translateX(-30%);
