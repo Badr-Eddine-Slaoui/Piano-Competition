@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+*::selection{
+    background-color: black;
+    color: #bc8c2d;
+}
+
 body::-webkit-scrollbar{
     background-color: transparent;
     width: 3px;
