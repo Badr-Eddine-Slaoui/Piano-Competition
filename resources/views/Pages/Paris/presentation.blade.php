@@ -4,11 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Presentation Marrakech</title>
+        <title>Presentation Paris</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        <link rel="shortcut icon" href="{{ asset('Images/Paris.png') }}" type="image/x-icon">
 
         <!-- Styles / Scripts -->
         @vite(['resources/css/app.css', 'resources/js/carousel.js', 'resources/js/app.js'])
@@ -16,26 +17,25 @@
     </head>
     <body class="text-white bg-[#231F20] overflow-x-hidden">
         <header class="w-full h-[20vh]">
-            <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-[#231F20] flex justify-between">
+            <nav class="w-full h-[20vh] px-[3vh] py-[3vh] fixed top-0 left-0 z-10 bg-[#231F20] flex justify-between">
                 <div class="w-1/6 flex justify-center items-center">
                     <a href="{{ route('home') }}"><img class="w-[90%] ms-auto" src="{{ asset('Images/Logo.png')  }}" alt="Logo"></a>
                 </div>
-                <div class="w-4/6 grid grid-cols-1 grid-rows-2 mr-12">
-                    <ul class="w-1/6 ml-auto mt-5 flex items-center justify-between text-white font-bold text-xl">
-                    <li><a href="{{ route('presentation_paris') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Paris</a></li>
-                    <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none border-b-4 border-orange-600">Marrakesh</a></li>
-                </ul>
-                    <ul class="w-full ml-auto mb-5 flex items-center justify-between text-white font-bold text-xl">
-                    <li><a href="{{ route('home') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Accueil</a></li>
-                    <li><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none border-b-4 border-orange-600">Presentation</a></li>
-                    <li><a href="{{ route('galerie') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Galerie</a></li>
-                    <li><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Edition 2025</a></li>
-                    <li><a href="{{ route('inscription_marrakech') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Inscription</a></li>
-                    <li><a href="{{ route('jury') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Jury</a></li>
-                    <li><a href="{{ route('comite_honneur') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Comite d’Honneur</a></li>
-                    <li><a href="{{ route('laureats') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Laureats</a></li>
-                    <li><a href="{{ route('contact') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Contactez-nous</a></li>
-                </ul>
+                <div class="w-3/6 grid grid-cols-1 grid-rows-2 mr-12">
+                    <ul class="w-full ml-auto flex items-center justify-between text-white font-semibold text-[18px]">
+                        <li><a href="{{ route('paris.home') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Accueil</a></li>
+                        <li><a href="{{ route('paris.presentation') }}" class="text-decoration-none border-b-4 border-[#bc8c2d]">Presentation</a></li>
+                        <li><a href="{{ route('paris.galerie') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Galerie</a></li>
+                        <li><a href="{{ route('paris.edition_2025') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Edition 2025</a></li>
+                        <li><a href="{{ route('paris.inscription') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Inscription</a></li>
+                    </ul>
+                    <ul class="w-full ml-auto flex items-center justify-between text-white font-semibold text-xl">
+                        <li><a href="{{ route('paris.jury') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Jury</a></li>
+                        <li><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Comite d’Honneur</a></li>
+                        <li><a href="{{ route('paris.laureats') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Laureats</a></li>
+                        <li><a href="{{ route('paris.contact') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Contactez-nous</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
         <main id="carousel" class="w-full h-[80vh] relative overflow-x-hidden">
@@ -56,7 +56,7 @@
                 <div class="w-full h-[35vh] my-10">
                     <img class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.png') }}" alt="EventBanner">
                 </div>
-                <p class="text-[#a3a3a3] text-[22px]">
+                <p class="text-[#a3a3a3] text-[18px]">
                     Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 23 Octobre 2023, date de début du concours.
                     Avoir 6 ans révolus et
                     N’ont pas encore atteint l’âge de 19 ans.
@@ -79,7 +79,7 @@
                 <div class="w-full h-[35vh] my-10">
                     <img class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.png') }}" alt="EventBanner">
                 </div>
-                <p class="text-[#a3a3a3] text-[22px]">
+                <p class="text-[#a3a3a3] text-[18px]">
                     Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 23 Octobre 2023, date de début du concours.
                     Avoir 6 ans révolus et
                     N’ont pas encore atteint l’âge de 19 ans.
@@ -90,8 +90,8 @@
                     </div>
                     <div class="flex items-center justify-center">
                         <div class="w-full">
-                            <h2 class="text-[24px] text-white font-extrabold mb-5">Premier Edition: Titre Ici</h2>
-                            <p class="w-full text-[#a3a3a3] text-[22px]">
+                            <h2 class="text-[18px] text-white font-extrabold mb-5">Premier Edition: Titre Ici</h2>
+                            <p class="w-full text-[#a3a3a3] text-[18px]">
                                 Les enregistrements vidéo et audio privés ne sont pas autorisés pendant le concours. L’organisateur procédera à des enregistrements visuels et sonores dont chaque participant cède gratuitement les droits d’utilisation à l’organisateur. Les demandes d’honoraires sont irrecevables.
                                 L’organisateur n’est pas responsable des dommages corporels ou matériels survenant dans le cadre des manifestations du concours.
                             </p>
@@ -104,8 +104,8 @@
                     </div>
                     <div class="flex items-center justify-center">
                         <div class="w-full">
-                            <h2 class="text-[24px] text-white font-extrabold mb-5">Premier Edition: Titre Ici</h2>
-                            <p class="w-full text-[22px] text-[#a3a3a3]">
+                            <h2 class="text-[18px] text-white font-extrabold mb-5">Premier Edition: Titre Ici</h2>
+                            <p class="w-full text-[18px] text-[#a3a3a3]">
                                 Les enregistrements vidéo et audio privés ne sont pas autorisés pendant le concours. L’organisateur procédera à des enregistrements visuels et sonores dont chaque participant cède gratuitement les droits d’utilisation à l’organisateur. Les demandes d’honoraires sont irrecevables.
                                 L’organisateur n’est pas responsable des dommages corporels ou matériels survenant dans le cadre des manifestations du concours.
                             </p>
@@ -118,8 +118,8 @@
                     </div>
                     <div class="flex items-center justify-center">
                         <div class="w-full">
-                            <h2 class="text-[24px] text-white font-extrabold mb-5">Premier Edition: Titre Ici</h2>
-                            <p class="w-full text-[22px] text-[#a3a3a3]">
+                            <h2 class="text-[18px] text-white font-extrabold mb-5">Premier Edition: Titre Ici</h2>
+                            <p class="w-full text-[18px] text-[#a3a3a3]">
                                 Les enregistrements vidéo et audio privés ne sont pas autorisés pendant le concours. L’organisateur procédera à des enregistrements visuels et sonores dont chaque participant cède gratuitement les droits d’utilisation à l’organisateur. Les demandes d’honoraires sont irrecevables.
                                 L’organisateur n’est pas responsable des dommages corporels ou matériels survenant dans le cadre des manifestations du concours.
                             </p>
@@ -133,37 +133,37 @@
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
                 <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Contactez-nous</h2>
             </div>
-            <form class="w-full py-5 mb-5" action="{{ route('contact.store') }}" method="post">
+            <form class="w-full py-5 mb-5" action="{{ route('paris.contact.store') }}" method="post">
                 @csrf
                 <div class="w-3/5 mx-auto">
                     <div class="grid grid-cols-1 grid-rows-1 gap-10">
                         <div class="grid grid-cols-1 grid-rows-2 gap-4">
-                            <label class="text-[22px] text-[#a3a3a3]" for="nom_complet">Nom Complet: <span class=" text-red-600">*</span></label>
+                            <label class="text-[18px] text-[#a3a3a3]" for="nom_complet">Nom Complet: <span class=" text-red-600">*</span></label>
                             <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md" placeholder="Entrer votre nom" id="nom_complet" name="nom_complet" type="text" value="{{ old('nom_complet') }}">
                             @error('nom_complet')
                                 <p class="text-red-600 mt-5">{{ $message }}</p>
                             @enderror
                         </div>
                         <div class="grid grid-cols-1 grid-rows-2 gap-4">
-                            <label class="text-[22px] text-[#a3a3a3]" for="email">Email: <span class=" text-red-600">*</span></label>
+                            <label class="text-[18px] text-[#a3a3a3]" for="email">Email: <span class=" text-red-600">*</span></label>
                             <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md" placeholder="Entrer votre email" id="email" name="email" type="email" value="{{ old('email') }}">
                             @error('email')
                                 <p class="text-red-600 mt-5">{{ $message }}</p>
                             @enderror
                         </div>
                         <div class="grid grid-cols-1 grid-rows-1">
-                            <label class="text-[22px] text-[#a3a3a3] mb-4" for="message">Message: <span class=" text-red-600">*</span></label>
+                            <label class="text-[18px] text-[#a3a3a3] mb-4" for="message">Message: <span class=" text-red-600">*</span></label>
                             <textarea class="text-black focus:outline-0 px-4 py-1 rounded-md resize-none" name="message" id="message" cols="30" rows="10" placeholder="Entrer votre message">{{ old('message') }}</textarea>
                             @error('message')
                                 <p class="text-red-600 mt-5">{{ $message }}</p>
                             @enderror
                         </div>
                     </div>
-                    <input class="cursor-pointer bg-blue-400 py-3 px-10 rounded-md my-10 text-white text-[22px]" type="submit" value="Envoyer">
+                    <input class="cursor-pointer bg-blue-400 py-3 px-10 rounded-md my-10 text-white text-[18px]" type="submit" value="Envoyer">
                 </div>
             </form>
             <div  class="flex items-center justify-center">
-                <div class="w-4/5 mx-auto my-auto">
+                <div class="mx-auto my-auto">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9539.909954918676!2d-9.236782905252008!3d32.2885398619593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sma!4v1730801757056!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
@@ -177,37 +177,35 @@
                     </a>
                 </div>
                 <div>
-                    <p class="text-[26px] text-[#bc8c2d] font-bold mb-5">Media</p>
-                    <div class="grid grid-cols-4 gap-5 w-5/6">
-                        <a href="#" target="_blank"><img class="hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Fb.png') }}" alt="FB"></a>
-                        <a href="#" target="_blank"><img class="hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Insta.png') }}" alt="Insta"></a>
-                        <a href="#" target="_blank"><img class="hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/X.png') }}" alt="X"></a>
-                        <a href="#" target="_blank"><img class="hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Gmail.png') }}" alt="Gmail"></a>
+                    <p class="text-[18px] text-[#bc8c2d] font-bold mb-5">Media</p>
+                    <div class="grid grid-cols-4 gap-5 w-4/6">
+                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Fb.png') }}" alt="FB"></a>
+                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Insta.png') }}" alt="Insta"></a>
+                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/X.png') }}" alt="X"></a>
+                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Gmail.png') }}" alt="Gmail"></a>
                     </div>
                 </div>
                 <div>
-                    <p class="text-[26px] text-[#bc8c2d] font-bold my-4">Contacts</p>
-                    <a href="mailto:competpianosafi@gmail.com"><p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">competpianosafi@gmail.com</p></a>
-                    <a href="tel:+212612345789"><p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">+212 612345789</p></a>
-                    <p class="text-[26px] text-[#bc8c2d] font-bold my-4">Lieus</p>
-                    <a href="#map"><p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">Rue Ibnou Badis, Safi, Morocco</p></a>
-                    <p class="text-[26px] text-[#bc8c2d] font-bold my-4">Horaires</p>
-                    <p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">Lundi – Samedi: 8h – 20h</p>
-                    <p class="text-[22px] text-white hover:text-[#bc8c2d] mb-3">Dimanche: Fermé</p>
+                    <p class="text-[18px] text-[#bc8c2d] font-bold my-4">Contacts</p>
+                    <a href="mailto:competpianosafi@gmail.com"><p class="text-[18px] text-white hover:text-[#bc8c2d] mb-3">competpianosafi@gmail.com</p></a>
+                    <a href="tel:+212612345789"><p class="text-[18px] text-white hover:text-[#bc8c2d] mb-3">+212 612345789</p></a>
+                    <p class="text-[18px] text-[#bc8c2d] font-bold my-4">Lieus</p>
+                    <a href="#map"><p class="text-[18px] text-white hover:text-[#bc8c2d] mb-3">Rue Ibnou Badis, Safi, Morocco</p></a>
+                    <p class="text-[18px] text-[#bc8c2d] font-bold my-4">Horaires</p>
+                    <p class="text-[18px] text-white hover:text-[#bc8c2d] mb-3">Lundi – Samedi: 8h – 20h</p>
+                    <p class="text-[18px] text-white hover:text-[#bc8c2d] mb-3">Dimanche: Fermé</p>
                 </div>
                 <div>
-                    <p class="text-[26px] text-[#bc8c2d] font-bold mt-4 my-6">Les Pages</p>
+                    <p class="text-[18px] text-[#bc8c2d] font-bold mt-4 my-6">Les Pages</p>
                     <div class="grid grid-cols-2 grid-rows-1 gap-y-10">
-                        <p><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Presentation</a></p>
-                        <p><a href="{{ route('galerie') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Galerie</a></p>
-                        <p><a href="{{ route('edition_2025_marrakech') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Edition 2025</a></p>
-                        <p><a href="{{ route('inscription_marrakech') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Inscription</a></p>
-                        <p><a href="{{ route('jury') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Jury</a></p>
-                        <p><a href="{{ route('comite_honneur') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Comite d’Honneur</a></p>
-                        <p><a href="{{ route('laureats') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Laureats</a></p>
-                        <p><a href="{{ route('contact') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Contactez-nous</a></p>
-                        <p><a href="{{ route('presentation_paris') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Paris</a></p>
-                        <p><a href="{{ route('presentation_marrakech') }}" class="text-decoration-none text-[22px] text-white hover:text-[#bc8c2d]">Marrakesh</a></p>
+                        <p><a href="{{ route('paris.presentation') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Presentation</a></p>
+                        <p><a href="{{ route('paris.galerie') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Galerie</a></p>
+                        <p><a href="{{ route('paris.edition_2025') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Edition 2025</a></p>
+                        <p><a href="{{ route('paris.inscription') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Inscription</a></p>
+                        <p><a href="{{ route('paris.jury') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Jury</a></p>
+                        <p><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Comite d’Honneur</a></p>
+                        <p><a href="{{ route('paris.laureats') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Laureats</a></p>
+                        <p><a href="{{ route('paris.contact') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Contactez-nous</a></p>
                     </div>
                 </div>
             </div>
