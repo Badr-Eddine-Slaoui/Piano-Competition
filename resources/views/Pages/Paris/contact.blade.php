@@ -80,7 +80,7 @@
                                 @enderror
                             </div>
                         </div>
-                        <input class=" bg-blue-400 py-3 px-10 rounded-md my-5 text-white text-[18px]" type="submit" value="Envoyer">
+                        <input class="cursor-pointer bg-blue-400 py-3 px-10 rounded-md my-5 text-white text-[18px]" type="submit" value="Envoyer">
                     </div>
                 </form>
             </div>
