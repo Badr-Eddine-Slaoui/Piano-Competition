@@ -2,7 +2,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "start": "concurrently -k -n SERVER,CLIENT -c yellow,blue \"php artisan serve\" \"npm run dev\"",
+        "start": "concurrently -k -n SERVER,CLIENT -c yellow,blue \"php artisan serve --port=5001\" \"npm run dev\"",
         "build": "vite build",
         "dev": "vite"
     },
