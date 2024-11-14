@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Contactez-nous</title>
+        <title>Paris - Contactez-nous</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -17,29 +17,29 @@
     </head>
     <body class="text-white bg-[#231F20]">
         <header class="w-full h-[20vh]">
-            <nav class="w-full h-[20vh] fixed top-0 left-0 z-10 bg-[#231F20] flex justify-between">
+            <nav class="w-full h-[20vh] px-[3vh] py-[3vh] fixed top-0 left-0 z-10 bg-[#231F20] flex justify-between">
                 <div class="w-1/6 flex justify-center items-center">
                     <a href="{{ route('home') }}"><img class="w-[90%] ms-auto" src="{{ asset('Images/Logo.png')  }}" alt="Logo"></a>
                 </div>
-                <div class="w-4/6 grid grid-cols-1 grid-rows-2 mr-12">
-                    <ul class="w-full ml-auto mb-5 flex items-center justify-between text-white font-bold text-xl">
-                        <li><a href="{{ route('paris.home') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Accueil</a></li>
-                        <li><a href="{{ route('paris.presentation') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Presentation</a></li>
-                        <li><a href="{{ route('paris.galerie') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Galerie</a></li>
-                        <li><a href="{{ route('paris.edition_2025') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Edition 2025</a></li>
-                        <li><a href="{{ route('paris.inscription') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Inscription</a></li>
-                        <li><a href="{{ route('paris.jury') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Jury</a></li>
-                        <li><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Comite d’Honneur</a></li>
-                        <li><a href="{{ route('paris.laureats') }}" class="text-decoration-none hover:border-b-4 border-orange-600">Laureats</a></li>
-                        <li><a href="{{ route('paris.contact') }}" class="text-decoration-none border-b-4 border-orange-600">Contactez-nous</a></li>
+                <div class="w-3/6 grid grid-cols-1 grid-rows-2 mr-12">
+                    <ul class="w-full ml-auto flex items-center justify-between text-white font-semibold text-[18px]">
+                        <li><a href="{{ route('paris.home') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Accueil</a></li>
+                        <li><a href="{{ route('paris.presentation') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Presentation</a></li>
+                        <li><a href="{{ route('paris.galerie') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Galerie</a></li>
+                        <li><a href="{{ route('paris.edition_2025') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Edition 2025</a></li>
+                        <li><a href="{{ route('paris.inscription') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Inscription</a></li>
                     </ul>
+                    <ul class="w-full ml-auto flex items-center justify-between text-white font-semibold text-xl">
+                        <li><a href="{{ route('paris.jury') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Jury</a></li>
+                        <li><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Comite d’Honneur</a></li>
+                        <li><a href="{{ route('paris.laureats') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Laureats</a></li>
+                        <li><a href="{{ route('paris.contact') }}" class="text-decoration-none border-b-4 border-[#bc8c2d]">Contactez-nous</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
-        <main id="carousel" class="w-full h-[80vh] relative overflow-x-hidden">
-            <div id="carousel-track" class="w-full h-full flex ">
-                <img class="w-full h-full flex-shrink-0" src="{{ asset('Images/home-header-img.png') }}">
-                <img class="w-full h-full flex-shrink-0" src="{{ asset('Images/Re-Belle-Communication.png') }}">
-            </div>
+        <main class="w-full h-[80vh]">
+            <video class="w-[100vw] h-[80vh] object-cover" poster="{{ asset('Images/home-header-img.png') }}" src="{{ asset('Videos/HomeHeaderVideo.mp4') }}" muted autoplay loop></video>
         </main>
         <aside class=" fixed left-0 top-[25vh] w-1/12 z-[-1]">
             <img class="w-full" src="{{ asset('Images/SideImg.png')  }}" alt="SideImg">
@@ -50,9 +50,6 @@
                 <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Contactez-nous</h2>
             </div>
             <div class="w-4/5 min-h-[80vh] m-auto">
-                <div class="w-full h-[35vh] my-10">
-                    <img class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.png') }}" alt="EventBanner">
-                </div>
                 <p class="text-[#a3a3a3] text-[18px] my-10">
                     Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 23 Octobre 2023, date de début du concours.
                     Avoir 6 ans révolus et
@@ -62,16 +59,25 @@
                     <div class="w-3/5 mx-auto border border-white py-16 px-10 rounded-3xl">
                         <div class="grid grid-cols-1 grid-rows-1 gap-10">
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
-                                <label class="text-[18px] text-[#a3a3a3]" for="nom">Nom:</label>
-                                <input class="focus:outline-0 px-4 py-1 rounded-md" id="nom" name="nom" type="text">
+                                <label class="text-[18px] text-[#a3a3a3]" for="nom_complet">Nom Complet: <span class=" text-red-600">*</span></label>
+                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md" placeholder="Entrer votre nom" id="nom_complet" name="nom_complet" type="text" value="{{ old('nom_complet') }}">
+                                @error('nom_complet')
+                                    <p class="text-red-600 mt-5">{{ $message }}</p>
+                                @enderror
                             </div>
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
-                                <label class="text-[18px] text-[#a3a3a3]" for="email">Email:</label>
-                                <input class="focus:outline-0 px-4 py-1 rounded-md" id="email" name="email" type="email">
+                                <label class="text-[18px] text-[#a3a3a3]" for="email">Email: <span class=" text-red-600">*</span></label>
+                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md" placeholder="Entrer votre email" id="email" name="email" type="email" value="{{ old('email') }}">
+                                @error('email')
+                                    <p class="text-red-600 mt-5">{{ $message }}</p>
+                                @enderror
                             </div>
                             <div class="grid grid-cols-1 grid-rows-1">
-                                <label class="text-[18px] text-[#a3a3a3] mb-4" for="message">Message</label>
-                                <textarea class="focus:outline-0 px-4 py-1 rounded-md resize-none" name="message" id="message" cols="30" rows="10"></textarea>
+                                <label class="text-[18px] text-[#a3a3a3] mb-4" for="message">Message: <span class=" text-red-600">*</span></label>
+                                <textarea class="text-black focus:outline-0 px-4 py-1 rounded-md resize-none" name="message" id="message" cols="30" rows="10" placeholder="Entrer votre message">{{ old('message') }}</textarea>
+                                @error('message')
+                                    <p class="text-red-600 mt-5">{{ $message }}</p>
+                                @enderror
                             </div>
                         </div>
                         <input class=" bg-blue-400 py-3 px-10 rounded-md my-5 text-white text-[18px]" type="submit" value="Envoyer">
