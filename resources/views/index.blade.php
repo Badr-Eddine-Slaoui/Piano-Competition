@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Concours International de Piano</title>
+        <title>Concours International de Piano - Mouvement Contraire</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
