@@ -9,7 +9,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-        <link rel="shortcut icon" href="{{ asset('Images/Marrakech.png') }}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{ asset('Images/MarrakechIcon.webp') }}" type="image/x-icon">
 
         <!-- Styles / Scripts -->
         @vite(['resources/css/app.css', 'resources/css/home.css', 'resources/js/app.js'])
@@ -19,19 +19,19 @@
         <header class="w-full h-[20vh]">
             <nav class="w-full h-[20vh] px-[3vh] py-[3vh] fixed top-0 left-0 z-10 bg-[#231F20] flex justify-between">
                 <div class="w-1/6 flex justify-center items-center">
-                    <a href="{{ route('home') }}"><img class="w-[90%] ms-auto" src="{{ asset('Images/Logo.png')  }}" alt="Logo"></a>
+                    <a href="{{ route('home') }}"><img loading="lazy" class="w-[90%] ms-auto" src="{{ asset('Images/Logo.webp')  }}" alt="Logo"></a>
                 </div>
                 <div class="w-3/6 grid grid-cols-1 grid-rows-2 mr-12">
                     <ul class="w-full ml-auto flex items-center justify-between text-white font-semibold text-[18px]">
                         <li><a href="{{ route('marrakech.home') }}" class="text-decoration-none border-b-4 border-[#bc8c2d]">Accueil</a></li>
                         <li><a href="{{ route('marrakech.presentation') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Presentation</a></li>
-                        <li><a href="{{ route('marrakech.galerie') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Galerie</a></li>
                         <li><a href="{{ route('marrakech.edition_2025') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Edition 2025</a></li>
-                        <li><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Inscription</a></li>
-                    </ul>
-                    <ul class="w-full ml-auto flex items-center justify-between text-white font-semibold text-xl">
                         <li><a href="{{ route('marrakech.jury') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Jury</a></li>
                         <li><a href="{{ route('marrakech.comite_honneur') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Comite d’Honneur</a></li>
+                    </ul>
+                    <ul class="w-full ml-auto flex items-center justify-between text-white font-semibold text-xl">
+                        <li><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Inscription</a></li>
+                        <li><a href="{{ route('marrakech.galerie') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Galerie</a></li>
                         <li><a href="{{ route('marrakech.laureats') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Laureats</a></li>
                         <li><a href="{{ route('marrakech.contact') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Contactez-nous</a></li>
                     </ul>
@@ -39,12 +39,12 @@
             </nav>
         </header>
         <main class="w-full h-[80vh]">
-            <video class="w-[100vw] h-[80vh] object-cover" poster="{{ asset('Images/home-header-img.png') }}" src="{{ asset('Videos/HomeHeaderVideo.mp4') }}" muted autoplay loop></video>
+            <video class="w-[100vw] h-[80vh] object-cover" poster="{{ asset('Images/home-header-img.webp') }}" src="{{ asset('Videos/HomeHeaderVideo.mp4') }}" muted autoplay loop></video>
         </main>
         <aside class=" fixed left-0 top-[25vh] w-1/12 z-[-1]">
-            <img class="w-full" src="{{ asset('Images/SideImg.png')  }}" alt="SideImg">
+            <img loading="lazy" class="w-full" src="{{ asset('Images/SideImg.webp')  }}" alt="SideImg">
         </aside>
-        <section class="w-full min-h-screen my-5">
+        <section class="w-full min-h-[50vh] my-5">
             <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
                 <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Concours</h2>
@@ -56,10 +56,7 @@
                         <p class="text-[18px] text-[#a3a3a3]">La 3ème édition<br> Du 23 Octobre 2023<br> au 30 Octobre 2023</p>
                     </div>
                 </div>
-                <div class="h-3/4">
-                    <img src="{{ asset('Images/PosterMarrakech.png') }}" alt="PosterMarrakech">
-                </div>
-                <div class="col-span-2 w-3/5 mx-auto my-20">
+                <div class="flex h-3/4 items-center justify-center">
                     <q class="text-gray-400 text-[18px]">
                         Imaginé comme une rencontre musicale, le Concours de Piano Mouvement Contraire se veut un trait d’union entre le patrimoine musical et la création contemporaine. Depuis 2012, des pianistes de tout âge sont de plus en plus nombreux à participer au concours et l’exigence du message les aide à progresser. Aujourd’hui grâce au soutien des partenaires et à l’adhésions des écoles professeurs et parents, Mouvement Contraire devient un concours international de premier plan.
                     </q>
@@ -69,12 +66,12 @@
         <section class="w-full min-h-screen my-5">
             <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
-                <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Les Messages</h2>
+                <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Les Mots</h2>
             </div>
             <div class="w-4/5 min-h-screen mb-5 m-auto grid grid-cols-2 grid-rows-1 gap-10">
                 <div class="message h-[65vh] opacity-60 cursor-pointer hover:opacity-100 hover:-translate-y-3 hover:scale-105 transition-all duration-500">
                     <div class="info-container grid grid-rows-1 grid-cols-2 mb-5">
-                        <img class="w-[90%] h-[20vh]" src="{{ asset('Images/Rachida-Dati.jpg') }}" alt="Rachida Dati">
+                        <img loading="lazy" class="w-[90%] h-[20vh]" src="{{ asset('Images/Rachida-Dati.webp') }}" alt="Rachida Dati">
                         <div class="infos">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Rachida Dati</p>
                             <p class="text-[18px] text-gray-400 italic">Marraine du concours</p>
@@ -85,7 +82,7 @@
                 </div>
                 <div class="message h-[65vh] opacity-60 cursor-pointer hover:opacity-100 hover:-translate-y-3 hover:scale-105 transition-all duration-500">
                     <div class="info-container grid grid-rows-1 grid-cols-2 mb-5">
-                        <img class="w-[90%] h-[20vh]" src="{{ asset('Images/Lamia-BOUKAA.png') }}" alt="Lamia BOUKAA">
+                        <img loading="lazy" class="w-[90%] h-[20vh]" src="{{ asset('Images/Lamia-BOUKAA.webp') }}" alt="Lamia BOUKAA">
                         <div class="infos">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Lamia BOUKAA</p>
                             <p class="text-[18px] text-gray-400 italic">Mot de la directrice du Concours</p>
@@ -98,7 +95,7 @@
                 </div>
                 <div class="message h-[65vh] opacity-60 cursor-pointer hover:opacity-100 hover:-translate-y-3 hover:scale-105 transition-all duration-500">
                     <div class="info-container grid grid-rows-1 grid-cols-2 mb-5">
-                        <img class="w-[90%] h-[20vh]" src="{{ asset('Images/Joshu- LAFFONT-COHEN.png') }}" alt="Joshua LAFFONT-COHEN">
+                        <img loading="lazy" class="w-[90%] h-[20vh]" src="{{ asset('Images/Joshu- LAFFONT-COHEN.webp') }}" alt="Joshua LAFFONT-COHEN">
                         <div class="infos">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Joshua LAFFONT-COHEN</p>
                             <p class="text-[18px] text-gray-400 italic">Directeur du Concours</p>
@@ -110,10 +107,10 @@
                 </div>
                 <div class="message h-[65vh] opacity-60 cursor-pointer hover:opacity-100 hover:-translate-y-3 hover:scale-105 transition-all duration-500">
                     <div class="info-container grid grid-rows-1 grid-cols-2 mb-5">
-                        <img class="w-[90%] h-[20vh]" src="{{ asset('Images/Racha-Arodaky.png') }}" alt="Racha ARODAKY">
+                        <img loading="lazy" class="w-[90%] h-[20vh]" src="{{ asset('Images/Racha-Arodaky.webp') }}" alt="Racha ARODAKY">
                         <div class="infos">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Racha ARODAKY</p>
-                            <p class="text-[18px] text-gray-400 italic">Rrésidente du Jury</p>
+                            <p class="text-[18px] text-gray-400 italic">Présidente du Jury</p>
                         </div>
                     </div>
                     <p class="text-[18px] font-bold my-3">Partage & convivialité</p>
@@ -136,37 +133,37 @@
                 <div class="partners-track overflow-x-hidden relative">
                     <div class="partners-list grid grid-cols-4 grid-rows-1 w-full h-full">
                         <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Poly-Plumes.png') }}" alt="Poly plumes">
+                            <img loading="lazy" class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Poly-Plumes.webp') }}" alt="Poly plumes">
                             <p class="text-center text-[18px] font-bold my-5 text-gray-400">Poly Plumes</p>
                         </div>
                         <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Meydene.png') }}" alt="Meydene">
+                            <img loading="lazy" class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Meydene.webp') }}" alt="Meydene">
                             <p class="text-center text-[18px] font-bold my-5 text-gray-400">Meydene</p>
                         </div>
                         <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/M-Avenue.png') }}" alt="M Avenue">
+                            <img loading="lazy" class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/M-Avenue.webp') }}" alt="M Avenue">
                             <p class="text-center text-[18px] font-bold my-5 text-gray-400">M Avenue</p>
                         </div>
                         <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Re-Belle-Communication.png') }}" alt="Re ‘ Belle communication">
+                            <img loading="lazy" class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Re-Belle-Communication.webp') }}" alt="Re ‘ Belle communication">
                             <p class="text-center text-[18px] font-bold my-5 text-gray-400">Re ‘ Belle communication</p>
                         </div>
                     </div>
                     <div class="partners-list grid grid-cols-4 grid-rows-1 absolute left-[100%] top-0 w-full h-full">
                         <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Poly-Plumes.png') }}" alt="Poly plumes">
+                            <img loading="lazy" class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Poly-Plumes.webp') }}" alt="Poly plumes">
                             <p class="text-center text-[18px] font-bold my-5 text-gray-400">Poly Plumes</p>
                         </div>
                         <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Meydene.png') }}" alt="Meydene">
+                            <img loading="lazy" class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Meydene.webp') }}" alt="Meydene">
                             <p class="text-center text-[18px] font-bold my-5 text-gray-400">Meydene</p>
                         </div>
                         <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/M-Avenue.png') }}" alt="M Avenue">
+                            <img loading="lazy" class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/M-Avenue.webp') }}" alt="M Avenue">
                             <p class="text-center text-[18px] font-bold my-5 text-gray-400">M Avenue</p>
                         </div>
                         <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                            <img class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Re-Belle-Communication.png') }}" alt="Re ‘ Belle communication">
+                            <img loading="lazy" class="w-[10vw] mt-5 m-auto" src="{{ asset('Images/Re-Belle-Communication.webp') }}" alt="Re ‘ Belle communication">
                             <p class="text-center text-[18px] font-bold my-5 text-gray-400">Re ‘ Belle communication</p>
                         </div>
                     </div>
@@ -214,20 +211,20 @@
             </div>
         </section>
         <footer class="w-full min-h-80 bg-[#231F20] py-5">
-            <img class="w-full" src="{{ asset('Images/footer-bg-piano.png') }}" alt="Footer Bg Piano">
+            <img loading="lazy" class="w-full" src="{{ asset('Images/footer-bg-piano.webp') }}" alt="Footer Bg Piano">
             <div class="w-4/5 mx-auto grid grid-rows-1 grid-cols-2 py-4">
                 <div>
                     <a href="{{ route('home') }}">
-                      <img class="block w-1/2 my-10" src="{{ asset('Images/logo.png') }}" alt="logo">
+                      <img loading="lazy" class="block w-1/2 my-10" src="{{ asset('Images/logo.webp') }}" alt="logo">
                     </a>
                 </div>
                 <div>
                     <p class="text-[18px] text-[#bc8c2d] font-bold mb-5">Media</p>
                     <div class="grid grid-cols-4 gap-5 w-4/6">
-                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Fb.png') }}" alt="FB"></a>
-                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Insta.png') }}" alt="Insta"></a>
-                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/X.png') }}" alt="X"></a>
-                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Gmail.png') }}" alt="Gmail"></a>
+                        <a href="#" target="_blank"><img loading="lazy" class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Fb.webp') }}" alt="FB"></a>
+                        <a href="#" target="_blank"><img loading="lazy" class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Insta.webp') }}" alt="Insta"></a>
+                        <a href="#" target="_blank"><img loading="lazy" class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/X.webp') }}" alt="X"></a>
+                        <a href="#" target="_blank"><img loading="lazy" class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Gmail.webp') }}" alt="Gmail"></a>
                     </div>
                 </div>
                 <div>
@@ -244,11 +241,11 @@
                     <p class="text-[18px] text-[#bc8c2d] font-bold mt-4 my-6">Les Pages</p>
                     <div class="grid grid-cols-2 grid-rows-1 gap-y-10">
                         <p><a href="{{ route('marrakech.presentation') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Presentation</a></p>
-                        <p><a href="{{ route('marrakech.galerie') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Galerie</a></p>
                         <p><a href="{{ route('marrakech.edition_2025') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Edition 2025</a></p>
-                        <p><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Inscription</a></p>
                         <p><a href="{{ route('marrakech.jury') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Jury</a></p>
                         <p><a href="{{ route('marrakech.comite_honneur') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Comite d’Honneur</a></p>
+                        <p><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Inscription</a></p>
+                        <p><a href="{{ route('marrakech.galerie') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Galerie</a></p>
                         <p><a href="{{ route('marrakech.laureats') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Laureats</a></p>
                         <p><a href="{{ route('marrakech.contact') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Contactez-nous</a></p>
                     </div>

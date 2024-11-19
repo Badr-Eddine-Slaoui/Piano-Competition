@@ -1,8 +1,10 @@
 .laureats .left{
+    opacity: 0;
     transform: translateX(-100%);
 }
 
 .laureats .right{
+    opacity: 0;
     transform: translateX(100%);
 }
 

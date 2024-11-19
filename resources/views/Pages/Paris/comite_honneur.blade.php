@@ -9,7 +9,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-        <link rel="shortcut icon" href="{{ asset('Images/Paris.png') }}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{ asset('Images/ParisIcon.webp') }}" type="image/x-icon">
 
         <!-- Styles / Scripts -->
         @vite(['resources/css/app.css','resources/css/comite.css', 'resources/js/comite.js', 'resources/js/carousel.js', 'resources/js/app.js'])
@@ -19,19 +19,19 @@
         <header class="w-full h-[20vh]">
             <nav class="w-full h-[20vh] px-[3vh] py-[3vh] fixed top-0 left-0 z-10 bg-[#231F20] flex justify-between">
                 <div class="w-1/6 flex justify-center items-center">
-                    <a href="{{ route('home') }}"><img class="w-[90%] ms-auto" src="{{ asset('Images/Logo.png')  }}" alt="Logo"></a>
+                    <a href="{{ route('home') }}"><img loading="lazy" class="w-[90%] ms-auto" src="{{ asset('Images/Logo.webp')  }}" alt="Logo"></a>
                 </div>
                 <div class="w-3/6 grid grid-cols-1 grid-rows-2 mr-12">
                     <ul class="w-full ml-auto flex items-center justify-between text-white font-semibold text-[18px]">
                         <li><a href="{{ route('paris.home') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Accueil</a></li>
                         <li><a href="{{ route('paris.presentation') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Presentation</a></li>
-                        <li><a href="{{ route('paris.galerie') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Galerie</a></li>
                         <li><a href="{{ route('paris.edition_2025') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Edition 2025</a></li>
-                        <li><a href="{{ route('paris.inscription') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Inscription</a></li>
-                    </ul>
-                    <ul class="w-full ml-auto flex items-center justify-between text-white font-semibold text-xl">
                         <li><a href="{{ route('paris.jury') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Jury</a></li>
                         <li><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-none border-b-4 border-[#bc8c2d]">Comite d’Honneur</a></li>
+                    </ul>
+                    <ul class="w-full ml-auto flex items-center justify-between text-white font-semibold text-xl">
+                        <li><a href="{{ route('paris.inscription') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Inscription</a></li>
+                        <li><a href="{{ route('paris.galerie') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Galerie</a></li>
                         <li><a href="{{ route('paris.laureats') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Laureats</a></li>
                         <li><a href="{{ route('paris.contact') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Contactez-nous</a></li>
                     </ul>
@@ -40,12 +40,12 @@
         </header>
         <main id="carousel" class="w-full h-[80vh] relative overflow-x-hidden">
             <div id="carousel-track" class="w-full h-full flex ">
-                <img class="w-full h-full flex-shrink-0" src="{{ asset('Images/home-header-img.png') }}">
-                <img class="w-full h-full flex-shrink-0" src="{{ asset('Images/Re-Belle-Communication.png') }}">
+                <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/home-header-img.webp') }}">
+                <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/Re-Belle-Communication.webp') }}">
             </div>
         </main>
         <aside class=" fixed left-0 top-[25vh] w-1/12 z-[-1]">
-            <img class="w-full" src="{{ asset('Images/SideImg.png')  }}" alt="SideImg">
+            <img loading="lazy" class="w-full" src="{{ asset('Images/SideImg.webp')  }}" alt="SideImg">
         </aside>
         <section class="w-full min-h-screen my-5">
             <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
@@ -55,7 +55,7 @@
             <div class="w-4/5 min-h-screen mb-5 m-auto flex flex-wrap justify-between">
                 <div class="comite w-1/2 h-[30vh] mb-20 left">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Mohamed-Mehdi-Bensaid.jpeg') }}" alt="Mohamed Mehdi Bensaid">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Mohamed-Mehdi-Bensaid.webp') }}" alt="Mohamed Mehdi Bensaid">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Mohamed Mehdi Bensaid</p>
                             <p class="text-[18px] text-gray-400 italic">Mot de la directrice du Concours</p>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 right">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Samir-Goudar.jpg') }}" alt="Samir Goudar">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Samir-Goudar.webp') }}" alt="Samir Goudar">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Samir Goudar</p>
                             <p class="text-[18px] text-gray-400 italic">Président du conseil Régional de la région Marrakech- Safi. Maroc</p>
@@ -73,7 +73,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 left">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Allal-Benjelloun.jpg') }}" alt="Allal Benjelloun">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Allal-Benjelloun.webp') }}" alt="Allal Benjelloun">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Allal Benjelloun</p>
                             <p class="text-[18px] text-gray-400 italic">DG Centrale Automobile Cherifienne</p>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 right">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Racha-Arodaky.png') }}" alt="Racha Arodaky">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Racha-Arodaky.webp') }}" alt="Racha Arodaky">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Racha Arodaky</p>
                             <p class="text-[18px] text-gray-400 italic">Pianiste, concertiste</p>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 left">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Mounia-Dadi.png') }}" alt="Mounia Dadi">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Mounia-Dadi.webp') }}" alt="Mounia Dadi">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Mounia Dadi</p>
                             <p class="text-[18px] text-gray-400 italic">Fondatrice de Art Academy, artiste</p>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 right">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Laurence-Dale.jpeg') }}" alt="Laurence Dale">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Laurence-Dale.webp') }}" alt="Laurence Dale">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Laurence Dale</p>
                             <p class="text-[18px] text-gray-400 italic">Chef d'orchestre, directeur artistique</p>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 left">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Ricardo-Araujo.jpeg') }}" alt="Ricardo Araujo">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Ricardo-Araujo.webp') }}" alt="Ricardo Araujo">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Ricardo Araujo</p>
                             <p class="text-[18px] text-gray-400 italic">Chef d'orchestre, compositeur, pianiste</p>
@@ -118,7 +118,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 right">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Eric-Ferrer.jpeg') }}" alt="Eric Ferrer">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Eric-Ferrer.webp') }}" alt="Eric Ferrer">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Eric Ferrer</p>
                             <p class="text-[18px] text-gray-400 italic">Pianiste, professeur au Conservatoire de Courbevoie</p>
@@ -127,7 +127,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 left">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Yun-Yang-Lee.jpeg') }}" alt="Yun-Yang Lee">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Yun-Yang-Lee.webp') }}" alt="Yun-Yang Lee">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Yun-Yang Lee</p>
                             <p class="text-[18px] text-gray-400 italic">Pianiste, premier prix du concours international Frédéric Chopin</p>
@@ -136,7 +136,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 right">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Aimo-Pagin.jpeg') }}" alt="Aimo Pagin">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Aimo-Pagin.webp') }}" alt="Aimo Pagin">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Aimo Pagin</p>
                             <p class="text-[18px] text-gray-400 italic">Pianiste, concertiste international</p>
@@ -145,7 +145,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 left">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Eric-Artz.jpg') }}" alt="Eric Artz">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Eric-Artz.webp') }}" alt="Eric Artz">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Eric Artz</p>
                             <p class="text-[18px] text-gray-400 italic">Pianiste</p>
@@ -154,7 +154,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 right">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/François-Meimoun.jpeg') }}" alt="François Meimoun">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/François-Meimoun.webp') }}" alt="François Meimoun">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">François Meimoun</p>
                             <p class="text-[18px] text-gray-400 italic">Compositeur</p>
@@ -163,7 +163,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 left">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Olivier-Sandberg.png') }}" alt="Olivier Sandberg">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Olivier-Sandberg.webp') }}" alt="Olivier Sandberg">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Olivier Sandberg</p>
                             <p class="text-[18px] text-gray-400 italic">Pianiste</p>
@@ -172,7 +172,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 right">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Jean-Frédéric-Neuburger.jpeg') }}" alt="Jean-Frédéric Neuburger">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Jean-Frédéric-Neuburger.webp') }}" alt="Jean-Frédéric Neuburger">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Jean-Frédéric Neuburger</p>
                             <p class="text-[18px] text-gray-400 italic">Pianiste, professeur au CNSM de Paris</p>
@@ -181,7 +181,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 left">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Michael-Nguyen.jpg') }}" alt="Michael Nguyenr">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Michael-Nguyen.webp') }}" alt="Michael Nguyenr">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Michael Nguyenr</p>
                             <p class="text-[18px] text-gray-400 italic">Pianiste</p>
@@ -190,7 +190,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 right">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Stéphanie-Elbaz.jpg') }}" alt="Stéphanie Elbaz">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Stéphanie-Elbaz.webp') }}" alt="Stéphanie Elbaz">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Stéphanie Elbaz</p>
                             <p class="text-[18px] text-gray-400 italic">Pianiste</p>
@@ -199,7 +199,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 left">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/Jeremie-Honnore.jpg') }}" alt="Jérémie Honnoré">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/Jeremie-Honnore.webp') }}" alt="Jérémie Honnoré">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Jérémie Honnoré</p>
                             <p class="text-[18px] text-gray-400 italic">Pianiste chambriste, directeur artistique</p>
@@ -208,7 +208,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 right">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/home-header-img.png') }}" alt="Céline Eymard-Bianchi-Ferrari">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/home-header-img.webp') }}" alt="Céline Eymard-Bianchi-Ferrari">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Céline Eymard-Bianchi-Ferrari</p>
                             <p class="text-[18px] text-gray-400 italic">Présidente de Poly Plumes</p>
@@ -217,7 +217,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 left">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/home-header-img.png') }}" alt="Cécile Wang">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/home-header-img.webp') }}" alt="Cécile Wang">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Cécile Wang</p>
                             <p class="text-[18px] text-gray-400 italic">Pianiste, concertiste au Royal College of Music of London</p>
@@ -226,7 +226,7 @@
                 </div>
                 <div class="comite w-1/2 h-[30vh] mb-20 right">
                     <div class="info-container flex">
-                        <img class="w-[40%] h-[30vh]" src="{{ asset('Images/home-header-img.png') }}" alt="Pierrette Angelin">
+                        <img loading="lazy" class="w-[40%] h-[30vh]" src="{{ asset('Images/home-header-img.webp') }}" alt="Pierrette Angelin">
                         <div class="infos w-[55%] ms-5">
                             <p class="text-[18px] font-bold text-[#bc8c2d]">Pierrette Angelin</p>
                             <p class="text-[18px] text-gray-400 italic">Professeur au Conservatoire de Toulouseo</p>
@@ -276,20 +276,20 @@
             </div>
         </section>
         <footer class="w-full min-h-80 bg-[#231F20] py-5">
-            <img class="w-full" src="{{ asset('Images/footer-bg-piano.png') }}" alt="Footer Bg Piano">
+            <img loading="lazy" class="w-full" src="{{ asset('Images/footer-bg-piano.webp') }}" alt="Footer Bg Piano">
             <div class="w-4/5 mx-auto grid grid-rows-1 grid-cols-2 py-4">
                 <div>
                     <a href="{{ route('home') }}">
-                      <img class="block w-1/2 my-10" src="{{ asset('Images/logo.png') }}" alt="logo">
+                      <img loading="lazy" class="block w-1/2 my-10" src="{{ asset('Images/logo.webp') }}" alt="logo">
                     </a>
                 </div>
                 <div>
                     <p class="text-[18px] text-[#bc8c2d] font-bold mb-5">Media</p>
                     <div class="grid grid-cols-4 gap-5 w-4/6">
-                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Fb.png') }}" alt="FB"></a>
-                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Insta.png') }}" alt="Insta"></a>
-                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/X.png') }}" alt="X"></a>
-                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Gmail.png') }}" alt="Gmail"></a>
+                        <a href="#" target="_blank"><img loading="lazy" class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Fb.webp') }}" alt="FB"></a>
+                        <a href="#" target="_blank"><img loading="lazy" class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Insta.webp') }}" alt="Insta"></a>
+                        <a href="#" target="_blank"><img loading="lazy" class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/X.webp') }}" alt="X"></a>
+                        <a href="#" target="_blank"><img loading="lazy" class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Gmail.webp') }}" alt="Gmail"></a>
                     </div>
                 </div>
                 <div>
@@ -306,11 +306,11 @@
                     <p class="text-[18px] text-[#bc8c2d] font-bold mt-4 my-6">Les Pages</p>
                     <div class="grid grid-cols-2 grid-rows-1 gap-y-10">
                         <p><a href="{{ route('paris.presentation') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Presentation</a></p>
-                        <p><a href="{{ route('paris.galerie') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Galerie</a></p>
                         <p><a href="{{ route('paris.edition_2025') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Edition 2025</a></p>
-                        <p><a href="{{ route('paris.inscription') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Inscription</a></p>
                         <p><a href="{{ route('paris.jury') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Jury</a></p>
                         <p><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Comite d’Honneur</a></p>
+                        <p><a href="{{ route('paris.inscription') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Inscription</a></p>
+                        <p><a href="{{ route('paris.galerie') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Galerie</a></p>
                         <p><a href="{{ route('paris.laureats') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Laureats</a></p>
                         <p><a href="{{ route('paris.contact') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Contactez-nous</a></p>
                     </div>

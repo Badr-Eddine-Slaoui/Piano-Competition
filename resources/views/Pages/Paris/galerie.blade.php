@@ -9,7 +9,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-        <link rel="shortcut icon" href="{{ asset('Images/Paris.png') }}" type="image/x-icon">
+        <link rel="shortcut icon" href="{{ asset('Images/ParisIcon.webp') }}" type="image/x-icon">
 
         <!-- Styles / Scripts -->
         @vite(['resources/css/app.css','resources/css/galerie.css', 'resources/js/galerie.js', 'resources/js/carousel.js', 'resources/js/app.js'])
@@ -19,19 +19,19 @@
         <header class="w-full h-[20vh]">
             <nav class="w-full h-[20vh] px-[3vh] py-[3vh] fixed top-0 left-0 z-10 bg-[#231F20] flex justify-between">
                 <div class="w-1/6 flex justify-center items-center">
-                    <a href="{{ route('home') }}"><img class="w-[90%] ms-auto" src="{{ asset('Images/Logo.png')  }}" alt="Logo"></a>
+                    <a href="{{ route('home') }}"><img loading="lazy" class="w-[90%] ms-auto" src="{{ asset('Images/Logo.webp')  }}" alt="Logo"></a>
                 </div>
                 <div class="w-3/6 grid grid-cols-1 grid-rows-2 mr-12">
                     <ul class="w-full ml-auto flex items-center justify-between text-white font-semibold text-[18px]">
                         <li><a href="{{ route('paris.home') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Accueil</a></li>
                         <li><a href="{{ route('paris.presentation') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Presentation</a></li>
-                        <li><a href="{{ route('paris.galerie') }}" class="text-decoration-none border-b-4 border-[#bc8c2d]">Galerie</a></li>
                         <li><a href="{{ route('paris.edition_2025') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Edition 2025</a></li>
-                        <li><a href="{{ route('paris.inscription') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Inscription</a></li>
-                    </ul>
-                    <ul class="w-full ml-auto flex items-center justify-between text-white font-semibold text-xl">
                         <li><a href="{{ route('paris.jury') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Jury</a></li>
                         <li><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Comite d’Honneur</a></li>
+                    </ul>
+                    <ul class="w-full ml-auto flex items-center justify-between text-white font-semibold text-xl">
+                        <li><a href="{{ route('paris.inscription') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Inscription</a></li>
+                        <li><a href="{{ route('paris.galerie') }}" class="text-decoration-none border-b-4 border-[#bc8c2d]">Galerie</a></li>
                         <li><a href="{{ route('paris.laureats') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Laureats</a></li>
                         <li><a href="{{ route('paris.contact') }}" class="text-decoration-none hover:border-b-4 border-[#bc8c2d]">Contactez-nous</a></li>
                     </ul>
@@ -40,21 +40,21 @@
         </header>
         <main id="carousel" class="w-full h-[80vh] relative overflow-x-hidden">
             <div id="carousel-track" class="w-full h-full flex ">
-                <img class="w-full h-full flex-shrink-0" src="{{ asset('Images/home-header-img.png') }}">
-                <img class="w-full h-full flex-shrink-0" src="{{ asset('Images/Re-Belle-Communication.png') }}">
+                <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/home-header-img.webp') }}">
+                <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/Re-Belle-Communication.webp') }}">
             </div>
         </main>
         <aside class=" fixed left-0 top-[25vh] w-1/12 z-[-1]">
-            <img class="w-full" src="{{ asset('Images/SideImg.png')  }}" alt="SideImg">
+            <img loading="lazy" class="w-full" src="{{ asset('Images/SideImg.webp')  }}" alt="SideImg">
         </aside>
         <section class="w-full min-h-screen my-5">
             <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
-                <h2 class="text-[36px] font-[400] text-center ">Galerie</h2>
+                <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Galerie</h2>
             </div>
             <div class="w-4/5 min-h-[80vh] m-auto">
                 <div class="w-full h-[35vh] my-10">
-                    <img class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.png') }}" alt="EventBanner">
+                    <img loading="lazy" class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.webp') }}" alt="EventBanner">
                 </div>
                 <p class="text-[#a3a3a3] text-[18px]">
                     Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 23 Octobre 2023, date de début du concours.
@@ -66,102 +66,102 @@
         <section class="w-full min-h-screen my-5">
             <div class="flex h-[20vh] relative z-[-2] items-center my-10 slide-text">
                 <div class="h-[1px] w-1/5 bg-white me-5"></div>
-                <h2 class="text-[36px] font-[400] text-center ">Photos</h2>
+                <h2 class="text-[36px] font-[400] text-center text-[#bc8c2d]">Photos</h2>
             </div>
             <div class="w-4/5 min-h-[80vh] m-auto">
                 <div class="galerie-pics grid grid-cols-3 grid-rows-1 gap-10">
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
                     </div>
                     <div class="galerie-pic-container h-[50vh] relative hidden">
-                        <img class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.png') }}" alt="Edition">
+                        <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
                         <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
                             <p class="text-[18px] font-[400]">Pic Title</p>
                         </div>
@@ -178,72 +178,72 @@
             <div class="w-4/5 min-h-[80vh] m-auto">
                 <div class="galerie-vids grid grid-cols-3 grid-rows-1 gap-10">
                     <div class="galerie-vid-container h-[50vh] hidden">
-                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
                             <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
-                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
                             <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
-                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
                             <source src="{{ asset('Videos/v3.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
-                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
                             <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
-                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
                             <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
-                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
                             <source src="{{ asset('Videos/v3.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
-                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
                             <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
-                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
                             <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
-                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
                             <source src="{{ asset('Videos/v3.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
-                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
                             <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
-                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
                             <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
-                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
                             <source src="{{ asset('Videos/v3.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
-                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
                             <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
                         </video>
                     </div>
                     <div class="galerie-vid-container h-[50vh] hidden">
-                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.png') }}">
+                        <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
                             <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
                         </video>
                     </div>
@@ -292,20 +292,20 @@
             </div>
         </section>
         <footer class="w-full min-h-80 bg-[#231F20] py-5">
-            <img class="w-full" src="{{ asset('Images/footer-bg-piano.png') }}" alt="Footer Bg Piano">
+            <img loading="lazy" class="w-full" src="{{ asset('Images/footer-bg-piano.webp') }}" alt="Footer Bg Piano">
             <div class="w-4/5 mx-auto grid grid-rows-1 grid-cols-2 py-4">
                 <div>
                     <a href="{{ route('home') }}">
-                      <img class="block w-1/2 my-10" src="{{ asset('Images/logo.png') }}" alt="logo">
+                      <img loading="lazy" class="block w-1/2 my-10" src="{{ asset('Images/logo.webp') }}" alt="logo">
                     </a>
                 </div>
                 <div>
                     <p class="text-[18px] text-[#bc8c2d] font-bold mb-5">Media</p>
                     <div class="grid grid-cols-4 gap-5 w-4/6">
-                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Fb.png') }}" alt="FB"></a>
-                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Insta.png') }}" alt="Insta"></a>
-                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/X.png') }}" alt="X"></a>
-                        <a href="#" target="_blank"><img class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Gmail.png') }}" alt="Gmail"></a>
+                        <a href="#" target="_blank"><img loading="lazy" class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Fb.webp') }}" alt="FB"></a>
+                        <a href="#" target="_blank"><img loading="lazy" class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Insta.webp') }}" alt="Insta"></a>
+                        <a href="#" target="_blank"><img loading="lazy" class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/X.webp') }}" alt="X"></a>
+                        <a href="#" target="_blank"><img loading="lazy" class="w-2/3 hover:scale-110 hover:-translate-y-2 transition-all" src="{{ asset('Images/Gmail.webp') }}" alt="Gmail"></a>
                     </div>
                 </div>
                 <div>
@@ -322,11 +322,11 @@
                     <p class="text-[18px] text-[#bc8c2d] font-bold mt-4 my-6">Les Pages</p>
                     <div class="grid grid-cols-2 grid-rows-1 gap-y-10">
                         <p><a href="{{ route('paris.presentation') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Presentation</a></p>
-                        <p><a href="{{ route('paris.galerie') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Galerie</a></p>
                         <p><a href="{{ route('paris.edition_2025') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Edition 2025</a></p>
-                        <p><a href="{{ route('paris.inscription') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Inscription</a></p>
                         <p><a href="{{ route('paris.jury') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Jury</a></p>
                         <p><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Comite d’Honneur</a></p>
+                        <p><a href="{{ route('paris.inscription') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Inscription</a></p>
+                        <p><a href="{{ route('paris.galerie') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Galerie</a></p>
                         <p><a href="{{ route('paris.laureats') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Laureats</a></p>
                         <p><a href="{{ route('paris.contact') }}" class="text-decoration-none text-[18px] text-white hover:text-[#bc8c2d]">Contactez-nous</a></p>
                     </div>

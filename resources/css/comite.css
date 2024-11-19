@@ -1,8 +1,10 @@
 .comite.left{
+    opacity: 0;
     transform: translateX(-100%);
 }
 
 .comite.right{
+    opacity: 0;
     transform: translateX(100%);
 }
 

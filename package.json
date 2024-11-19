@@ -2,9 +2,26 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "start": "concurrently -k -n SERVER,CLIENT -c yellow,blue \"php artisan serve --port=5001\" \"npm run dev\"",
+        "clear:view": "php artisan view:clear",
+        "clear:cache": "php artisan cache:clear",
+        "clear:route": "php artisan route:clear",
+        "clear:config": "php artisan config:clear",
+        "clear": "npm run clear:view && npm run clear:cache && npm run clear:route && npm run clear:config",
+        "cache:view": "php artisan view:cache",
+        "cache:route": "php artisan route:cache",
+        "cache:config": "php artisan config:cache",
+        "cache": "npm run cache:view && npm run cache:route && npm run cache:config",
+        "optimize": "php artisan optimize",
+        "down": "php artisan down",
+        "up": "php artisan up",
+        "env:dev": "cross-env APP_ENV=local APP_DEBUG=true",
+        "env:prod": "cross-env APP_ENV=production APP_DEBUG=false",
+        "sitemap": "php artisan sitemap:generate",
+        "server": "php artisan serve --port=5001",
+        "dev": "npm run env:dev && concurrently -k -n SERVER,CLIENT -c yellow,blue \"npm run server\" \"npm run start\"",
         "build": "vite build",
-        "dev": "vite"
+        "start": "vite",
+        "prod": "npm run env:prod && npm run down && npm run clear && npm run build && npm run optimize && npm run cache && npm run up && npm run sitemap && npm run server"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.20",
@@ -14,5 +31,8 @@
         "postcss": "^8.4.47",
         "tailwindcss": "^3.4.14",
         "vite": "^5.0"
+    },
+    "dependencies": {
+        "cross-env": "^7.0.3"
     }
 }

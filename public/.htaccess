@@ -19,3 +19,50 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+# Caching for JavaScript, CSS, and Images
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Cache all JS and CSS files for 1 month (30 days)
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/x-javascript "access plus 1 month"
+
+    # Cache image files for 1 month (30 days)
+    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType image/avif "access plus 1 month"
+
+    ExpiresByType video/mp4 "access plus 1 month"
+
+    # Cache font files for 1 month (30 days)
+    ExpiresByType font/woff2 "access plus 1 month"
+    ExpiresByType font/woff "access plus 1 month"
+    ExpiresByType application/font-woff "access plus 1 month"
+    ExpiresByType application/font-woff2 "access plus 1 month"
+    ExpiresByType font/otf "access plus 1 month"
+    ExpiresByType font/ttf "access plus 1 month"
+    ExpiresByType application/font-otf "access plus 1 month"
+    ExpiresByType application/font-ttf "access plus 1 month"
+</IfModule>
+
+# Caching for other file types (images, fonts, etc.)
+<IfModule mod_headers.c>
+    # Enable cache control for images, fonts, JS, and CSS
+    <FilesMatch "\.(js|css|jpg|jpeg|png|gif|webp|svg|mp4|otf|ttf|woff|woff2)$">
+        Header set Cache-Control "public, max-age=2592000, immutable"
+    </FilesMatch>
+</IfModule>
+
+# Cache Busting Considerations for JS, CSS, and Images (use versioning with query strings)
+<IfModule mod_rewrite.c>
+    # If URL contains versioning (e.g., app.js?v=1.0.0), apply cache-control to handle cache busting
+    RewriteCond %{REQUEST_URI} \.(js|css|jpg|jpeg|png|gif|webp|svg|mp4|otf|ttf|woff|woff2)\?v=.*$
+    RewriteRule ^ %{REQUEST_URI} [L]
+</IfModule>
