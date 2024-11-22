@@ -16,3 +16,16 @@ document.querySelectorAll('.slide-text').forEach(el => {
     observer.observe(el);
 });
 
+let menu = document.getElementById('menu')
+let menuBar = document.getElementById('menuBar')
+
+menuBar.addEventListener('click',()=>{
+    if( menu.style.opacity === '1'){
+        menu.style.opacity = 0;
+        menu.style.transform = "translateX(100%)";
+    } 
+    else{
+        menu.style.opacity = 1;
+        menu.style.transform = "translateX(0%)";
+    }
+})

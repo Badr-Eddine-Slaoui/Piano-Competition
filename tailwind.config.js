@@ -6,7 +6,11 @@ export default {
       "./resources/**/*.vue",
     ],
     theme: {
-      extend: {},
+      extend: {
+        screens: {
+            'xs': '320px',
+        }
+      },
       backgroundImage: {
         'HeaderBg': "url('/public/Images/HeaderBg.png')",
       },
