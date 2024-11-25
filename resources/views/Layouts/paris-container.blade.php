@@ -31,16 +31,16 @@
         @yield('resources')
 
     </head>
-    <body class="text-white bg-[#231F20]">
+    <body class="text-white bg-body">
         <header class="w-full xs:h-[10vh] md:h-[15vh] xl:h-[20vh]">
-            <nav class="w-full fixed top-0 left-0 z-10 bg-[#231F20] flex justify-between xs:h-[10vh] xs:p-[1vh] sm:p-[2vh] md:h-[15vh] xl:h-[20vh] xl:p-[3vh]">
+            <nav class="w-full fixed top-0 left-0 z-10 bg-body flex justify-between xs:h-[10vh] xs:p-[1vh] sm:p-[2vh] md:h-[15vh] xl:h-[20vh] xl:p-[3vh]">
                 <div class="flex justify-center items-center xs:w-5/12 sm:w-3/12">
                     <a href="{{ route('home') }}"><img loading="lazy" class="w-[90%] ms-auto" src="{{ asset('Images/Logo.webp')  }}" alt="Logo"></a>
                 </div>
                 <div class="w-1/12 flex justify-center items-center sm:hidden">
                     <i id="menuBar" class="fa-solid fa-bars text-[#bc8c2d]"></i>
                 </div>
-                <div id="menu" class="xs:transition-all xs:opacity-0 xs:duration-500 xs:translate-x-[100%] xs:fixed xs:right-0 xs:top-[10vh] xs:z-20 xs:bg-[#231F20] xs:h-screen xs:py-10 xs:px-10 sm:transition-none sm:translate-x-0 sm:opacity-100 sm:relative sm:p-0 sm:right-[unset] sm:top-[unset] sm:z-[unset] sm:bg-[unset] sm:h-[unset] sm:grid sm:gap-y-2 sm:w-7/12 sm:grid-cols-1 sm:grid-rows-2 sm:mr-5">
+                <div id="menu" class="xs:transition-all xs:opacity-0 xs:duration-500 xs:translate-x-[100%] xs:fixed xs:right-0 xs:top-[10vh] xs:z-20 xs:bg-body xs:h-screen xs:py-10 xs:px-10 sm:transition-none sm:translate-x-0 sm:opacity-100 sm:relative sm:p-0 sm:right-[unset] sm:top-[unset] sm:z-[unset] sm:bg-[unset] sm:h-[unset] sm:grid sm:gap-y-2 sm:w-7/12 sm:grid-cols-1 sm:grid-rows-2 sm:mr-5">
                     @php
                         $title = View::yieldContent('title');
                         $active = "xs:text-[#bc8c2d] sm:border-b-4 sm:border-[#bc8c2d] sm:mb-0 md:border-b-[3px] lg:border-b-4";
@@ -70,7 +70,7 @@
         @if($title !== "Contactez-nous")
             <section id="map" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:grid md:grid-cols-2 md:grid-rows-1 md:mt-5 md:m-auto md:gap-x-10 md:min-h-[40vh] lg:min-h-[50vh]">
                 <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh] md:col-span-2">
-                    <div class="h-[1px] w-1/5 bg-white me-5"></div>
+                    <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
                     <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Contactez-nous</h2>
                 </div>
                 <form class="w-full py-5 mb-5" action="{{ route('paris.contact.store') }}" method="post">
@@ -109,7 +109,7 @@
                 </div>
             </section>
         @endif
-        <footer class="w-full min-h-80 bg-[#231F20] py-5">
+        <footer class="w-full min-h-80 bg-body py-5">
             <img loading="lazy" class="w-full" src="{{ asset('Images/footer-bg-piano.webp') }}" alt="Footer Bg Piano">
             <div class="mx-auto grid grid-rows-1 grid-cols-2 py-4 xs:w-11/12 sm:w-4/5">
                 <div>

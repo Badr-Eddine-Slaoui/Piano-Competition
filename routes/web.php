@@ -22,6 +22,7 @@ Route::prefix('marrakech')->as('marrakech.')->group(function () {
         Route::get('comite-honneur', 'comite_honneur')->name('comite_honneur');
         Route::get('laureats', 'laureats')->name('laureats');
         Route::get('contact', 'contact')->name('contact');
+        Route::get('reglement', 'reglement')->name('reglement');
     });
     Route::post('inscription/store', [MarrakechInscriptionController::class, 'store'])->name('inscription.store');
     Route::post('contact/store', [MarrakechContactController::class ,'store'])->name('contact.store');

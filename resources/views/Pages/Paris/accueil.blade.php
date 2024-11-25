@@ -25,7 +25,7 @@
 @section('content')
     <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh]">
         <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-            <div class="h-[1px] w-1/5 bg-white me-5"></div>
+            <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
             <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Concours</h2>
         </div>
         <div class="w-5/6 m-auto min-h-[20vh] sm:grid sm:grid-cols-2 sm:grid-rows-1 sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[65vh]">
@@ -44,7 +44,7 @@
     </section>
     <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh]">
         <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-            <div class="h-[1px] w-1/5 bg-white me-5"></div>
+            <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
             <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Les Mots</h2>
         </div>
         <div class="w-5/6 m-auto xs:min-h-[20vh] sm:min-h-[30vh] md:grid md:grid-cols-2 md:grid-rows-1 md:gap-x-4 md:gap-y-5 md:min-h-[40vh] lg:min-h-[65vh]">
@@ -105,7 +105,7 @@
     </section>
     <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh]">
         <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-            <div class="h-[1px] w-1/5 bg-white me-5"></div>
+            <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
             <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Nos Partenaires</h2>
         </div>
         <div class="w-5/6 m-auto min-h-[20vh] sm:min-h-[30vh]">

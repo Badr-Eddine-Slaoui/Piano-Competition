@@ -15,34 +15,34 @@
         @vite(['resources/css/app.css', 'resources/css/home.css', 'resources/js/app.js'])
 
     </head>
-    <body class="text-white bg-[#231F20]">
-
-        <aside class="fixed left-0 z-[-1] xs:w-2/12 xs:top-[35vh] sm:top-[30vh] md:top-[25vh] lg:top-[30vh] lg:w-1/12 xl:top-[25vh]">
-            <img loading="lazy" class="w-full" src="{{ asset('Images/SideImg.webp')  }}" alt="Mouvement Contraire" title="Mouvement Contraire">
+    <body class="text-white bg-black overflow-hidden">
+        <aside class="fixed left-0 z-20 xs:w-3/12 xs:top-[30%] sm:w-[14%] lg:top-[20vh] xl:top-[18vh] xl:w-[10%]">
+            <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/MC dorté 1.png')  }}" alt="Mouvement Contraire" title="Mouvement Contraire">
         </aside>
-        <section class="w-full min-h-screen">
-            <div class="flex h-[20vh] relative z-[-2] items-center mb-10 slide-text">
-                <div class="h-[1px] w-1/5 bg-white me-5"></div>
-                <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Concours International de Piano</h2>
+        <section class="w-full min-h-screen relative">
+            <div class="flex items-center xs:h-[13vh] xs:ms-5 md:h-[15vh] md:ms-10 lg:ms-14 xl:ms-20">
+                <img class="h-full py-[2vh]" src="{{ asset('Images/LOGO PIANO SITE WEB/LOGO OFF CONCOURS BLANC.png') }}" alt="">
+                <img class="h-full py-[2vh] xs:ms-5 md:ms-10" src="{{ asset('Images/LOGO PIANO SITE WEB/PIANIST blanc.png') }}" alt="">
             </div>
-            <div class="min-h-[45vh] my-[10vh] m-auto grid xs:w-6/12 xs:grid-rows-[20vh,5vh,20vh] sm:grid-rows-[30vh,5vh,30vh] sm:my-[6vh] md:my-[5vh] lg:my-[10vh] lg:grid-rows-[40vh] lg:grid-cols-[49%,2%,49%] lg:gap-x-10 xl:grid-rows-1">
+            <div class="m-auto grid grid-rows-1 absolute z-20 right-0 w-4/12 xs:top-[30%] xs:grid-cols-1 lg:grid-cols-2 lg:gap-x-10 lg:top-[75%] xl:top-[70%]">
                 <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
-                    <div class="flex flex-col h-full py-10 items-center justify-around rounded-md border transition-transform duration-300 hover:-translate-y-4 hover:scale-[1.1] cursor-pointer">
-                        <div class="w-2/4">
-                            <img loading="lazy" class="w-full" src="{{ asset('Images/Marrakech.webp') }}" alt="Concours International de Piano Marrakech Logo" title="Concours International de Piano Marrakech Logo">
+                    <div class="flex flex-col h-full py-10 items-center justify-around cursor-pointer">
+                        <div class="xs:w-3/4 sm:w-2/4 lg:w-3/4 xl:w-3/5">
+                            <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Marrakech doré.png') }}" alt="Concours International de Piano Marrakech Logo" title="Concours International de Piano Marrakech Logo">
                         </div>
                     </div>
                 </a>
-                <p class="flex justify-center items-center font-bold">
-                    Ou
-                </p>
                 <a href="{{ route('paris.home') }}" title="Concours International de Piano Paris">
-                    <div class="flex h-full py-10 items-center justify-around rounded-md border transition-transform duration-300 hover:-translate-y-4 hover:scale-[1.1] cursor-pointer">
-                        <div class="w-5/12">
-                            <img loading="lazy" class="w-full" src="{{ asset('Images/Paris.webp') }}" alt="Concours International de Piano Paris Logo" title="Concours International de Piano Paris Logo">
+                    <div class="flex h-full py-10 items-center justify-around cursor-pointer">
+                        <div class="xs:w-3/4 sm:w-2/4 lg:w-3/4 xl:w-3/5">
+                            <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Paris doré 1.png') }}" alt="Concours International de Piano Paris Logo" title="Concours International de Piano Paris Logo">
                         </div>
                     </div>
                 </a>
+            </div>
+            <div class="w-full xs:h-screen lg:h-[85vh]">
+                <video class="w-[100vw] object-cover xs:h-full lg:h-[85vh]" poster="{{ asset('Images/home-header-img.webp') }}" src="{{ asset('Videos/HomeHeaderVideo.mp4') }}" muted autoplay loop></video>
+                <div class="w-full h-full absolute xs:top-[13vh] md:top-[15vh] z-10 bg-black bg-opacity-30"></div>
             </div>
         </section>
     </body>

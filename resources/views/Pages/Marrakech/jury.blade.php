@@ -17,87 +17,103 @@
 @endsection
 
 @section('hero')
-    <main id="carousel" class="w-full xs:h-[30vh] sm:h-[50vh] md:h-[60vh] lg:h-[80vh] relative overflow-x-hidden">
-        <div id="carousel-track" class="w-full h-full flex ">
-            <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/home-header-img.webp') }}">
-            <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/Re-Belle-Communication.webp') }}">
-        </div>
-    </main>
+  <main id="carousel" class="w-full xs:h-[30vh] sm:h-[50vh] md:h-[60vh] xl:h-[65vh] relative overflow-x-hidden">
+      <div id="carousel-track" class="w-full h-full flex ">
+          <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/home-header-img.webp') }}">
+          <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/Re-Belle-Communication.webp') }}">
+      </div>
+  </main>
 @endsection
 
 @section('content')
     <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh] overflow-x-hidden">
         <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-            <div class="h-[1px] w-1/5 bg-white me-5"></div>
+            <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
             <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Jury</h2>
         </div>
-        <div class="w-4/5 min-h-screen mb-5 m-auto md:grid md:grid-cols-2 md:grid-rows-1 md:gap-x-10 md:gap-y-20">
-            <div class="jury relative xs:h-[65vh] md:h-[70vh] lg:h-[80vh]">
-                <p class="title font-bold text-[#bc8c2d] mb-10 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Racha Arodaky</p>
-                <div class="info-container xs:grid xs:grid-rows-1 xs:grid-cols-2 xs:gap-5 mb-5 xs:w-[90%] xs:h-[40%] xs:opacity-100 md:h-[20%] lg:w-full lg:h-full lg:block">
-                    <img loading="lazy" class="w-full xs:h-full" src="{{ asset('Images/Racha-Arodaky.webp') }}" alt="Racha Arodaky">
-                    <div class="infos lg:hidden">
-                        <p class="font-bold text-[#bc8c2d] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Racha Arodaky</p>
-                        <p class="italic xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Présidente du jury</p>
-                        <p class="text-gray-400 my-3 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pianiste - Compositeur . France</p>
-                    </div>
+        <div class="grid grid-cols-1 grid-rows-1 xs:gap-y-10 xs:min-h-[20vh] sm:gap-y-16 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] md:gap-y-32 lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14 lg:gap-y-40 xl:gap-y-52">
+          <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
+            <i class="fa-solid fa-quote-left absolute xs:text[30px] xs:-top-5 xs:left-2 sm:text-[35px] sm:-top-10 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-top-10 xl:left-0"></i>
+            <i class="fa-solid fa-quote-right absolute xs:text[30px] xs:-bottom-0 xs:right-3 sm:text-[35px] sm:bottom-0 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-bottom-10 xl:right-0"></i>
+            <div class="info-container w-4/5 m-auto flex mb-5">
+                  <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Racha-Arodaky.webp') }}" alt="Racha ARODAKY">
+                  <div class="infos flex items-center">
+                    <div>
+                      <p class="font-bold text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Racha ARODAKY</p>
+                      <p class="italic xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Présidente du Jury</p>
+                      <p class="text-gray-400 my-3 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pianiste - Compositeur . France</p>
+                  </div>
                 </div>
-                <p class="description text-justify xs:text-[10px] sm:text-[12px] md:text-[14px] lg:hidden lg:text-[16px] xl:text-[18px]">Chevalier des Arts et des Lettres  en 2015
-                    Prix « Révélation classique » de l'ADAMI au MIDEM en 2001
-                    Premier Prix et le prix spécial du jury en trio au concours international de musique de chambre (Pologne en 1997)
-                    Etudes au Conservatoire national supérieur de musique et de danse de Paris dans la classe de Dominique Merlet.
-                    Prix de piano à seize ans puis continue sa formation au conservatoire Tchaïkovski de Moscou.
-                    Racha Arodaky mène une carrière internationale de concertiste. Elle a été invitée à jouer avec de nombreux orchestres, comme l'orchestre National de France, Belgrade,Moscou, Prague.
-                    Racha Arodaky est directrice artistique du festival de musique des Fêtes Musicales du Château de Pionsat et directrice générale du label de musique Air-Note.</p>
-            </div>
-            <div class="jury relative xs:h-[65vh] md:h-[70vh] lg:h-[80vh]">
-                <p class="title font-bold text-[#bc8c2d] mb-10 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Joshua LAFFONT-COHEN</p>
-                <div class="info-container xs:grid xs:grid-rows-1 xs:grid-cols-2 xs:gap-5 mb-5 xs:w-[90%] xs:h-[40%] xs:opacity-100 md:h-[20%] lg:w-full lg:h-full lg:block">
-                    <img loading="lazy" class="w-full xs:h-full" src="{{ asset('Images/Joshu- LAFFONT-COHEN.webp') }}" alt="Joshu LAFFONT-COHEN">
-                    <div class="infos lg:hidden">
-                        <p class="font-bold text-[#bc8c2d] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Joshua LAFFONT-COHEN</p>
-                        <p class="text-gray-400 my-3 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pianiste - Compositeur . France</p>
+              </div>
+              <p class="description w-4/5 m-auto mb-10 text-justify text-gray-400 xs:text-[10px] xs:mt-5 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Chevalier des Arts et des Lettres  en 2015
+                Prix « Révélation classique » de l'ADAMI au MIDEM en 2001
+                Premier Prix et le prix spécial du jury en trio au concours international de musique de chambre (Pologne en 1997)
+                Etudes au Conservatoire national supérieur de musique et de danse de Paris dans la classe de Dominique Merlet.
+                Prix de piano à seize ans puis continue sa formation au conservatoire Tchaïkovski de Moscou.
+                Racha Arodaky mène une carrière internationale de concertiste. Elle a été invitée à jouer avec de nombreux orchestres, comme l'orchestre National de France, Belgrade,Moscou, Prague.
+                Racha Arodaky est directrice artistique du festival de musique des Fêtes Musicales du Château de Pionsat et directrice générale du label de musique Air-Note.</p>
+          </div>
+          <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
+            <i class="fa-solid fa-quote-left absolute xs:text[30px] xs:-top-5 xs:left-2 sm:text-[35px] sm:-top-10 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-top-10 xl:left-0"></i>
+            <i class="fa-solid fa-quote-right absolute xs:text[30px] xs:-bottom-0 xs:right-3 sm:text-[35px] sm:bottom-0 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-bottom-10 xl:right-0"></i>
+            <div class="info-container w-4/5 m-auto flex mb-5">
+                  <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Lamia-BOUKAA.webp') }}" alt="Lamia BOUKAA">
+                  <div class="infos flex items-center">
+                    <div>
+                      <p class="font-bold text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Lamia BOUKAA</p>
+                      <p class="text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pianiste - Musicothérapeute. Maroc</p>
                     </div>
-                </div>
-                <p class="description text-justify xs:text-[10px] sm:text-[12px] md:text-[14px] lg:hidden lg:text-[16px] xl:text-[18px]">Docteur ès lettres, professeur de français et de piano, écrivain, Joshua Laffont- Cohen reçoit en 2011 le prix littéraire André Ferran de l'Académie de Toulouse pour sa thèse sur George Sand et la musique et publie plusieurs ouvrages (roman, théâtre, poésie, essai). Comédien et auteur-compositeur- interprète connu sous le nom de Joshua Lawrence, il est aussi le créateur et le directeur du Concours International de Piano Mouvement Contraire (Paris, Marrakech).</p>
-            </div>
-            <div class="jury relative xs:h-[65vh] md:h-[70vh] lg:h-[80vh]">
-                <p class="title font-bold text-[#bc8c2d] mb-10 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Lamia BOUKAA</p>
-                <div class="info-container xs:grid xs:grid-rows-1 xs:grid-cols-2 xs:gap-5 mb-5 xs:w-[90%] xs:h-[40%] xs:opacity-100 md:h-[20%] lg:w-full lg:h-full lg:block">
-                    <img loading="lazy" class="w-full xs:h-full" src="{{ asset('Images/Lamia-BOUKAA.webp') }}" alt="Lamia BOUKAA">
-                    <div class="infos lg:hidden">
-                        <p class="font-bold text-[#bc8c2d] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Lamia BOUKAA</p>
-                        <p class="text-gray-400 my-3 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pianiste - Musicothérapeute. Maroc</p>
+                  </div>
+              </div>
+              <p class="w-4/5 m-auto font-bold mb-2 xs:mt-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:mt-10 lg:text-[16px] xl:text-[18px]">La musique nous réunira</p>
+              <p class="description w-4/5 m-auto mb-10 text-justify text-gray-400 xs:text-[10px] xs:mt-5 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Directrice du Concours Mouvement Contraire Maroc, professeur de piano au conservatoire de Casablanca , professeur de piano art académie , formation de coaching et membre de jury de concours nationaux. Lamia Boukaa a commencé le piano a l’âge de 5 ans auprès de Madame Milian, diplômée de Paris.
+                Après son diplôme de piano au conservatoire de Casablanca, elle quitte le Maroc pour différentes formations  entre Paris et Nice , auprès de grands noms de la scène musicale française tel que Jacques Rouvier. En 1995, elle obtient le premier prix de conservatoire.
+                Après cela, elle décide de se perfectionner tout en suivant une formation en Pédagogie d’enseignement, suite à cela elle ajoute une formation en coaching ainsi qu’en musicothérapie.</p>
+          </div>
+          <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
+            <i class="fa-solid fa-quote-left absolute xs:text[30px] xs:-top-5 xs:left-2 sm:text-[35px] sm:-top-10 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-top-10 xl:left-0"></i>
+            <i class="fa-solid fa-quote-right absolute xs:text[30px] xs:-bottom-0 xs:right-3 sm:text-[35px] sm:bottom-0 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-bottom-10 xl:right-0"></i>
+            <div class="info-container w-4/5 m-auto flex mb-5">
+                  <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Joshu- LAFFONT-COHEN.webp') }}" alt="Joshua LAFFONT-COHEN">
+                  <div class="infos flex items-center">
+                    <div>
+                      <p class="font-bold text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Joshua LAFFONT-COHEN</p>
+                      <p class="text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pianiste - Compositeur . France</p>
                     </div>
+                  </div>
+              </div>
+              <p class="description w-4/5 m-auto mb-10 text-justify text-gray-400 xs:text-[10px] xs:mt-5 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Docteur ès lettres, professeur de français et de piano, écrivain, Joshua Laffont- Cohen reçoit en 2011 le prix littéraire André Ferran de l'Académie de Toulouse pour sa thèse sur George Sand et la musique et publie plusieurs ouvrages (roman, théâtre, poésie, essai). Comédien et auteur-compositeur- interprète connu sous le nom de Joshua Lawrence, il est aussi le créateur et le directeur du Concours International de Piano Mouvement Contraire (Paris, Marrakech).</p>
+          </div>
+          <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
+            <i class="fa-solid fa-quote-left absolute xs:text[30px] xs:-top-5 xs:left-2 sm:text-[35px] sm:-top-10 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-top-10 xl:left-0"></i>
+            <i class="fa-solid fa-quote-right absolute xs:text[30px] xs:-bottom-0 xs:right-3 sm:text-[35px] sm:bottom-0 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-bottom-10 xl:right-0"></i>
+            <div class="info-container w-4/5 m-auto flex mb-5">
+                  <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Rachida-Dati.webp') }}" alt="Rachida Dati">
+                  <div class="infos flex items-center">
+                    <div>
+                      <p class="font-bold text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Rachida Dati</p>
+                      <p class="text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Présence scénique. Peintre - Chorégraphe. Maroc</p>
+                  </div>
                 </div>
-                <p class="description text-justify xs:text-[10px] sm:text-[12px] md:text-[14px] lg:hidden lg:text-[16px] xl:text-[18px]">Directrice du Concours Mouvement Contraire Maroc, professeur de piano au conservatoire de Casablanca , professeur de piano art académie , formation de coaching et membre de jury de concours nationaux. Lamia Boukaa a commencé le piano a l’âge de 5 ans auprès de Madame Milian, diplômée de Paris.
-                    Après son diplôme de piano au conservatoire de Casablanca, elle quitte le Maroc pour différentes formations  entre Paris et Nice , auprès de grands noms de la scène musicale française tel que Jacques Rouvier. En 1995, elle obtient le premier prix de conservatoire.
-                    Après cela, elle décide de se perfectionner tout en suivant une formation en Pédagogie d’enseignement, suite à cela elle ajoute une formation en coaching ainsi qu’en musicothérapie.</p>
-            </div>
-            <div class="jury relative xs:h-[65vh] md:h-[70vh] lg:h-[80vh]">
-                <p class="title font-bold text-[#bc8c2d] mb-10 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Caroline Fauchet</p>
-                <div class="info-container xs:grid xs:grid-rows-1 xs:grid-cols-2 xs:gap-5 mb-5 xs:w-[90%] xs:h-[40%] xs:opacity-100 md:h-[20%] lg:w-full lg:h-full lg:block">
-                    <img loading="lazy" class="w-full xs:h-full" src="{{ asset('Images/Caroline-Fauchet.webp') }}" alt="Caroline Fauchet">
-                    <div class="infos lg:hidden">
-                        <p class="font-bold text-[#bc8c2d] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Caroline Fauchet</p>
-                        <p class="text-gray-400 my-3 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pianiste. France</p>
-                    </div>
+              </div>
+              <p class="description w-4/5 m-auto mb-10 text-justify text-gray-400 xs:text-[10px] xs:mt-5 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Mounia Dadi, passionnée d'art et de danse depuis son enfance, a débuté la danse à 5 ans à l'institut Paule Moreau et chez Vivian Pizzagalli, explorant le classique et le moderne jazz. Après des cours avec Cino Bradley Miller, elle déménage à New York pour obtenir un Bachelor of arts a Hofstra university tout en continuant a se former au Broadway Dance Center. Parallèlement, une de ces œuvres fait l’affiche au festival international du film africain et créole en 2006 à Montréal. Suite a cette reconnaissance , elle expose dans divers pays, avant de rentrer à Marrakech en 2006 et de fonder l'Art Academy en 2010, la première académie d'art pluridisciplinaire de la ville, réputée pour son dynamisme et son approche innovante de l'enseignement des arts de la scène et reconnu depuis 2015 par le conseil international de la danse reconnu par l’Unesco.</p>
+          </div>
+          <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
+            <i class="fa-solid fa-quote-left absolute xs:text[30px] xs:-top-5 xs:left-2 sm:text-[35px] sm:-top-10 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-top-10 xl:left-0"></i>
+            <i class="fa-solid fa-quote-right absolute xs:text[30px] xs:-bottom-0 xs:right-3 sm:text-[35px] sm:bottom-0 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-bottom-10 xl:right-0"></i>
+            <div class="info-container w-4/5 m-auto flex mb-5">
+                  <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Caroline-Fauchet.webp') }}" alt="Caroline Fauchet">
+                  <div class="infos flex items-center">
+                    <div>
+                      <p class="font-bold text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Caroline Fauchet</p>
+                      <p class="text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pianiste. France</p>
+                  </div>
                 </div>
-                <p class="description text-justify xs:text-[10px] sm:text-[12px] md:text-[14px] lg:hidden lg:text-[16px] xl:text-[18px]">Elle remporte de nombreux prix et récompenses, dont deux médailles d’or (piano et musique de chambre) à l’âge de 14 ans, le deuxième prix du Concours international de Sofia et le Prix d'interprétation Albert Roussel.
-                    En 2023 elle remporte le Diamond Prize du concours Royal Music Competition, le Platinum Prize  du Royal Sound music compétition, et le Grand Prize Winner des World classical music awards dans la catégorie « concerto », en interprérant le Concerto pour piano "Ariana" d'Yves Levêque, produit par Indésens Calliope Records.
-                    Diplômée d’Etat, professeur titulaire en conservatoire et directrice de Piano Academy, elle partage sa carrière entre les concerts, les enregistrements, l’enseignement (notamment dans des Universités aux USA et en Ecosse) et l’édition.</p>
-            </div>
-            <div class="jury relative m-auto xs:h-[65vh] md:h-[70vh] md:w-1/2 md:col-span-2 lg:md:h-[80vh]">
-                <p class="title font-bold text-[#bc8c2d] mb-10 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Mounia Dadi</p>
-                <div class="info-container xs:grid xs:grid-rows-1 xs:grid-cols-2 xs:gap-5 mb-5 xs:w-[90%] xs:h-[40%] xs:opacity-100 md:h-[20%] lg:w-full lg:h-full lg:block">
-                    <img loading="lazy" class="w-full xs:h-full" src="{{ asset('Images/Mounia-Dadi.webp') }}" alt="Mounia Dadi">
-                    <div class="infos lg:hidden">
-                        <p class="font-bold text-[#bc8c2d] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Mounia Dadi</p>
-                        <p class="text-gray-400 my-3 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Présence scénique. Peintre - Chorégraphe. Maroc</p>
-                    </div>
-                </div>
-                <p class="description text-justify xs:text-[10px] sm:text-[12px] md:text-[14px] lg:hidden lg:text-[16px] xl:text-[18px]">Mounia Dadi, passionnée d'art et de danse depuis son enfance, a débuté la danse à 5 ans à l'institut Paule Moreau et chez Vivian Pizzagalli, explorant le classique et le moderne jazz. Après des cours avec Cino Bradley Miller, elle déménage à New York pour obtenir un Bachelor of arts a Hofstra university tout en continuant a se former au Broadway Dance Center. Parallèlement, une de ces œuvres fait l’affiche au festival international du film africain et créole en 2006 à Montréal. Suite a cette reconnaissance , elle expose dans divers pays, avant de rentrer à Marrakech en 2006 et de fonder l'Art Academy en 2010, la première académie d'art pluridisciplinaire de la ville, réputée pour son dynamisme et son approche innovante de l'enseignement des arts de la scène et reconnu depuis 2015 par le conseil international de la danse reconnu par l’Unesco.</p>
-            </div>
+              </div>
+              <p class="description w-4/5 m-auto mb-10 text-justify text-gray-400 xs:text-[10px] xs:mt-5 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Elle remporte de nombreux prix et récompenses, dont deux médailles d’or (piano et musique de chambre) à l’âge de 14 ans, le deuxième prix du Concours international de Sofia et le Prix d'interprétation Albert Roussel.
+                En 2023 elle remporte le Diamond Prize du concours Royal Music Competition, le Platinum Prize  du Royal Sound music compétition, et le Grand Prize Winner des World classical music awards dans la catégorie « concerto », en interprérant le Concerto pour piano "Ariana" d'Yves Levêque, produit par Indésens Calliope Records.
+                Diplômée d’Etat, professeur titulaire en conservatoire et directrice de Piano Academy, elle partage sa carrière entre les concerts, les enregistrements, l’enseignement (notamment dans des Universités aux USA et en Ecosse) et l’édition.</p>
+          </div>
         </div>
     </section>
 @endsection

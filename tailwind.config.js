@@ -9,7 +9,11 @@ export default {
       extend: {
         screens: {
             'xs': '320px',
-        }
+        },
+        colors: {
+          'gold': '#bd8900',
+          'body': '#231F20'
+        },
       },
       backgroundImage: {
         'HeaderBg': "url('/public/Images/HeaderBg.png')",
