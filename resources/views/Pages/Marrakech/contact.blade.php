@@ -38,7 +38,7 @@
           </p>
           <form class="w-full py-5 my-5" action="{{ route('marrakech.contact.store') }}" method="post">
               @csrf
-              <div class="mx-auto border border-white rounded-3xl xs:w-11/12 xs:py-8 xs:px-5 md:py-16 md:px-10 lg:w-4/5 xl:w-3/5">
+              <div class="mx-auto border border-gold rounded-3xl xs:w-11/12 xs:py-8 xs:px-5 md:py-16 md:px-10 lg:w-4/5 xl:w-3/5">
                   <div class="grid grid-cols-1 grid-rows-1 xs:gap-y-3 md:gap-10">
                       <div class="grid grid-cols-1 grid-rows-2 gap-4">
                           <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="nom_complet">Nom Complet: <span class=" text-red-600">*</span></label>

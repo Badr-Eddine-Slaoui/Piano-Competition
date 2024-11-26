@@ -3,9 +3,11 @@
 use App\Http\Controllers\MarrakechContactController;
 use App\Http\Controllers\MarrakechController;
 use App\Http\Controllers\MarrakechInscriptionController;
+use App\Http\Controllers\MarrakechReservationController;
 use App\Http\Controllers\ParisContactController;
 use App\Http\Controllers\ParisController;
 use App\Http\Controllers\ParisInscriptionController;
+use App\Http\Controllers\ParisReservationController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -23,9 +25,11 @@ Route::prefix('marrakech')->as('marrakech.')->group(function () {
         Route::get('laureats', 'laureats')->name('laureats');
         Route::get('contact', 'contact')->name('contact');
         Route::get('reglement', 'reglement')->name('reglement');
+        Route::get('reservation', 'reservation')->name('reservation');
     });
     Route::post('inscription/store', [MarrakechInscriptionController::class, 'store'])->name('inscription.store');
     Route::post('contact/store', [MarrakechContactController::class ,'store'])->name('contact.store');
+    Route::post('reservation/store', [MarrakechReservationController::class ,'store'])->name('reservation.store');
 });
 
 Route::prefix('paris')->as('paris.')->group(function () {
@@ -40,7 +44,9 @@ Route::prefix('paris')->as('paris.')->group(function () {
         Route::get('laureats', 'laureats')->name('laureats');
         Route::get('contact', 'contact')->name('contact');
         Route::get('reglement', 'reglement')->name('reglement');
+        Route::get('reservation', 'reservation')->name('reservation');
     });
     Route::post('inscription/store', [ParisInscriptionController::class, 'store'])->name('inscription.store');
     Route::post('contact/store', [ParisContactController::class ,'store'])->name('contact.store');
+    Route::post('reservation/store', [ParisReservationController::class ,'store'])->name('reservation.store');
 });

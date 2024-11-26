@@ -51,97 +51,97 @@
             <div class="galerie-pics grid grid-rows-1 gap-10 xs:grid-cols-2 sm:grid-cols-3">
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>
                 <div class="galerie-pic-container relative hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
                     <img loading="lazy" class="galerie-pic w-full h-full" src="{{ asset('Images/Edition.webp') }}" alt="Edition">
-                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-white opacity-0 hover:opacity-[1]">
+                    <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Pic Title</p>
                     </div>
                 </div>

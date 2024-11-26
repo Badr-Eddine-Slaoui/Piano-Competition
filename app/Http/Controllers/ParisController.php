@@ -41,4 +41,12 @@ class ParisController extends Controller
     public function contact(){
         return view("Pages.Paris.contact");
     }
+
+    public function reglement(){
+        return view("Pages.Paris.reglement");
+    }
+
+    public function reservation(){
+        return view("Pages.Paris.reservation");
+    }
 }

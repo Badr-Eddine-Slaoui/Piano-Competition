@@ -52,7 +52,7 @@
     <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh] overflow-x-hidden">
         <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
             <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
-            <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Inscription Paris</h2>
+            <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Inscription</h2>
         </div>
         <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
             <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
@@ -64,7 +64,7 @@
             </p>
             <form class="w-full py-5 my-5" action="{{ route('paris.inscription.store') }}" method="post">
                 @csrf
-                <div class="mx-auto border border-white xs:w-full xs:py-5 xs:px-3 xs:rounded-xl sm:w-11/12 sm:py-16 sm:px-10 sm:rounded-3xl xl:w-4/5">
+                <div class="mx-auto border border-gold xs:w-full xs:py-5 xs:px-3 xs:rounded-xl sm:w-11/12 sm:py-16 sm:px-10 sm:rounded-3xl xl:w-4/5">
                     <div class="grid grid-cols-1 grid-rows-1 gap-10">
                         <div class="grid grid-cols-2 grid-rows-1 gap-4">
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">

@@ -45,4 +45,8 @@ class MarrakechController extends Controller
     public function reglement(){
         return view("Pages.Marrakech.reglement");
     }
+
+    public function reservation(){
+        return view("Pages.Marrakech.reservation");
+    }
 }
