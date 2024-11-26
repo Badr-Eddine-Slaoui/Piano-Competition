@@ -39,6 +39,7 @@ Route::prefix('paris')->as('paris.')->group(function () {
         Route::get('comite-honneur', 'comite_honneur')->name('comite_honneur');
         Route::get('laureats', 'laureats')->name('laureats');
         Route::get('contact', 'contact')->name('contact');
+        Route::get('reglement', 'reglement')->name('reglement');
     });
     Route::post('inscription/store', [ParisInscriptionController::class, 'store'])->name('inscription.store');
     Route::post('contact/store', [ParisContactController::class ,'store'])->name('contact.store');

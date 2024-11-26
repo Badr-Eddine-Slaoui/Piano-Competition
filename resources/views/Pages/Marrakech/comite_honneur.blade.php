@@ -37,7 +37,7 @@
                   <img loading="lazy" class="w-[40%] xs:h-[15vh] md:h-[20vh] xl:h-[25vh]" src="{{ asset('Images/Mohamed-Mehdi-Bensaid.webp') }}" alt="Mohamed Mehdi Bensaid">
                   <div class="infos w-[55%] ms-5 sm:me-2 xl:me-0">
                       <p class="font-bold text-[#bc8c2d] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Mohamed Mehdi Bensaid</p>
-                      <p class="text-gray-400 italic xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Mot de la directrice du Concours</p>
+                      <p class="text-gray-400 italic xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Ministre de la culture. Maroc</p>
                   </div>
               </div>
           </div>

@@ -17,12 +17,12 @@
 @endsection
 
 @section('hero')
-    <main id="carousel" class="w-full xs:h-[30vh] sm:h-[50vh] md:h-[60vh] lg:h-[80vh] relative overflow-x-hidden">
-        <div id="carousel-track" class="w-full h-full flex ">
-            <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/home-header-img.webp') }}">
-            <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/Re-Belle-Communication.webp') }}">
-        </div>
-    </main>
+  <main id="carousel" class="w-full xs:h-[30vh] sm:h-[50vh] md:h-[60vh] xl:h-[65vh] relative overflow-x-hidden">
+      <div id="carousel-track" class="w-full h-full flex ">
+          <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/home-header-img.webp') }}">
+          <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/Re-Belle-Communication.webp') }}">
+      </div>
+  </main>
 @endsection
 
 @section('content')
@@ -31,12 +31,12 @@
             <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
             <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Condition de participation</h2>
         </div>
-        <div class="w-5/6 m-auto min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[65vh]">
+        <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
             <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
                 <img loading="lazy" class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.webp') }}" alt="EventBanner">
             </div>
             <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
-                Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 23 Octobre 2023, date de début du concours.
+                Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 1 Mai 2025, date de début du concours.
                 Avoir 6 ans révolus et
                 N’ont pas encore atteint l’âge de 19 ans.
                 Sont exclus du concours les jeunes inscrits à plein temps dans des études de musique. Les jeunes étudiants sont admis. Les personnes ayant eu une relation d’enseignement permanente, publique ou privée, avec un membre du jury au cours des deux dernières années ne sont pas autorisées à participer.
@@ -46,12 +46,15 @@
             </p>
         </div>
     </section>
+    <section class="sm:w-5/6 xs:mx-5 sm:ms-auto sm:me-8 lg:w-5/6 lg:ms-auto lg:me-14 sm:mt-5 md:mt-10 lg:mt-15 xl:mt-20">
+      <button class="block mx-auto text-center bg-orange-600 rounded-xl xs:py-1 xs:px-3 xs:mt-10 xs:text-[10px] sm:py-2 sm:px-4 sm:mt-14 sm:text-[12px] md:py-3 md:px-5 md:mt-20 md:text-[14px] lg:text-[16px] xl:text-[18px]"><a class="text-decoration-none" href="{{ route('paris.reglement') }}">Lire le règlement</a></button>
+    </section>
     <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh] overflow-x-hidden">
         <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
             <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
             <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Inscription Paris</h2>
         </div>
-        <div class="m-auto min-h-[20vh] xs:w-11/12 sm:w-5/6 sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[65vh]">
+        <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
             <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
                 <img loading="lazy" class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.webp') }}" alt="EventBanner">
             </div>
@@ -66,11 +69,11 @@
                         <div class="grid grid-cols-2 grid-rows-1 gap-4">
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="nom">Nom:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre nom" id="nom" name="nom" type="text" value="{{ old('nom') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre nom" id="nom" name="nom" type="text" value="{{ old('nom') }}">
                             </div>
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="prenom">Prenom:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre prenom" id="prenom" name="prenom" type="text" value="{{ old('prenom') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre prenom" id="prenom" name="prenom" type="text" value="{{ old('prenom') }}">
                             </div>
                         </div>
                         <div class="grid grid-cols-2 grid-rows-1 gap-4">
@@ -88,15 +91,15 @@
                         <div class="grid grid-cols-3 grid-rows-1 gap-4">
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="date_naissance">Date de naissance:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre date de naissance" id="date_naissance" name="date_naissance" type="date" value="{{ old('date_naissance') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre date de naissance" id="date_naissance" name="date_naissance" type="date" value="{{ old('date_naissance') }}">
                             </div>
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="lieu_naissance">Lieu de naissance:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre lieu de naissance" id="lieu_naissance" name="lieu_naissance" type="text" value="{{ old('lieu_naissance') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre lieu de naissance" id="lieu_naissance" name="lieu_naissance" type="text" value="{{ old('lieu_naissance') }}">
                             </div>
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="nationalite">Nationalite:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre nationalite" id="nationalite" name="nationalite" type="text" value="{{ old('nationalite') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre nationalite" id="nationalite" name="nationalite" type="text" value="{{ old('nationalite') }}">
                             </div>
                         </div>
                         <div class="grid grid-cols-3 grid-rows-1 gap-4">
@@ -119,14 +122,14 @@
                         <div class="grid grid-cols-2 grid-rows-1 gap-4">
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="type_document">Type de document:</label>
-                                <select class="text-black focus:outline-0 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" id="type_document" name="type_document" value="{{ old('type_document') }}">
+                                <select class="bg-slate-400 text-gray-800 focus:outline-0 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" id="type_document" name="type_document" value="{{ old('type_document') }}">
                                     <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="Passport" selected>Passport</option>
                                     <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="CIN">CIN</option>
                                 </select>
                             </div>
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="numero_document">N° de Passeport ou CIN:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre n° de passeport ou CIN" id="numero_document" name="numero_document" type="text" value="{{ old('numero_document') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre n° de passeport ou CIN" id="numero_document" name="numero_document" type="text" value="{{ old('numero_document') }}">
                             </div>
                         </div>
                         <div class="grid grid-cols-2 grid-rows-1 gap-4">
@@ -144,15 +147,15 @@
                         <div class="grid grid-cols-3 grid-rows-1 gap-4">
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="adresse">Adresse:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre adresse" id="adresse" name="adresse" type="text" value="{{ old('adresse') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre adresse" id="adresse" name="adresse" type="text" value="{{ old('adresse') }}">
                             </div>
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="code_postal">Code postal:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre code postal" id="code_postal" name="code_postal" type="text" value="{{ old('code_postal') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre code postal" id="code_postal" name="code_postal" type="text" value="{{ old('code_postal') }}">
                             </div>
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="ville">Ville:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre ville" id="ville" name="ville" type="text" value="{{ old('ville') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre ville" id="ville" name="ville" type="text" value="{{ old('ville') }}">
                             </div>
                         </div>
                         <div class="grid grid-cols-3 grid-rows-1 gap-4">
@@ -175,11 +178,11 @@
                         <div class="grid grid-cols-2 grid-rows-1 gap-4">
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="tele">Numero du telephone:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre numero du telephone" id="tele" name="tele" type="tel" value="{{ old('tele') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre numero du telephone" id="tele" name="tele" type="tel" value="{{ old('tele') }}">
                             </div>
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="incription_email">Email:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre email" id="incription_email" name="incription_email" type="email" value="{{ old('incription_email') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre email" id="incription_email" name="incription_email" type="email" value="{{ old('incription_email') }}">
                             </div>
                         </div>
                         <div class="grid grid-cols-2 grid-rows-1 gap-4">
@@ -197,15 +200,15 @@
                         <div class="grid grid-cols-3 grid-rows-1 gap-4">
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="langues_parlees">Langues Parlees:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre langues parlees" id="langues_parlees" name="langues_parlees" type="text" value="{{ old('langues_parlees') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre langues parlees" id="langues_parlees" name="langues_parlees" type="text" value="{{ old('langues_parlees') }}">
                             </div>
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="nom_professeur">Nom du Professeur:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre nom du professeur" id="nom_professeur" name="nom_professeur" type="text" value="{{ old('nom_professeur') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre nom du professeur" id="nom_professeur" name="nom_professeur" type="text" value="{{ old('nom_professeur') }}">
                             </div>
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="etablissement_musical">L'etablissement musical:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre etablissement musical" id="etablissement_musical" name="etablissement_musical" type="text" value="{{ old('etablissement_musical') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre etablissement musical" id="etablissement_musical" name="etablissement_musical" type="text" value="{{ old('etablissement_musical') }}">
                             </div>
                         </div>
                         <div class="grid grid-cols-3 grid-rows-1 gap-4">
@@ -228,14 +231,14 @@
                         <div class="grid grid-cols-2 grid-rows-1 gap-4">
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="categorie">Categorie:</label>
-                                <select class="text-black focus:outline-0 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" id="categorie" name="categorie" value="{{ old('categorie') }}">
+                                <select class="bg-slate-400 text-gray-800 focus:outline-0 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" id="categorie" name="categorie" value="{{ old('categorie') }}">
                                     <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="Passport">Passport</option>
                                     <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="CIN">CIN</option>
                                 </select>
                             </div>
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="oeuvre">Œuvre du choix:</label>
-                                <input class="text-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre œuvre du choix" id="oeuvre" name="oeuvre" type="text" value="{{ old('oeuvre') }}">
+                                <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre œuvre du choix" id="oeuvre" name="oeuvre" type="text" value="{{ old('oeuvre') }}">
                             </div>
                         </div>
                         <div class="grid grid-cols-2 grid-rows-1 gap-4">

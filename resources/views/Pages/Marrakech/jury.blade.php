@@ -33,8 +33,6 @@
         </div>
         <div class="grid grid-cols-1 grid-rows-1 xs:gap-y-10 xs:min-h-[20vh] sm:gap-y-16 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] md:gap-y-32 lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14 lg:gap-y-40 xl:gap-y-52">
           <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
-            <i class="fa-solid fa-quote-left absolute xs:text[30px] xs:-top-5 xs:left-2 sm:text-[35px] sm:-top-10 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-top-10 xl:left-0"></i>
-            <i class="fa-solid fa-quote-right absolute xs:text[30px] xs:-bottom-0 xs:right-3 sm:text-[35px] sm:bottom-0 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-bottom-10 xl:right-0"></i>
             <div class="info-container w-4/5 m-auto flex mb-5">
                   <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Racha-Arodaky.webp') }}" alt="Racha ARODAKY">
                   <div class="infos flex items-center">
@@ -54,8 +52,6 @@
                 Racha Arodaky est directrice artistique du festival de musique des Fêtes Musicales du Château de Pionsat et directrice générale du label de musique Air-Note.</p>
           </div>
           <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
-            <i class="fa-solid fa-quote-left absolute xs:text[30px] xs:-top-5 xs:left-2 sm:text-[35px] sm:-top-10 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-top-10 xl:left-0"></i>
-            <i class="fa-solid fa-quote-right absolute xs:text[30px] xs:-bottom-0 xs:right-3 sm:text-[35px] sm:bottom-0 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-bottom-10 xl:right-0"></i>
             <div class="info-container w-4/5 m-auto flex mb-5">
                   <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Lamia-BOUKAA.webp') }}" alt="Lamia BOUKAA">
                   <div class="infos flex items-center">
@@ -71,8 +67,6 @@
                 Après cela, elle décide de se perfectionner tout en suivant une formation en Pédagogie d’enseignement, suite à cela elle ajoute une formation en coaching ainsi qu’en musicothérapie.</p>
           </div>
           <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
-            <i class="fa-solid fa-quote-left absolute xs:text[30px] xs:-top-5 xs:left-2 sm:text-[35px] sm:-top-10 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-top-10 xl:left-0"></i>
-            <i class="fa-solid fa-quote-right absolute xs:text[30px] xs:-bottom-0 xs:right-3 sm:text-[35px] sm:bottom-0 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-bottom-10 xl:right-0"></i>
             <div class="info-container w-4/5 m-auto flex mb-5">
                   <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Joshu- LAFFONT-COHEN.webp') }}" alt="Joshua LAFFONT-COHEN">
                   <div class="infos flex items-center">
@@ -85,8 +79,6 @@
               <p class="description w-4/5 m-auto mb-10 text-justify text-gray-400 xs:text-[10px] xs:mt-5 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Docteur ès lettres, professeur de français et de piano, écrivain, Joshua Laffont- Cohen reçoit en 2011 le prix littéraire André Ferran de l'Académie de Toulouse pour sa thèse sur George Sand et la musique et publie plusieurs ouvrages (roman, théâtre, poésie, essai). Comédien et auteur-compositeur- interprète connu sous le nom de Joshua Lawrence, il est aussi le créateur et le directeur du Concours International de Piano Mouvement Contraire (Paris, Marrakech).</p>
           </div>
           <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
-            <i class="fa-solid fa-quote-left absolute xs:text[30px] xs:-top-5 xs:left-2 sm:text-[35px] sm:-top-10 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-top-10 xl:left-0"></i>
-            <i class="fa-solid fa-quote-right absolute xs:text[30px] xs:-bottom-0 xs:right-3 sm:text-[35px] sm:bottom-0 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-bottom-10 xl:right-0"></i>
             <div class="info-container w-4/5 m-auto flex mb-5">
                   <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Rachida-Dati.webp') }}" alt="Rachida Dati">
                   <div class="infos flex items-center">
@@ -99,8 +91,6 @@
               <p class="description w-4/5 m-auto mb-10 text-justify text-gray-400 xs:text-[10px] xs:mt-5 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Mounia Dadi, passionnée d'art et de danse depuis son enfance, a débuté la danse à 5 ans à l'institut Paule Moreau et chez Vivian Pizzagalli, explorant le classique et le moderne jazz. Après des cours avec Cino Bradley Miller, elle déménage à New York pour obtenir un Bachelor of arts a Hofstra university tout en continuant a se former au Broadway Dance Center. Parallèlement, une de ces œuvres fait l’affiche au festival international du film africain et créole en 2006 à Montréal. Suite a cette reconnaissance , elle expose dans divers pays, avant de rentrer à Marrakech en 2006 et de fonder l'Art Academy en 2010, la première académie d'art pluridisciplinaire de la ville, réputée pour son dynamisme et son approche innovante de l'enseignement des arts de la scène et reconnu depuis 2015 par le conseil international de la danse reconnu par l’Unesco.</p>
           </div>
           <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
-            <i class="fa-solid fa-quote-left absolute xs:text[30px] xs:-top-5 xs:left-2 sm:text-[35px] sm:-top-10 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-top-10 xl:left-0"></i>
-            <i class="fa-solid fa-quote-right absolute xs:text[30px] xs:-bottom-0 xs:right-3 sm:text-[35px] sm:bottom-0 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-bottom-10 xl:right-0"></i>
             <div class="info-container w-4/5 m-auto flex mb-5">
                   <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Caroline-Fauchet.webp') }}" alt="Caroline Fauchet">
                   <div class="infos flex items-center">
