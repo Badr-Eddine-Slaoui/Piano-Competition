@@ -21,8 +21,8 @@
         </aside>
         <section class="w-full min-h-screen relative">
             <div class="flex items-center xs:h-[13vh] xs:ms-5 md:h-[15vh] md:ms-10 lg:ms-14 xl:ms-20">
-                <img class="h-full py-[2vh]" src="{{ asset('Images/LOGO PIANO SITE WEB/LOGO OFF CONCOURS BLANC.png') }}" alt="">
-                <img class="h-full py-[2vh] xs:ms-5 md:ms-10" src="{{ asset('Images/LOGO PIANO SITE WEB/PIANIST blanc.png') }}" alt="">
+                <img loading="lazy" class="h-full py-[2vh]" src="{{ asset('Images/LOGO PIANO SITE WEB/LOGO OFF CONCOURS BLANC.png') }}" alt="">
+                <img loading="lazy" class="h-full py-[2vh] xs:ms-5 md:ms-10" src="{{ asset('Images/LOGO PIANO SITE WEB/PIANIST blanc.png') }}" alt="">
             </div>
             <div class="m-auto grid grid-rows-1 absolute z-20 right-0 w-4/12 xs:top-[30%] xs:grid-cols-1 lg:grid-cols-2 lg:gap-x-10 lg:top-[75%] xl:top-[70%]">
                 <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">

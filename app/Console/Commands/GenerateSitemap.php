@@ -36,7 +36,7 @@ class GenerateSitemap extends Command
             }
 
             $sitemap->add(
-                Url::create($uri)
+                Url::create(url($uri))
                     ->setLastModificationDate(now())
                     ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
                     ->setPriority($this->getPriority($uri))
