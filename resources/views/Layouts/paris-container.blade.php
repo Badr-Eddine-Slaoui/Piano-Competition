@@ -70,7 +70,7 @@
                       </div>
                       <div class="grid grid-rows-1 grid-cols-4 gap-x-10">
                         <a href="#" target="_blank"><i class="fa-brands fa-facebook xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
-                        <a href="#" target="_blank"><i class="fa-brands fa-instagram xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
+                        <a href="https://www.instagram.com/concoursmouvementcontraire/profilecard/?igsh=dmQxZjc4dGowMzBh" target="_blank"><i class="fa-brands fa-instagram xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
                         <a href="#" target="_blank"><i class="fa-brands fa-tiktok xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
                         <a href="#" target="_blank"><i class="fa-brands fa-youtube xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
                       </div>
@@ -188,7 +188,7 @@
                     <p class="text-gold font-bold mb-8 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Media</p>
                     <div class="grid grid-cols-4 gap-5 xs:w-5/6 sm:w-4/6">
                         <a href="#" target="_blank"><i class="fa-brands fa-facebook hover:scale-110 hover:-translate-y-2 transition-all xs:w-full xs:text-[18px] sm:text-[24px] md:text-[26px] lg:text-[34px] xl:text-[36px]"></i></a>
-                        <a href="#" target="_blank"><i class="fa-brands fa-instagram hover:scale-110 hover:-translate-y-2 transition-all xs:w-full xs:text-[18px] sm:text-[24px] md:text-[26px] lg:text-[34px] xl:text-[36px]"></i></a>
+                        <a href="https://www.instagram.com/concoursmouvementcontraire/profilecard/?igsh=dmQxZjc4dGowMzBh" target="_blank"><i class="fa-brands fa-instagram hover:scale-110 hover:-translate-y-2 transition-all xs:w-full xs:text-[18px] sm:text-[24px] md:text-[26px] lg:text-[34px] xl:text-[36px]"></i></a>
                         <a href="#" target="_blank"><i class="fa-brands fa-tiktok hover:scale-110 hover:-translate-y-2 transition-all xs:w-full xs:text-[18px] sm:text-[24px] md:text-[26px] lg:text-[34px] xl:text-[36px]"></i></a>
                         <a href="#" target="_blank"><i class="fa-brands fa-youtube hover:scale-110 hover:-translate-y-2 transition-all xs:w-full xs:text-[18px] sm:text-[24px] md:text-[26px] lg:text-[34px] xl:text-[36px]"></i></a>
                     </div>
