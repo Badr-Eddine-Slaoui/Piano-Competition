@@ -231,8 +231,21 @@
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">
                                 <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="categorie">Categorie:</label>
                                 <select class="bg-slate-400 text-gray-800 focus:outline-0 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" id="categorie" name="categorie" value="{{ old('categorie') }}">
-                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="Passport">Passport</option>
-                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="CIN">CIN</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">--Choisissez votre niveau--</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="initiation">Initiation</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="debutant-1">Débutant 1</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="debutant-2">Débutant 2</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="preparatoire-1">Préparatoire 1</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="preparatoire-2">Préparatoire 2</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="elementaire-1">Élémentaire 1</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="elementaire-2">Élémentaire 2</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="moyen-1">Moyen 1</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="moyen-2">Moyen 2</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="superieur-1">Supérieur 1</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="superieur-2">Supérieur 2</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="excellence">Excellence</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="virtuosite">Virtuosité</option>
+                                    <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="diplome-de-concert">Diplôme de Concert</option>
                                 </select>
                             </div>
                             <div class="grid grid-cols-1 grid-rows-2 gap-4">

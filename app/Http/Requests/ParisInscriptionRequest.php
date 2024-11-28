@@ -34,7 +34,7 @@ class ParisInscriptionRequest extends FormRequest
             'langues_parlees' => 'required|string|max:100',
             'nom_professeur' => 'required|string|max:100',
             'etablissement_musical' => 'required|string|max:100',
-            'categorie' => 'required|string|max:50',
+            'categorie' => 'required|in:initiation,debutant-1,debutant-2,preparatoire-1,preparatoire-2,elementaire-1,elementaire-2,moyen-1,moyen-2,superieur-1,superieur-2,excellence,virtuosite,diplome-de-concert',
             'oeuvre' => 'required|string|max:100',
         ];
     }
@@ -106,8 +106,7 @@ class ParisInscriptionRequest extends FormRequest
             'etablissement_musical.max' => 'Le champ "Établissement musical" ne doit pas dépasser 100 caractères.',
 
             'categorie.required' => 'Le champ "Catégorie" est obligatoire.',
-            'categorie.string' => 'Le champ "Catégorie" doit être une chaîne de caractères.',
-            'categorie.max' => 'Le champ "Catégorie" ne doit pas dépasser 50 caractères.',
+            'categorie.in' => 'Le champ "Catégorie" est obligatoire.',
 
             'oeuvre.required' => 'Le champ "Œuvre" est obligatoire.',
             'oeuvre.string' => 'Le champ "Œuvre" doit être une chaîne de caractères.',

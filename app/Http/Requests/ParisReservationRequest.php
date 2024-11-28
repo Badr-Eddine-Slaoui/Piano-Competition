@@ -22,9 +22,11 @@ class ParisReservationRequest extends FormRequest
     public function rules(): array
     {
         return [
-            "nom_complet"=> "required|max:60|min:3|string",
+            'nom' => 'required|string|max:60',
+            'prenom' => 'required|string|max:60',
             "email"=> "required|email|max:200|min:10|string",
             'tel' => 'required|string|max:15',
+            "billet" => 'required|in:ceremonie-de-cloture,vernissage-expo-histoire-du-piano,afterwork,concert-de-piano,recital-des-laureats'
         ];
     }
 
@@ -34,10 +36,12 @@ class ParisReservationRequest extends FormRequest
     public function messages()
     {
         return [
-            'nom_complet.required' => 'Le champ du nom est requis.',
-            'nom_complet.max' => 'Le nombre maximum de caractères pour le champ du nom est de 60.',
-            'nom_complet.min' => 'Le nombre minimum de caractères pour le champ du nom est de 3.',
-            'nom_complet.string' => 'Le champ du nom doit être une chaîne de caractères.',
+            'nom.required' => 'Le champ "Nom" est obligatoire.',
+            'nom.string' => 'Le champ "Nom" doit être une chaîne de caractères.',
+            'nom.max' => 'Le champ "Nom" ne doit pas dépasser 60 caractères.',
+            'prenom.required' => 'Le champ "Prénom" est obligatoire.',
+            'prenom.string' => 'Le champ "Prénom" doit être une chaîne de caractères.',
+            'prenom.max' => 'Le champ "Prénom" ne doit pas dépasser 60 caractères.',
             'email.required' => 'Le champ de l\'email est requis.',
             'email.max' => 'Le nombre maximum de caractères pour le champ de l\'email est de 200.',
             'email.min' => 'Le nombre minimum de caractères pour le champ de l\'email est de 10.',
@@ -46,6 +50,8 @@ class ParisReservationRequest extends FormRequest
             'tel.required' => 'Le champ "Téléphone" est obligatoire.',
             'tel.string' => 'Le champ "Téléphone" doit être une chaîne de caractères.',
             'tel.max' => 'Le champ "Téléphone" ne doit pas dépasser 15 caractères.',
+            'billet.required' => 'Le champ "Billet" est obligatoire.',
+            'billet.in' => 'Le champ "Billet" est obligatoire.'
         ];
     }
 }

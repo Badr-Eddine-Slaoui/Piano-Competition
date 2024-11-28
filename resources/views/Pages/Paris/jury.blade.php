@@ -83,18 +83,6 @@
           </div>
           <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
             <div class="info-container w-4/5 m-auto flex mb-5">
-                  <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Rachida-Dati.webp') }}" alt="Rachida Dati">
-                  <div class="infos flex items-center">
-                    <div>
-                      <p class="font-bold text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Rachida Dati</p>
-                      <p class="text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Présence scénique. Peintre - Chorégraphe. Maroc</p>
-                  </div>
-                </div>
-              </div>
-              <p class="description w-4/5 m-auto mb-10 text-justify text-gray-400 xs:text-[10px] xs:mt-5 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Mounia Dadi, passionnée d'art et de danse depuis son enfance, a débuté la danse à 5 ans à l'institut Paule Moreau et chez Vivian Pizzagalli, explorant le classique et le moderne jazz. Après des cours avec Cino Bradley Miller, elle déménage à New York pour obtenir un Bachelor of arts a Hofstra university tout en continuant a se former au Broadway Dance Center. Parallèlement, une de ces œuvres fait l’affiche au festival international du film africain et créole en 2006 à Montréal. Suite a cette reconnaissance , elle expose dans divers pays, avant de rentrer à Marrakech en 2006 et de fonder l'Art Academy en 2010, la première académie d'art pluridisciplinaire de la ville, réputée pour son dynamisme et son approche innovante de l'enseignement des arts de la scène et reconnu depuis 2015 par le conseil international de la danse reconnu par l’Unesco.</p>
-          </div>
-          <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
-            <div class="info-container w-4/5 m-auto flex mb-5">
                   <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Caroline-Fauchet.webp') }}" alt="Caroline Fauchet">
                   <div class="infos flex items-center">
                     <div>

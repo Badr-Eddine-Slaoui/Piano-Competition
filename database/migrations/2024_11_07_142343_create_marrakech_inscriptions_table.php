@@ -28,7 +28,22 @@ return new class extends Migration
             $table->string('langues_parlees', 100);
             $table->string('nom_professeur', 100);
             $table->string('etablissement_musical', 100);
-            $table->string('categorie', 50);
+            $table->enum('categorie', [
+              "initiation",
+              "debutant-1",
+              "debutant-2",
+              "preparatoire-1",
+              "preparatoire-2",
+              "elementaire-1",
+              "elementaire-2",
+              "moyen-1",
+              "moyen-2",
+              "superieur-1",
+              "superieur-2",
+              "excellence",
+              "virtuosite",
+              "diplome-de-concert"
+            ]);
             $table->string('oeuvre', 150);
             $table->timestamps();
         });

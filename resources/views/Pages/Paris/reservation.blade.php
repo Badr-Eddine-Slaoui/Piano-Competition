@@ -40,9 +40,16 @@
               <div class="mx-auto border border-gold rounded-3xl xs:w-11/12 xs:py-8 xs:px-5 md:py-16 md:px-10 lg:w-4/5 xl:w-3/5">
                   <div class="grid grid-cols-1 grid-rows-1 xs:gap-y-3 md:gap-10">
                       <div class="grid grid-cols-1 grid-rows-2 gap-4">
-                          <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="nom_complet">Nom Complet: <span class=" text-red-600">*</span></label>
-                          <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre nom" id="nom_complet" name="nom_complet" type="text" value="{{ old('nom_complet') }}">
-                          @error('nom_complet')
+                          <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="nom">Nom: <span class=" text-red-600">*</span></label>
+                          <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre nom" id="nom" name="nom" type="text" value="{{ old('nom') }}">
+                          @error('nom')
+                              <p class="text-red-600 mt-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">{{ $message }}</p>
+                          @enderror
+                      </div>
+                      <div class="grid grid-cols-1 grid-rows-2 gap-4">
+                          <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="prenom">Prenom: <span class=" text-red-600">*</span></label>
+                          <input class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" placeholder="Entrer votre nom" id="prenom" name="prenom" type="text" value="{{ old('prenom') }}">
+                          @error('prenom')
                               <p class="text-red-600 mt-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">{{ $message }}</p>
                           @enderror
                       </div>
@@ -61,9 +68,14 @@
                           @enderror
                       </div>
                       <div class="grid grid-cols-1 grid-rows-2 gap-4">
-                        <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="billet">Nom Complet: <span class=" text-red-600">*</span></label>
+                        <label class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" for="billet">Billet: <span class=" text-red-600">*</span></label>
                         <select class="bg-slate-400 text-black focus:outline-0 placeholder:text-gray-800 px-4 py-1 rounded-md xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" id="billet" name="billet" type="text" value="{{ old('billet') }}">
-                          <option>--Choisissez votre billet--</option>
+                          <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">--Choisissez votre billet--</option>
+                          <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="recital-des-laureats">Récital des lauréats</option>
+                          <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="concert-de-piano">Concert de piano</option>
+                          <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="afterwork">Afterwork</option>
+                          <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="vernissage-expo-histoire-du-piano">Vernissage expo histoire du piano</option>
+                          <option class="xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]" value="ceremonie-de-cloture">Cérémonie de clôture</option>
                         </select>
                         @error('billet')
                             <p class="text-red-600 mt-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">{{ $message }}</p>
@@ -74,7 +86,6 @@
               </div>
           </form>
       </div>
-
   </section>
 @endsection
 

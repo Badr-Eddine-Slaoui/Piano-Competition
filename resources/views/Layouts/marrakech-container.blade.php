@@ -42,11 +42,8 @@
                     <i id="menuBar" class="fa-solid fa-bars text-white"></i>
                 </div>
                 <div id="menu" class="xs:w-3/5 xs:transition-all xs:opacity-0 xs:duration-500 xs:translate-x-[100%] xs:fixed xs:right-0 xs:top-[10vh] xs:z-20 xs:bg-black xs:h-screen xs:py-10 xs:px-10 sm:transition-none sm:translate-x-0 sm:opacity-100 sm:relative sm:p-0 sm:right-[unset] sm:top-[unset] sm:z-[unset] sm:bg-[unset] sm:h-[unset] sm:flex sm:flex-col sm:items-center sm:w-8/12 md:mr-5 lg:w-7/12">
-                    @php
-                        $title = View::yieldContent('title');
-                        $active = "font-bold xs:text-gold";
-                        $not_active = "hover:text-gold";
-                    @endphp
+                    <script>
+                    </script>
                     <div class="w-full text-white xs:text-[10px] xs:hidden sm:ml-auto sm:flex sm:items-center sm:justify-end sm:font-semibold sm:gap-y-4 sm:text-[9px] md:text-[12px] lg:text-[14px] lg:gap-y-6 xl:text-[17px] xl:gap-y-8">
                       <div class="me-auto grid grid-rows-1 w-3/12 grid-cols-2 gap-x-2 sm:me-5 lg:me-10">
                         <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
@@ -76,36 +73,35 @@
                       </div>
                     </div>
                     <ul class="w-full mx-5 text-white xs:text-[10px] sm:ml-auto sm:flex sm:items-center sm:justify-between sm:font-semibold sm:gap-y-4 sm:text-[9px] md:text-[12px] lg:text-[14px] lg:gap-y-6 xl:text-[17px] xl:gap-y-8">
-                        <li><a href="{{ route('marrakech.home') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Accueil" ? $active : $not_active }}">Accueil</a></li>
+                        <li><a href="{{ route('marrakech.home') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 hover:text-gold">Accueil</a></li>
                         <li class="dropdown-container text-decoration-none relative xs:block xs:mb-5 sm:mb-0">
                           <span class="me-2">Concours 2025</span>
                           <i class="fa-solid fa-angle-down"></i>
                           <ul class="dropdown hidden bg-black ps-2 -ms-2 hover:grid grid-cols-1 grid-rows-1 xs:pt-5 sm:absolute sm:w-[200%] sm:py-3 sm:gap-y-5 md:gap-y-4 lg:gap-y-3 xl:gap-y-2 xl:py-2">
-                            <li><a href="{{ route('marrakech.edition_2025') }}#programme" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Edition 2025" ? $active : $not_active }}">Le programme du concours</a></li>
-                            <li><a href="{{ route('marrakech.edition_2025') }}#classe-categories" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Edition 2025" ? $active : $not_active }}">Classe - catégories</a></li>
-                            <li><a href="{{ route('marrakech.presentation') }}#infos-pratiques" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Presentation" ? $active : $not_active }}">Infos pratiques</a></li>
-                            <li><a href="{{ route('marrakech.reglement') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Règlement" ? $active : $not_active }}">Règlement</a></li>
-                            <li><a href="#" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Récompenses" ? $active : $not_active }}">Récompenses</a></li>
-                            <li><a href="{{ route('marrakech.reservation') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Reservation" ? $active : $not_active }}">Réservez vos billets</a></li>
+                            <li><a href="{{ route('marrakech.edition_2025') }}#programme" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Le programme du concours</a></li>
+                            <li><a href="{{ route('marrakech.edition_2025') }}#classe-categories" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Classe - catégories</a></li>
+                            <li><a href="{{ route('marrakech.reglement') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Règlement</a></li>
+                            <li><a href="{{ route('marrakech.edition_2025') }}#partitions" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Partitions</a></li>
+                            <li><a href="{{ route('marrakech.edition_2025') }}#recompenses" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Récompenses</a></li>
                           </ul>
                         </li>
                         <li class="dropdown-container text-decoration-none relative xs:block xs:mb-5 sm:mb-0">
                           <span class="me-2">Organisation</span>
                           <i class="fa-solid fa-angle-down"></i>
                           <ul class="dropdown hidden bg-black ps-2 -ms-2 hover:grid grid-cols-1 grid-rows-1 xs:pt-5 xs:w-full sm:absolute sm:w-[200%] sm:py-3 sm:gap-y-5 md:gap-y-4 lg:gap-y-3 xl:gap-y-2 xl:py-2">
-                            <li><a href="{{ route('marrakech.edition_2025') }}#composantes" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Edition 2025" ? $active : $not_active }}">Organisation du concours</a></li>
-                            <li><a href="{{ route('marrakech.presentation') }}#association-culturers-sans-frontieres" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Presentation" ? $active : $not_active }}">Association Culturers sans frontières</a></li>
-                            <li><a href="{{ route('marrakech.home') }}#mot-de-la-presidente" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Accueil" ? $active : $not_active }}">Mot de la présidente</a></li>
-                            <li><a href="{{ route('marrakech.comite_honneur') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Comite d’Honneur" ? $active : $not_active }}">Comité d’Honneur</a></li>
-                            <li><a href="{{ route('marrakech.jury') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Jury" ? $active : $not_active }}">Jury</a></li>
-                            <li><a href="{{ route('marrakech.home') }}#partenaires" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Accueil" ? $active : $not_active }}">Partenaires</a></li>
-                            <li><a href="{{ route('marrakech.galerie') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Galerie" ? $active : $not_active }}">Galerie</a></li>
+                            <li><a href="{{ route('marrakech.home') }}#mot-de-la-presidente" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Mot de la présidente</a></li>
+                            <li><a href="{{ route('marrakech.edition_2025') }}#composantes" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Organisation du concours</a></li>
+                            <li><a href="{{ route('marrakech.presentation') }}#association-culturers-sans-frontieres" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Association Culturers sans frontières</a></li>
+                            <li><a href="{{ route('marrakech.comite_honneur') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Comité d’Honneur</a></li>
+                            <li><a href="{{ route('marrakech.jury') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Jury</a></li>
+                            <li><a href="{{ route('marrakech.home') }}#partenaires" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Partenaires</a></li>
+                            <li><a href="{{ route('marrakech.galerie') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Galerie</a></li>
                           </ul>
                         </li>
-                        <li><a href="{{ route('marrakech.laureats') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Lauréats 2024" ? $active : $not_active }}">Lauréats 2024</a></li>
-                        <li><a href="{{ route('marrakech.contact') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Contact" ? $active : $not_active }}">Contact</a></li>
-                        <li class="xs:block sm:hidden"><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Inscription" ? $active : $not_active }}">Inscription</a></li>
-                        <li class="xs:block sm:hidden"><a href="{{ route('marrakech.reservation') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Reservation" ? $active : $not_active }}">Reservation</a></li>
+                        <li><a href="{{ route('marrakech.laureats') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 hover:text-gold">Lauréats 2024</a></li>
+                        <li><a href="{{ route('marrakech.contact') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 hover:text-gold">Contact</a></li>
+                        <li class="xs:block sm:hidden"><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 hover:text-gold">Inscription</a></li>
+                        <li class="xs:block sm:hidden"><a href="{{ route('marrakech.reservation') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 hover:text-gold">Reservation</a></li>
                         <li class="sm:hidden">
                           <div class="me-auto grid grid-rows-1 w-7/12 grid-cols-2 gap-x-5">
                             <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
@@ -133,7 +129,7 @@
             <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/MC dorté 1.png')  }}" alt="SideImg">
         </aside>
         @yield('content')
-        @if($title !== "Contactez-nous")
+        {{-- @if($title !== "Contact")
             <section id="map" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] sm:w-11/12 sm:ms-auto sm:me-8 md:grid md:grid-cols-2 md:grid-rows-1 md:mt-5 md:m-auto md:gap-x-10 md:min-h-[40vh] lg:min-h-[50vh] lg:ms-auto lg:me-14">
                 <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh] md:col-span-2">
                     <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
@@ -174,7 +170,7 @@
                     </div>
                 </div>
             </section>
-        @endif
+        @endif --}}
         <footer class="w-full min-h-80 pt-5 z-40 relative">
             <img loading="lazy" class="w-full" src="{{ asset('Images/footer-bg-piano.webp') }}" alt="Footer Bg Piano">
             <div class="bg-black">

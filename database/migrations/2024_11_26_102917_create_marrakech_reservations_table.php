@@ -13,9 +13,17 @@ return new class extends Migration
     {
         Schema::create('marrakech_reservations', function (Blueprint $table) {
           $table->id();
-          $table->string('nom_complet',60);
+          $table->string('nom', 60);
+          $table->string('prenom', 60);
           $table->string('email',200);
           $table->string('tel', 15);
+          $table->enum('billet',[
+            "ceremonie-de-cloture",
+            "vernissage-expo-histoire-du-piano",
+            "afterwork",
+            "concert-de-piano",
+            "recital-des-laureats"
+          ]);
           $table->timestamps();
         });
     }

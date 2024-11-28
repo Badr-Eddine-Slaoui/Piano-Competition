@@ -48,7 +48,7 @@
           <li>Faciliter l’accès aux activités culturelles et artistiques pour les populations défavorisées.</li>
         </ul>
         <p class="font-semibold text-stone-50 my-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Les membres de l’association </p>
-        <ul class="text-gold ps-10 list-decimal xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
+        {{-- <ul class="text-gold ps-10 list-decimal xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
           <li>
             <ul class="text-[#a3a3a3] list-disc xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
               <p class="font-[500] text-gold my-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Membres Actifs :</p>
@@ -79,7 +79,7 @@
               <li class="ms-10">Ils siègent dans un comité de concertation appelé comité conseil qui veille à préserver l’orientation de l’association et y disposent d’un droit de vote ayant chacun une voix délibérative.</li>
             </ul>
           </li>
-        </ul>
+        </ul> --}}
     </div>
   </section>
   <section id="infos-pratiques" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh] overflow-x-hidden">
