@@ -1,103 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
     <url>
-        <loc>http://localhost/up</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/up</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/marrakech</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/marrakech</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/marrakech/presentation</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/marrakech/presentation</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/marrakech/galerie</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/marrakech/galerie</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/marrakech/edition-2025</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/marrakech/edition-2025</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/marrakech/inscription</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/marrakech/inscription</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/marrakech/jury</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/marrakech/jury</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/marrakech/comite-honneur</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/marrakech/comite-honneur</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/marrakech/laureats</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/marrakech/laureats</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/marrakech/contact</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/marrakech/contact</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/paris</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/marrakech/reglement</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/paris/presentation</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/marrakech/reservation</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/paris/galerie</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/paris</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/paris/edition-2025</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/paris/presentation</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/paris/inscription</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/paris/galerie</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/paris/jury</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/paris/edition-2025</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/paris/comite-honneur</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/paris/inscription</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/paris/laureats</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/paris/jury</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
     <url>
-        <loc>http://localhost/paris/contact</loc>
-        <lastmod>2024-11-19T17:09:32+00:00</lastmod>
+        <loc>http://51.20.34.172/paris/comite-honneur</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://51.20.34.172/paris/laureats</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://51.20.34.172/paris/contact</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://51.20.34.172/paris/reglement</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://51.20.34.172/paris/reservation</loc>
+        <lastmod>2024-11-28T21:48:16+00:00</lastmod>
 
             </url>
 </urlset>
