@@ -32,6 +32,9 @@
             <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Jury</h2>
         </div>
         <div class="grid grid-cols-1 grid-rows-1 xs:gap-y-10 xs:min-h-[20vh] sm:gap-y-16 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] md:gap-y-32 lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14 lg:gap-y-40 xl:gap-y-52">
+          <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
+            Le jury du Concours International de Piano Mouvement Contraire est composé de personnalités d'exception, mêlant virtuoses de renom, pédagogues expérimentés et artistes aux parcours variés et prestigieux. Chaque membre incarne une expertise unique, allant de la composition à l'interprétation, en passant par l'enseignement et l'innovation artistique. Ce jury illustre parfaitement la diversité et la richesse du monde musical, offrant aux participants un regard éclairé et une évaluation rigoureuse. Leur passion commune pour la musique et leur engagement envers l'excellence font de ce concours une plateforme d'échange et d'émulation artistique incomparable.
+          </p>
           <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
             <div class="info-container w-4/5 m-auto flex mb-5">
                   <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Racha-Arodaky.webp') }}" alt="Racha ARODAKY">

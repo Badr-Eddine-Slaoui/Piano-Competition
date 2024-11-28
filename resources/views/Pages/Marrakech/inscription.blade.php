@@ -59,8 +59,7 @@
                 <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset('Images/Galerie Piano/galerie-33.png') }}" alt="Inscription">
             </div>
             <p class="text-[#a3a3a3] my-10 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
-                Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 23 Octobre 2023, date de début du concours.
-                Avoir 6 ans révolus et
+              Rejoignez le Concours International de Piano Mouvement Contraire et révélez votre talent sur une scène prestigieuse dédiée à l'excellence musicale. Que vous soyez amateur ou professionnel, cette compétition unique vous offre l'opportunité de partager votre passion, de vous mesurer à des pianistes du monde entier et de bénéficier de l’expertise d’un jury renommé. Inscrivez-vous dès maintenant pour vivre une expérience inoubliable, marquée par l'innovation, la créativité et l'amour de la musique.
             </p>
             <form class="w-full py-5 my-5" action="{{ route('marrakech.inscription.store') }}" method="post">
                 @csrf

@@ -36,9 +36,7 @@
                 <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset('Images/Galerie Piano/galerie-28.png') }}" alt="Galerie">
             </div>
             <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
-                Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 23 Octobre 2023, date de début du concours.
-                Avoir 6 ans révolus et
-                N’ont pas encore atteint l’âge de 19 ans.
+              Plongez dans l’univers captivant du Concours International de Piano Mouvement Contraire à travers notre galerie. Découvrez en images et en vidéos les moments forts des éditions précédentes : des performances émouvantes, des instants de partage entre talents du monde entier et des souvenirs inoubliables. Laissez-vous inspirer par ces témoignages visuels de passion et d’excellence musicale, et vivez la magie de ce concours unique.
             </p>
         </div>
     </section>

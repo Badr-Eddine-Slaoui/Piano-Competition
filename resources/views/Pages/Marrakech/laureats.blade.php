@@ -32,7 +32,13 @@
           <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Les Laureats 2024</h2>
       </div>
       <div class="laureats min-h-screen mb-5 m-auto xs:w-4/6 sm:w-9/12 sm:grid sm:grid-cols-2 sm:grid-rows-1 sm:gap-x-1 sm:gap-y-10 md:gap-x-10 md:gap-y-20 xl:w-4/6">
-          <div class="left xs:mb-5 sm:mb-0">
+        <div class="w-full my-10 col-span-2 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
+          <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset('Images/Galerie Piano/galerie-20.png') }}" alt="Objectifs">
+        </div>
+        <p class="text-[#a3a3a3] col-span-2 xs:text-[10px] xs:mb-5 sm:mb-20 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
+          Découvrez les lauréats de l'édition 2024 du Concours International de Piano Mouvement Contraire, une célébration de talent, de passion et d'excellence musicale. Ces artistes prometteurs, récompensés dans diverses catégories allant de l'initiation à la virtuosité, incarnent l'esprit du concours et son engagement envers la promotion de la musique classique. Félicitations à tous nos lauréats pour leurs performances remarquables et leur dévouement à l'art pianistique!
+        </p>
+        <div class="left xs:mb-5 sm:mb-0">
               <p class="font-bold text-[#bc8c2d] mb-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Initiation:</p>
               <p class="text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"><span class="text-white">1-</span> prix Mention très bien: El Bouanani Lina</p>
               <p class="text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"><span class="text-white">2-</span> prix Mention très bien: Bouzoubaa Sara</p>

@@ -48,11 +48,27 @@
                         $not_active = "hover:text-gold";
                     @endphp
                     <div class="w-full text-white xs:text-[10px] xs:hidden sm:ml-auto sm:flex sm:items-center sm:justify-end sm:font-semibold sm:gap-y-4 sm:text-[9px] md:text-[12px] lg:text-[14px] lg:gap-y-6 xl:text-[17px] xl:gap-y-8">
-                      <div class="flex items-center justify-end sm:my-2 md:my-4 xl:my-5">
-                        <button class="bg-gold rounded-full py-1 px-5 me-10"><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Inscription</a></button>
-                        <button class="border border-gold rounded-full py-1 px-5 me-10"><a href="{{ route('marrakech.reservation') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Reservation</a></button>
+                      <div class="me-auto grid grid-rows-1 w-3/12 grid-cols-2 gap-x-2 sm:me-5 lg:me-10">
+                        <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
+                            <div class="flex flex-col h-full items-center justify-around cursor-pointer">
+                                <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
+                                    <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Marrakech doré.png') }}" alt="Concours International de Piano Marrakech Logo" title="Concours International de Piano Marrakech Logo">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="{{ route('paris.home') }}" title="Concours International de Piano Paris">
+                            <div class="flex h-full items-center justify-around cursor-pointer">
+                                <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
+                                    <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Paris doré 1.png') }}" alt="Concours International de Piano Paris Logo" title="Concours International de Piano Paris Logo">
+                                </div>
+                            </div>
+                        </a>
                       </div>
-                      <div class="grid grid-rows-1 grid-cols-4 gap-x-10">
+                      <div class="flex items-center justify-end sm:my-2 md:my-4 xl:my-5">
+                        <button class="bg-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10"><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Inscription</a></button>
+                        <button class="border border-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10"><a href="{{ route('marrakech.reservation') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Reservation</a></button>
+                      </div>
+                      <div class="grid grid-rows-1 grid-cols-4 sm:gap-x-5 lg:gap-x-8 xl:gap-x-10">
                         <a href="#" target="_blank"><i class="fa-brands fa-facebook xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
                         <a href="#" target="_blank"><i class="fa-brands fa-instagram xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
                         <a href="#" target="_blank"><i class="fa-brands fa-tiktok xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
@@ -77,8 +93,8 @@
                           <span class="me-2">Organisation</span>
                           <i class="fa-solid fa-angle-down"></i>
                           <ul class="dropdown hidden bg-black ps-2 -ms-2 hover:grid grid-cols-1 grid-rows-1 xs:pt-5 xs:w-full sm:absolute sm:w-[200%] sm:py-3 sm:gap-y-5 md:gap-y-4 lg:gap-y-3 xl:gap-y-2 xl:py-2">
-                            <li><a href="{{ route('marrakech.edition_2025') }}#programme" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Presentation" ? $active : $not_active }}">Organisation du concours</a></li>
-                            <li><a href="{{ route('marrakech.presentation') }}#association-culturers-sans-frontieres" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Edition 2025" ? $active : $not_active }}">Association Culturers sans frontières</a></li>
+                            <li><a href="{{ route('marrakech.edition_2025') }}#composantes" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Edition 2025" ? $active : $not_active }}">Organisation du concours</a></li>
+                            <li><a href="{{ route('marrakech.presentation') }}#association-culturers-sans-frontieres" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Presentation" ? $active : $not_active }}">Association Culturers sans frontières</a></li>
                             <li><a href="{{ route('marrakech.home') }}#mot-de-la-presidente" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Accueil" ? $active : $not_active }}">Mot de la présidente</a></li>
                             <li><a href="{{ route('marrakech.comite_honneur') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Comite d’Honneur" ? $active : $not_active }}">Comité d’Honneur</a></li>
                             <li><a href="{{ route('marrakech.jury') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Jury" ? $active : $not_active }}">Jury</a></li>
@@ -90,7 +106,25 @@
                         <li><a href="{{ route('marrakech.contact') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Contact" ? $active : $not_active }}">Contact</a></li>
                         <li class="xs:block sm:hidden"><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Inscription" ? $active : $not_active }}">Inscription</a></li>
                         <li class="xs:block sm:hidden"><a href="{{ route('marrakech.reservation') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Reservation" ? $active : $not_active }}">Reservation</a></li>
-                    </ul>
+                        <li class="sm:hidden">
+                          <div class="me-auto grid grid-rows-1 w-7/12 grid-cols-2 gap-x-5">
+                            <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
+                                <div class="flex flex-col h-full items-center justify-around cursor-pointer">
+                                    <div class="">
+                                        <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Marrakech doré.png') }}" alt="Concours International de Piano Marrakech Logo" title="Concours International de Piano Marrakech Logo">
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="{{ route('paris.home') }}" title="Concours International de Piano Paris">
+                                <div class="flex h-full items-center justify-around cursor-pointer">
+                                    <div class="">
+                                        <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Paris doré 1.png') }}" alt="Concours International de Piano Paris Logo" title="Concours International de Piano Paris Logo">
+                                    </div>
+                                </div>
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
                 </div>
             </nav>
         </header>

@@ -35,6 +35,9 @@
           <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
               <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset('Images/Galerie Piano/galerie-8.png') }}" alt="Règlement Du Concours Piano 2025">
           </div>
+          <p class="text-[#a3a3a3] xs:text-[10px] xs:mb-5 sm:mb-20 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
+            Avant de participer au Concours International de Piano Mouvement Contraire, il est essentiel de prendre connaissance du règlement. Ce document détaille toutes les conditions de participation, les catégories, les critères de sélection et les étapes de la compétition. En le lisant attentivement, vous vous assurez de vivre une expérience sereine et enrichissante, tout en respectant les règles qui garantissent l'équité et la transparence du concours.
+          </p>
           <ul class="ps-5 list-disc text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
             <li><span class="font-bold text-[#bc8c2d] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Article 1</span> - Le Concours International de Piano Mouvement Contraire aura lieu les 1,2,3 et 4 mai 2025 à Marrakech et les 28 juin 2025 à Paris. Organisé par Mouvement Contraire, Association Cultures Sans Frontières il est ouvert aux pianistes de toutes nationalités, et il est sans limite d'âge.</li>
             <li><span class="font-bold text-[#bc8c2d] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Article 2</span> - La demi-finale et finale( appelées épreuves éliminatoires) concernent uniquement les classes supérieures, qui se dérouleront le même jour.</li>

@@ -33,8 +33,7 @@
       </div>
       <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
           <p class="text-[#a3a3a3] my-10 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
-              Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 23 Octobre 2023, date de début du concours.
-              Avoir 6 ans révolus et
+            Assistez à des performances exceptionnelles lors du Concours International de Piano Mouvement Contraire ! Réservez dès maintenant vos billets pour vivre des moments inoubliables, où talent et passion se rencontrent sur scène. Ne manquez pas l'opportunité d'encourager les pianistes et de vibrer au rythme de la musique classique et contemporaine. Places limitées, réservez vite !
           </p>
           <form class="w-full py-5 my-5" action="{{ route('paris.reservation.store') }}" method="post">
               @csrf

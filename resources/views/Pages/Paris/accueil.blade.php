@@ -48,6 +48,9 @@
           <h2 class="font-[400] text-center text-gold capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Les Mots</h2>
       </div>
       <div class="grid grid-cols-1 grid-rows-1 xs:gap-y-10 xs:min-h-[20vh] sm:gap-y-16 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] md:gap-y-32 lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14 lg:gap-y-40 xl:gap-y-52">
+        <p class="text-[#a3a3a3] xs:mx-5 xs:text-[10px] sm:text-[12px] sm:mx-0 md:text-[14px] lg:text-[16px] xl:text-[18px]">
+          Découvrez les messages inspirants de nos leaders : Lamia Boukaa, directrice du concours, nous encourage à vivre des émotions à travers la musique, tandis que Joshua LaFont-Cohen, directeur du concours, nous invite à une fête de notes et d’émotions. Rachida Dati, marraine du concours, adresse ses vœux de réussite et annonce l’édition suivante à Paris. Enfin, Racha Arodaky, présidente du jury, nous invite à partager cette belle aventure musicale avec passion et convivialité.
+        </p>
         <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
           <i class="fa-solid fa-quote-left absolute xs:text[30px] xs:-top-5 xs:left-2 sm:text-[35px] sm:-top-10 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-top-10 xl:left-0"></i>
           <i class="fa-solid fa-quote-right absolute xs:text[30px] xs:-bottom-0 xs:right-3 sm:text-[35px] sm:bottom-0 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-bottom-10 xl:right-0"></i>
@@ -125,44 +128,47 @@
             <h2 class="font-[400] text-center text-gold capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Nos Partenaires</h2>
         </div>
         <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
-            <div class="partners-track overflow-x-hidden relative">
-                <div class="partners-list grid grid-cols-4 grid-rows-1 xs:w-[140%] sm:w-full h-full">
-                    <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                        <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Poly-Plumes.webp') }}" alt="Poly plumes">
-                        <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Poly Plumes</p>
-                    </div>
-                    <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                        <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Meydene.webp') }}" alt="Meydene">
-                        <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Meydene</p>
-                    </div>
-                    <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                        <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/M-Avenue.webp') }}" alt="M Avenue">
-                        <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">M Avenue</p>
-                    </div>
-                    <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                        <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Re-Belle-Communication.webp') }}" alt="Re ‘ Belle communication">
-                        <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Re ‘ Belle communication</p>
-                    </div>
-                </div>
-                <div class="partners-list grid grid-cols-4 grid-rows-1 absolute top-0 xs:w-[140%] xs:left-[140%] sm:left-[100%] sm:w-full h-full">
-                    <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                        <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Poly-Plumes.webp') }}" alt="Poly plumes">
-                        <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Poly Plumes</p>
-                    </div>
-                    <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                        <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Meydene.webp') }}" alt="Meydene">
-                        <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Meydene</p>
-                    </div>
-                    <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                        <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/M-Avenue.webp') }}" alt="M Avenue">
-                        <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">M Avenue</p>
-                    </div>
-                    <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                        <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Re-Belle-Communication.webp') }}" alt="Re ‘ Belle communication">
-                        <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Re ‘ Belle communication</p>
-                    </div>
-                </div>
-            </div>
+          <p class="text-[#a3a3a3] xs:text-[10px] xs:mb-5 sm:mb-20 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
+            Nous sommes fiers de collaborer avec nos partenaires précieux qui rendent possible le Concours International de Piano Mouvement Contraire. Grâce à Poly Plumes, Meydene, M Avenue et Re 'Belle Communication, cet événement prend vie dans un esprit de collaboration et de soutien. Leur engagement contribue à offrir une expérience exceptionnelle à tous les participants et à faire de cette compétition un moment unique.
+          </p>
+          <div class="partners-track overflow-x-hidden relative">
+              <div class="partners-list grid grid-cols-4 grid-rows-1 xs:w-[140%] sm:w-full h-full">
+                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Poly-Plumes.webp') }}" alt="Poly plumes">
+                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Poly Plumes</p>
+                  </div>
+                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Meydene.webp') }}" alt="Meydene">
+                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Meydene</p>
+                  </div>
+                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/M-Avenue.webp') }}" alt="M Avenue">
+                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">M Avenue</p>
+                  </div>
+                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Re-Belle-Communication.webp') }}" alt="Re ‘ Belle communication">
+                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Re ‘ Belle communication</p>
+                  </div>
+              </div>
+              <div class="partners-list grid grid-cols-4 grid-rows-1 absolute top-0 xs:w-[140%] xs:left-[140%] sm:left-[100%] sm:w-full h-full">
+                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Poly-Plumes.webp') }}" alt="Poly plumes">
+                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Poly Plumes</p>
+                  </div>
+                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Meydene.webp') }}" alt="Meydene">
+                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Meydene</p>
+                  </div>
+                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/M-Avenue.webp') }}" alt="M Avenue">
+                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">M Avenue</p>
+                  </div>
+                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Re-Belle-Communication.webp') }}" alt="Re ‘ Belle communication">
+                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Re ‘ Belle communication</p>
+                  </div>
+              </div>
+          </div>
         </div>
     </section>
 @endsection
