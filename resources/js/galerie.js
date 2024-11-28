@@ -2,11 +2,13 @@ function show_more_pics(start){
     let pics = document.querySelectorAll('.galerie-pics .galerie-pic-container')
     let end =  start + 6 >= pics.length ? pics.length : start + 6
     for (let i = start; i < end; i++) {
-        pics[i].classList.remove('hidden')
+      pics[i].classList.remove('hidden')
+      pics[i].classList.add('flex')
     }
     let btn = document.getElementById('show_more_pics')
     if (end == pics.length) {
-        btn.classList.add('hidden')
+      btn.classList.remove('flex')
+      btn.classList.add('hidden')
     }else{
         btn.removeEventListener('click',()=>show_more_pics())
         btn.addEventListener('click',()=>show_more_pics(end))

@@ -17,6 +17,10 @@ body::-webkit-scrollbar-thumb{
     background-color: #bc8c2d;
 }
 
+.dropdown-container:hover .dropdown{
+  display: grid;
+}
+
 .slide-text {
     opacity: 0;
     transform: translateX(-30%);

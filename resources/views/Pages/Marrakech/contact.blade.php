@@ -10,17 +10,17 @@
     <meta name="twitter:description" content="">
 @endsection
 
-@section('title', 'Contactez-nous')
+@section('title', 'Contact')
 
 @section('resources')
     @vite(['resources/css/app.css', 'resources/js/carousel.js', 'resources/js/app.js'])
 @endsection
 
 @section('hero')
-  <main id="carousel" class="w-full xs:h-[30vh] sm:h-[50vh] md:h-[60vh] xl:h-[65vh] relative overflow-x-hidden">
+  <main id="carousel" class="w-full xs:h-[20vh] sm:h-[40vh] md:h-[50vh] xl:h-[65vh] relative overflow-x-hidden">
       <div id="carousel-track" class="w-full h-full flex ">
-          <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/home-header-img.webp') }}">
-          <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/Re-Belle-Communication.webp') }}">
+          <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/Sliade 1.png') }}">
+          <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/Sliade 2.png') }}">
       </div>
   </main>
 @endsection

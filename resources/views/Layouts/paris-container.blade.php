@@ -41,23 +41,55 @@
                 <div class="w-1/12 flex justify-center items-center sm:hidden">
                     <i id="menuBar" class="fa-solid fa-bars text-white"></i>
                 </div>
-                <div id="menu" class="xs:transition-all xs:opacity-0 xs:duration-500 xs:translate-x-[100%] xs:fixed xs:right-0 xs:top-[10vh] xs:z-20 xs:bg-black xs:h-screen xs:py-10 xs:px-10 sm:transition-none sm:translate-x-0 sm:opacity-100 sm:relative sm:p-0 sm:right-[unset] sm:top-[unset] sm:z-[unset] sm:bg-[unset] sm:h-[unset] sm:flex sm:items-center sm:w-8/12 md:mr-5 lg:w-7/12">
+                <div id="menu" class="xs:w-3/5 xs:transition-all xs:opacity-0 xs:duration-500 xs:translate-x-[100%] xs:fixed xs:right-0 xs:top-[10vh] xs:z-20 xs:bg-black xs:h-screen xs:py-10 xs:px-10 sm:transition-none sm:translate-x-0 sm:opacity-100 sm:relative sm:p-0 sm:right-[unset] sm:top-[unset] sm:z-[unset] sm:bg-[unset] sm:h-[unset] sm:flex sm:flex-col sm:items-center sm:w-8/12 md:mr-5 lg:w-7/12">
                     @php
                         $title = View::yieldContent('title');
                         $active = "font-bold xs:text-gold";
-                        $not_active = "hover:font-bold hover:text-gold";
+                        $not_active = "hover:text-gold";
                     @endphp
-                    <ul class="w-full text-white xs:text-[10px] sm:ml-auto sm:grid sm:grid-cols-5 sm:grid-rows-1 sm:font-semibold sm:gap-y-4 sm:text-[9px] md:text-[12px] lg:text-[14px] lg:gap-y-6 xl:text-[17px] xl:gap-y-8">
+                    <div class="w-full text-white xs:text-[10px] xs:hidden sm:ml-auto sm:flex sm:items-center sm:justify-end sm:font-semibold sm:gap-y-4 sm:text-[9px] md:text-[12px] lg:text-[14px] lg:gap-y-6 xl:text-[17px] xl:gap-y-8">
+                      <div class="flex items-center justify-end sm:my-2 md:my-4 xl:my-5">
+                        <button class="bg-gold rounded-full py-1 px-5 me-10"><a href="{{ route('paris.inscription') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Inscription</a></button>
+                        <button class="border border-gold rounded-full py-1 px-5 me-10"><a href="{{ route('paris.reservation') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Reservation</a></button>
+                      </div>
+                      <div class="grid grid-rows-1 grid-cols-4 gap-x-10">
+                        <a href="#" target="_blank"><i class="fa-brands fa-facebook xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-tiktok xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-youtube xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
+                      </div>
+                    </div>
+                    <ul class="w-full mx-5 text-white xs:text-[10px] sm:ml-auto sm:flex sm:items-center sm:justify-between sm:font-semibold sm:gap-y-4 sm:text-[9px] md:text-[12px] lg:text-[14px] lg:gap-y-6 xl:text-[17px] xl:gap-y-8">
                         <li><a href="{{ route('paris.home') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Accueil" ? $active : $not_active }}">Accueil</a></li>
-                        <li><a href="{{ route('paris.presentation') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Presentation" ? $active : $not_active }}">Presentation</a></li>
-                        <li><a href="{{ route('paris.edition_2025') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Edition 2025" ? $active : $not_active }}">Edition 2025</a></li>
-                        <li><a href="{{ route('paris.jury') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Jury" ? $active : $not_active }}">Jury</a></li>
-                        <li><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Comite d’Honneur" ? $active : $not_active }}">Comite d’Honneur</a></li>
-                        <li><a href="{{ route('paris.inscription') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Inscription" ? $active : $not_active }}">Inscription</a></li>
-                        <li><a href="{{ route('paris.reglement') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Règlement" ? $active : $not_active }}">Règlement</a></li>
-                        <li><a href="{{ route('paris.galerie') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Galerie" ? $active : $not_active }}">Galerie</a></li>
-                        <li><a href="{{ route('paris.laureats') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Laureats" ? $active : $not_active }}">Laureats</a></li>
-                        <li><a href="{{ route('paris.contact') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Contactez-nous" ? $active : $not_active }}">Contactez-nous</a></li>
+                        <li class="dropdown-container text-decoration-none relative xs:block xs:mb-5 sm:mb-0">
+                          <span class="me-2">Concours 2025</span>
+                          <i class="fa-solid fa-angle-down"></i>
+                          <ul class="dropdown hidden bg-black ps-2 -ms-2 hover:grid grid-cols-1 grid-rows-1 xs:pt-5 sm:absolute sm:w-[200%] sm:py-3 sm:gap-y-5 md:gap-y-4 lg:gap-y-3 xl:gap-y-2 xl:py-2">
+                            <li><a href="{{ route('paris.edition_2025') }}#programme" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Edition 2025" ? $active : $not_active }}">Le programme du concours</a></li>
+                            <li><a href="{{ route('paris.edition_2025') }}#classe-categories" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Edition 2025" ? $active : $not_active }}">Classe - catégories</a></li>
+                            <li><a href="{{ route('paris.presentation') }}#infos-pratiques" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Presentation" ? $active : $not_active }}">Infos pratiques</a></li>
+                            <li><a href="{{ route('paris.reglement') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Règlement" ? $active : $not_active }}">Règlement</a></li>
+                            <li><a href="#" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Récompenses" ? $active : $not_active }}">Récompenses</a></li>
+                            <li><a href="{{ route('paris.reservation') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Reservation" ? $active : $not_active }}">Réservez vos billets</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown-container text-decoration-none relative xs:block xs:mb-5 sm:mb-0">
+                          <span class="me-2">Organisation</span>
+                          <i class="fa-solid fa-angle-down"></i>
+                          <ul class="dropdown hidden bg-black ps-2 -ms-2 hover:grid grid-cols-1 grid-rows-1 xs:pt-5 xs:w-full sm:absolute sm:w-[200%] sm:py-3 sm:gap-y-5 md:gap-y-4 lg:gap-y-3 xl:gap-y-2 xl:py-2">
+                            <li><a href="{{ route('paris.edition_2025') }}#programme" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Presentation" ? $active : $not_active }}">Organisation du concours</a></li>
+                            <li><a href="{{ route('paris.presentation') }}#association-culturers-sans-frontieres" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Edition 2025" ? $active : $not_active }}">Association Culturers sans frontières</a></li>
+                            <li><a href="{{ route('paris.home') }}#mot-de-la-presidente" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Accueil" ? $active : $not_active }}">Mot de la présidente</a></li>
+                            <li><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Comite d’Honneur" ? $active : $not_active }}">Comité d’Honneur</a></li>
+                            <li><a href="{{ route('paris.jury') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Jury" ? $active : $not_active }}">Jury</a></li>
+                            <li><a href="{{ route('paris.home') }}#partenaires" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Accueil" ? $active : $not_active }}">Partenaires</a></li>
+                            <li><a href="{{ route('paris.galerie') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 {{ $title === "Galerie" ? $active : $not_active }}">Galerie</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="{{ route('paris.laureats') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Lauréats 2024" ? $active : $not_active }}">Lauréats 2024</a></li>
+                        <li><a href="{{ route('paris.contact') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Contact" ? $active : $not_active }}">Contact</a></li>
+                        <li class="xs:block sm:hidden"><a href="{{ route('paris.inscription') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Inscription" ? $active : $not_active }}">Inscription</a></li>
+                        <li class="xs:block sm:hidden"><a href="{{ route('paris.reservation') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 {{ $title === "Reservation" ? $active : $not_active }}">Reservation</a></li>
                     </ul>
                 </div>
             </nav>
@@ -147,7 +179,9 @@
                         <p><a href="{{ route('paris.inscription') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Inscription</a></p>
                         <p><a href="{{ route('paris.galerie') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Galerie</a></p>
                         <p><a href="{{ route('paris.laureats') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Laureats</a></p>
-                        <p><a href="{{ route('paris.contact') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Contactez-nous</a></p>
+                        <p><a href="{{ route('paris.reglement') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Reglement</a></p>
+                        <p><a href="{{ route('paris.reservation') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Reservation</a></p>
+                        <p><a href="{{ route('paris.contact') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Contact</a></p>
                     </div>
                 </div>
               </div>

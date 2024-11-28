@@ -41,7 +41,7 @@
                 </a>
             </div>
             <div class="w-full xs:h-screen lg:h-[85vh]">
-                <video class="w-[100vw] object-cover xs:h-full lg:h-[85vh]" poster="{{ asset('Images/home-header-img.webp') }}" src="{{ asset('Videos/HomeHeaderVideo.mp4') }}" muted autoplay loop></video>
+                <video class="w-[100vw] object-cover xs:h-full lg:h-[85vh]" poster="{{ asset('Videos/Posters/HomeHeaderVideo.png') }}" src="{{ asset('Videos/HomeHeaderVideo.mp4') }}" muted autoplay loop></video>
                 <div class="w-full h-full absolute xs:top-[13vh] md:top-[15vh] z-10 bg-black bg-opacity-30"></div>
             </div>
         </section>

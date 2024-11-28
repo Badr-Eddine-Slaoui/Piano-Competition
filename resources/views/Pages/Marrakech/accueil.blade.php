@@ -18,7 +18,7 @@
 
 @section('hero')
     <main class="w-full xs:h-[30vh] sm:h-[50vh] md:h-[60vh] lg:h-[80vh]">
-        <video class="w-[100vw] object-cover xs:h-[30vh] sm:h-[50vh] md:h-[60vh] lg:h-[80vh]" poster="{{ asset('Images/home-header-img.webp') }}" src="{{ asset('Videos/HomeHeaderVideo.mp4') }}" muted autoplay loop></video>
+        <video class="w-[100vw] object-cover xs:h-[30vh] sm:h-[50vh] md:h-[60vh] lg:h-[80vh]" poster="{{ asset('Videos/Posters/HomeHeaderVideo.png') }}" src="{{ asset('Videos/HomeHeaderVideo.mp4') }}" muted autoplay loop></video>
     </main>
 @endsection
 
@@ -42,7 +42,7 @@
             </div>
         </div>
     </section>
-    <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh]">
+    <section id="mot-de-la-presidente" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh]">
       <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
           <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
           <h2 class="font-[400] text-center text-gold capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Les Mots</h2>
@@ -119,7 +119,7 @@
         </div>
       </div>
     </section>
-    <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh]">
+    <section id="partenaires" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh]">
         <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
             <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
             <h2 class="font-[400] text-center text-gold capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Nos Partenaires</h2>

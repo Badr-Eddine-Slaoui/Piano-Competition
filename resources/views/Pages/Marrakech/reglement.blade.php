@@ -17,10 +17,10 @@
 @endsection
 
 @section('hero')
-  <main id="carousel" class="w-full xs:h-[30vh] sm:h-[50vh] md:h-[60vh] xl:h-[65vh] relative overflow-x-hidden">
+  <main id="carousel" class="w-full xs:h-[20vh] sm:h-[40vh] md:h-[50vh] xl:h-[65vh] relative overflow-x-hidden">
       <div id="carousel-track" class="w-full h-full flex ">
-          <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/home-header-img.webp') }}">
-          <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/Re-Belle-Communication.webp') }}">
+          <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/Sliade 1.png') }}">
+          <img loading="lazy" class="w-full h-full flex-shrink-0" src="{{ asset('Images/Sliade 2.png') }}">
       </div>
   </main>
 @endsection
@@ -33,7 +33,7 @@
         </div>
         <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
           <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
-              <img loading="lazy" class="w-full h-full" src="{{ asset('Images/ConditionDeParticipation.webp') }}" alt="EventBanner">
+              <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset('Images/Galerie Piano/galerie-8.png') }}" alt="Règlement Du Concours Piano 2025">
           </div>
           <ul class="ps-5 list-disc text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
             <li><span class="font-bold text-[#bc8c2d] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Article 1</span> - Le Concours International de Piano Mouvement Contraire aura lieu les 1,2,3 et 4 mai 2025 à Marrakech et les 28 juin 2025 à Paris. Organisé par Mouvement Contraire, Association Cultures Sans Frontières il est ouvert aux pianistes de toutes nationalités, et il est sans limite d'âge.</li>
