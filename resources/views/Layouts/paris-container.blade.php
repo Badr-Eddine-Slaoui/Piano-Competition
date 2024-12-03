@@ -67,7 +67,7 @@
                         <a href="#" target="_blank"><i class="fa-brands fa-facebook xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
                         <a href="https://www.instagram.com/concoursmouvementcontraire/profilecard/?igsh=dmQxZjc4dGowMzBh" target="_blank"><i class="fa-brands fa-instagram xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
                         <a href="#" target="_blank"><i class="fa-brands fa-tiktok xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
-                        <a href="#" target="_blank"><i class="fa-brands fa-youtube xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
+                        <a href="https://www.youtube.com/@InternationalDuPianoOfficiel" target="_blank"><i class="fa-brands fa-youtube xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
                       </div>
                     </div>
                     <ul class="w-full mx-5 text-white xs:text-[10px] sm:ml-auto sm:flex sm:items-center sm:justify-between sm:font-semibold sm:gap-y-4 sm:text-[9px] md:text-[12px] lg:text-[14px] lg:gap-y-6 xl:text-[17px] xl:gap-y-8">
@@ -184,7 +184,7 @@
                         <a href="#" target="_blank"><i class="fa-brands fa-facebook hover:scale-110 hover:-translate-y-2 transition-all xs:w-full xs:text-[18px] sm:text-[24px] md:text-[26px] lg:text-[34px] xl:text-[36px]"></i></a>
                         <a href="https://www.instagram.com/concoursmouvementcontraire/profilecard/?igsh=dmQxZjc4dGowMzBh" target="_blank"><i class="fa-brands fa-instagram hover:scale-110 hover:-translate-y-2 transition-all xs:w-full xs:text-[18px] sm:text-[24px] md:text-[26px] lg:text-[34px] xl:text-[36px]"></i></a>
                         <a href="#" target="_blank"><i class="fa-brands fa-tiktok hover:scale-110 hover:-translate-y-2 transition-all xs:w-full xs:text-[18px] sm:text-[24px] md:text-[26px] lg:text-[34px] xl:text-[36px]"></i></a>
-                        <a href="#" target="_blank"><i class="fa-brands fa-youtube hover:scale-110 hover:-translate-y-2 transition-all xs:w-full xs:text-[18px] sm:text-[24px] md:text-[26px] lg:text-[34px] xl:text-[36px]"></i></a>
+                        <a href="https://www.youtube.com/@InternationalDuPianoOfficiel" target="_blank"><i class="fa-brands fa-youtube hover:scale-110 hover:-translate-y-2 transition-all xs:w-full xs:text-[18px] sm:text-[24px] md:text-[26px] lg:text-[34px] xl:text-[36px]"></i></a>
                     </div>
                 </div>
                 <div>
@@ -192,7 +192,7 @@
                     <a href="mailto:competpianosafi@gmail.com"><p class="text-white hover:text-gold mb-3 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">competpianosafi@gmail.com</p></a>
                     <a href="tel:+212612345789"><p class="text-white hover:text-gold mb-3 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">+212 612345789</p></a>
                     <p class="text-gold font-bold my-4 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Lieus</p>
-                    <a href="#map"><p class="text-white hover:text-gold mb-3 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Rue Ibnou Badis, Safi, Morocco</p></a>
+                    <p class="text-white hover:text-gold mb-3 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Rue Ibnou Badis, Safi, Morocco</p>
                     <p class="text-gold font-bold my-4 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Horaires</p>
                     <p class="text-white hover:text-gold mb-3 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Lundi – Samedi: 8h – 20h</p>
                     <p class="text-white hover:text-gold mb-3 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Dimanche: Fermé</p>
