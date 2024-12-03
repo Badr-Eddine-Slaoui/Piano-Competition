@@ -47,9 +47,9 @@
         </div>
         <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
             <div class="galerie-pics grid grid-rows-1 gap-10 xs:grid-cols-2 sm:grid-cols-3">
-              @foreach ($galerie as $name => $src)
-                <div class="galerie-pic-container bg-black relative hidden overflow-hidden border border-gold items-center xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <img loading="lazy" class="galerie-pic object-contain" src="{{ asset($src) }}" alt="{{ $name }}">
+              @foreach ($pics as $src => $name)
+                <div class="galerie-pic-container bg-black relative hidden overflow-hidden border border-gold items-center justify-center xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
+                    <img loading="lazy" class="galerie-pic object-contain" src="{{ asset("Images/Galerie Piano/".$src.".png") }}" alt="{{ $name }}">
                     <div class="pic-title absolute top-0 left-0 w-full h-full bg-black z-[1] flex justify-center items-center border border-gold opacity-0 hover:opacity-[1]">
                         <p class="font-[400] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">{{ $name }}</p>
                     </div>
@@ -65,79 +65,16 @@
             <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Videos</h2>
         </div>
         <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
-            <div class="galerie-vids grid grid-rows-1 gap-10 xs:grid-cols-2 sm:grid-cols-3">
-                <div class="galerie-vid-container hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
-                        <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="galerie-vid-container hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
-                        <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="galerie-vid-container hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
-                        <source src="{{ asset('Videos/v3.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="galerie-vid-container hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
-                        <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="galerie-vid-container hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
-                        <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="galerie-vid-container hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
-                        <source src="{{ asset('Videos/v3.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="galerie-vid-container hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
-                        <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="galerie-vid-container hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
-                        <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="galerie-vid-container hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
-                        <source src="{{ asset('Videos/v3.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="galerie-vid-container hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
-                        <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="galerie-vid-container hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
-                        <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="galerie-vid-container hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
-                        <source src="{{ asset('Videos/v3.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="galerie-vid-container hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
-                        <source src="{{ asset('Videos/v1.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="galerie-vid-container hidden xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
-                    <video class="galerie-vid h-full object-cover" loading="lazy" controls preload="none" poster="{{ asset('Images/Edition.webp') }}">
-                        <source src="{{ asset('Videos/v2.mp4') }}" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-            <button id="show_more_vids" class="block mx-auto text-center bg-orange-600 my-20 xs:text-[10px] xs:py-1 xs:px-3 xs:rounded-sm sm:text-[12px] sm:py-2 sm:px-4 md:text-[14px] md:rounded-md md:py-3 md:px-5 lg:text-[16px] lg:rounded-xl xl:text-[18px]">Show More</button>
+          <div class="galerie-vids grid grid-rows-1 gap-10 xs:grid-cols-2 sm:grid-cols-3">
+            @foreach ($videos as $video)
+              <div class="galerie-vid-container bg-black relative hidden overflow-hidden border border-gold items-center justify-center xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[35vh] xl:h-[50vh]">
+                  <video class="galerie-vid object-contain max-h-full" loading="lazy" controls preload="none" poster="{{ asset("Videos/Posters/".$video.".jpg") }}">
+                    <source src="{{ asset('Videos/'.$video.".mp4") }}" type="video/mp4">
+                  </video>
+              </div>
+            @endforeach
+          </div>
+          <button id="show_more_vids" class="block mx-auto text-center bg-orange-600 my-20 xs:text-[10px] xs:py-1 xs:px-3 xs:rounded-sm sm:text-[12px] sm:py-2 sm:px-4 md:text-[14px] md:rounded-md md:py-3 md:px-5 lg:text-[16px] lg:rounded-xl xl:text-[18px]">Show More</button>
         </div>
     </section>
 @endsection
