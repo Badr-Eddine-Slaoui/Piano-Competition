@@ -33,7 +33,7 @@
       </div>
       <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
           <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
-              <img loading="lazy" class="w-full h-full object-cover" src="{{ asset('Images/composantes.jpg') }}" alt="Les Composantes">
+              <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset("Images/Galerie Piano/galerie-7.png") }}" alt="Les Composantes">
           </div>
           <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"><span class="font-bold text-[#bc8c2d]">Compétition:</span> Éliminatoires - Finale - Cérémonie de clôture - Masterclass</p>
           <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"><span class="font-bold text-[#bc8c2d]">Expositions:</span> Histoire du piano</p>
@@ -72,7 +72,7 @@
     </div>
     <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:w-5/6 lg:ms-auto lg:me-14">
         <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
-            <img loading="lazy" class="w-full h-full object-cover" src="{{ asset('Images/les-classes.jpg') }}" alt="les Classes">
+            <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset("Images/Galerie Piano/galerie-9.png") }}" alt="les Classes">
         </div>
         <div class="grid grid-cols-3 grid-rows-1">
           <ul class="ps-5 list-disc text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
@@ -108,7 +108,7 @@
     </div>
     <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:w-5/6 lg:ms-auto lg:me-14">
         <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
-            <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset("Images/Galerie Piano/galerie-24.png") }}" alt="Partitions">
+            <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset("Images/Galerie Piano/galerie-8.png") }}" alt="Partitions">
         </div>
         <table class="table-auto w-full text-left text-sm text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
           <thead>
@@ -205,26 +205,26 @@
         <div class="grid grid-cols-3 grid-rows-1">
           <ul class="ps-5 list-disc text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
             <p class="font-[500] text-gold my-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Débutant</p>
-            <li>Initiation</li>
-            <li>Débutant 1</li>
-            <li>Débutant 2</li>
-            <li>Préparatoire 1</li>
-            <li>Préparatoire 2</li>
+            <li><span class="text-white font-semibold">Initiation:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Débutant 1:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Débutant 2:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Préparatoire 1:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Préparatoire 2:</span> 000 MAD</li>
           </ul>
           <ul class="ps-5 list-disc text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
             <p class="font-[500] text-gold my-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Moyen</p>
-            <li>Élémentaire 1</li>
-            <li>Élémentaire 2</li>
-            <li>Moyen 1</li>
-            <li>Moyen 2</li>
+            <li><span class="text-white font-semibold">Élémentaire 1:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Élémentaire 2:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Moyen 1:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Moyen 2:</span> 000 MAD</li>
           </ul>
           <ul class="ps-5 list-disc text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
             <p class="font-[500] text-gold my-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Supérieur</p>
-            <li>Supérieur 1</li>
-            <li>Supérieur 2</li>
-            <li>Excellence</li>
-            <li>Virtuosité</li>
-            <li>Diplôme de Concert</li>
+            <li><span class="text-white font-semibold">Supérieur 1:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Supérieur 2:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Excellence:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Virtuosité:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Diplôme de Concert:</span> 000 MAD</li>
           </ul>
         </div>
     </div>
