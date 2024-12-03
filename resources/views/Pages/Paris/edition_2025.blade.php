@@ -33,7 +33,7 @@
       </div>
       <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
           <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
-            <img loading="lazy" class="w-full h-full object-cover" src="{{ asset('Images/composantes.jpg') }}" alt="Les Composantes">
+              <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset("Images/Galerie Piano/galerie-7.png") }}" alt="Les Composantes">
           </div>
           <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"><span class="font-bold text-[#bc8c2d]">Compétition:</span> Éliminatoires - Finale - Cérémonie de clôture - Masterclass</p>
           <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"><span class="font-bold text-[#bc8c2d]">Expositions:</span> Histoire du piano</p>
@@ -41,28 +41,28 @@
       </div>
   </section>
   <section id="programme" class="w-full mt-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh] overflow-x-hidden">
-    <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-        <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
-        <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Programme</h2>
-    </div>
-    <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
-        <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
-          Découvrez le programme passionnant du Concours International de Piano Mouvement Contraire 2024 ! Au fil de cette édition, nous vous offrirons une série de moments forts : la cérémonie d’ouverture, les concours de piano, le récital des lauréats, ainsi que la cérémonie de clôture. Vous pourrez également profiter des hommages, des street performances, d'un afterwork convivial et de l'exposition Un Storie du Piano. Un programme riche en émotions et en découvertes vous attend !
-        </p>
-        <p class="font-semibold text-stone-50 my-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Moments forts du concours</p>
-        <ul class="text-[#a3a3a3] ps-10 list-disc xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
-          <li>Cérémonie d’ouverture</li>
-          <li>Concours de piano</li>
-          <li>Récital des lauréats</li>
-          <li>Cérémonie de clôture</li>
-          <li>Hommages</li>
-          <li>Street performance</li>
-          <li>Afterwork</li>
-          <li>Exposition "Un Storie du Piano"</li>
-        </ul>
-    </div>
+      <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
+          <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
+          <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Programme</h2>
+      </div>
+      <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
+          <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
+            Découvrez le programme passionnant du Concours International de Piano Mouvement Contraire 2024 ! Au fil de cette édition, nous vous offrirons une série de moments forts : la cérémonie d’ouverture, les concours de piano, le récital des lauréats, ainsi que la cérémonie de clôture. Vous pourrez également profiter des hommages, des street performances, d'un afterwork convivial et de l'exposition Un Storie du Piano. Un programme riche en émotions et en découvertes vous attend !
+          </p>
+          <p class="font-semibold text-stone-50 my-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Moments forts du concours</p>
+          <ul class="text-[#a3a3a3] ps-10 list-disc xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
+            <li>Cérémonie d’ouverture</li>
+            <li>Concours de piano</li>
+            <li>Récital des lauréats</li>
+            <li>Cérémonie de clôture</li>
+            <li>Hommages</li>
+            <li>Street performance</li>
+            <li>Afterwork</li>
+            <li>Exposition "Un Storie du Piano"</li>
+          </ul>
+      </div>
   </section>
-  <section class="sm:w-5/6 xs:mx-5 sm:ms-auto sm:me-8 lg:w-5/6 lg:ms-auto lg:me-14 sm:mt-5 md:mt-10 lg:mt-15 xl:mt-20">
+  <section class="sm:w-5/6 xs:mx-5 xs:mt-20 sm:ms-auto sm:me-8 lg:w-5/6 lg:ms-auto lg:me-14 md:mt-32 lg:mt-0">
       <button class="block mx-auto text-center bg-orange-600 rounded-xl xs:py-1 xs:px-3 xs:-mt-14 xs:text-[10px] sm:py-2 sm:px-4 sm:text-[12px] md:py-3 md:px-5 md:text-[14px] lg:text-[16px] xl:text-[18px]"><a class="text-decoration-none" href="" download="">Telecharger Programme</a></button>
   </section>
   <section id="classe-categories" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] overflow-x-hidden">
@@ -72,7 +72,7 @@
     </div>
     <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:w-5/6 lg:ms-auto lg:me-14">
         <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
-            <img loading="lazy" class="w-full h-full object-cover" src="{{ asset('Images/les-classes.jpg') }}" alt="les Classes">
+            <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset("Images/Galerie Piano/galerie-9.png") }}" alt="les Classes">
         </div>
         <div class="grid grid-cols-3 grid-rows-1">
           <ul class="ps-5 list-disc text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
@@ -108,7 +108,7 @@
     </div>
     <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:w-5/6 lg:ms-auto lg:me-14">
         <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
-            <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset("Images/Galerie Piano/galerie-24.png") }}" alt="Partitions">
+            <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset("Images/Galerie Piano/galerie-8.png") }}" alt="Partitions">
         </div>
         <table class="table-auto w-full text-left text-sm text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
           <thead>
@@ -205,26 +205,26 @@
         <div class="grid grid-cols-3 grid-rows-1">
           <ul class="ps-5 list-disc text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
             <p class="font-[500] text-gold my-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Débutant</p>
-            <li>Initiation</li>
-            <li>Débutant 1</li>
-            <li>Débutant 2</li>
-            <li>Préparatoire 1</li>
-            <li>Préparatoire 2</li>
+            <li><span class="text-white font-semibold">Initiation:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Débutant 1:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Débutant 2:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Préparatoire 1:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Préparatoire 2:</span> 000 MAD</li>
           </ul>
           <ul class="ps-5 list-disc text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
             <p class="font-[500] text-gold my-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Moyen</p>
-            <li>Élémentaire 1</li>
-            <li>Élémentaire 2</li>
-            <li>Moyen 1</li>
-            <li>Moyen 2</li>
+            <li><span class="text-white font-semibold">Élémentaire 1:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Élémentaire 2:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Moyen 1:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Moyen 2:</span> 000 MAD</li>
           </ul>
           <ul class="ps-5 list-disc text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
             <p class="font-[500] text-gold my-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Supérieur</p>
-            <li>Supérieur 1</li>
-            <li>Supérieur 2</li>
-            <li>Excellence</li>
-            <li>Virtuosité</li>
-            <li>Diplôme de Concert</li>
+            <li><span class="text-white font-semibold">Supérieur 1:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Supérieur 2:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Excellence:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Virtuosité:</span> 000 MAD</li>
+            <li><span class="text-white font-semibold">Diplôme de Concert:</span> 000 MAD</li>
           </ul>
         </div>
     </div>
