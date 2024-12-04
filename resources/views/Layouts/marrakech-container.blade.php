@@ -126,7 +126,7 @@
         <aside class="fixed left-0 top-[25vh] w-1/12 z-20 xs:hidden sm:block">
             <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/MC dorté 1.png')  }}" alt="SideImg">
         </aside>
-        <div class="w-2/12 absolute top-[50%] right-5">
+        <div class="w-2/12 absolute xs:top-[16%] xs:right-2 sm:top-[25%] md:top-[32%] md:right-3 lg:top-[48%] lg:right-4 xl:top-[50%] xl:right-5">
           <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
             <div class="flex flex-col h-full items-center justify-around cursor-pointer">
                 <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
