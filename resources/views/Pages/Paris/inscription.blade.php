@@ -27,40 +27,40 @@
 
 @section('content')
     <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh] overflow-x-hidden">
-        <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
+      <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
+          <div class="flex relative z-[-2] items-center mt-10 slide-text xs:h-[5vh] sm:h-[20vh]">
             <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
             <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Condition de participation</h2>
-        </div>
-        <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
-            <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
+          </div>
+          <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
               <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset('Images/Galerie Piano/galerie-36.png') }}" alt="Condition De Participation">
-            </div>
-            <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
-                Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 1 Mai 2025, date de début du concours.
-                Avoir 6 ans révolus et
-                N’ont pas encore atteint l’âge de 19 ans.
-                Sont exclus du concours les jeunes inscrits à plein temps dans des études de musique. Les jeunes étudiants sont admis. Les personnes ayant eu une relation d’enseignement permanente, publique ou privée, avec un membre du jury au cours des deux dernières années ne sont pas autorisées à participer.
-                Le concours est public dans tous ses aspects. La collecte et le traitement de données personnelles sont obligatoires pour la planification et l’organisation du concours. L’organisateur assure le respect des dispositions correspondantes en matière de protection des données.
-                Les enregistrements vidéo et audio privés ne sont pas autorisés pendant le concours. L’organisateur procédera à des enregistrements visuels et sonores dont chaque participant cède gratuitement les droits d’utilisation à l’organisateur. Les demandes d’honoraires sont irrecevables.
-                L’organisateur n’est pas responsable des dommages corporels ou matériels survenant dans le cadre des manifestations du concours.
-            </p>
-        </div>
+          </div>
+          <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
+              Le concours est ouvert à tous les pianistes ayant atteint l’âge de 18 ans au 1 Mai 2025, date de début du concours.
+              Avoir 6 ans révolus et
+              N’ont pas encore atteint l’âge de 19 ans.
+              Sont exclus du concours les jeunes inscrits à plein temps dans des études de musique. Les jeunes étudiants sont admis. Les personnes ayant eu une relation d’enseignement permanente, publique ou privée, avec un membre du jury au cours des deux dernières années ne sont pas autorisées à participer.
+              Le concours est public dans tous ses aspects. La collecte et le traitement de données personnelles sont obligatoires pour la planification et l’organisation du concours. L’organisateur assure le respect des dispositions correspondantes en matière de protection des données.
+              Les enregistrements vidéo et audio privés ne sont pas autorisés pendant le concours. L’organisateur procédera à des enregistrements visuels et sonores dont chaque participant cède gratuitement les droits d’utilisation à l’organisateur. Les demandes d’honoraires sont irrecevables.
+              L’organisateur n’est pas responsable des dommages corporels ou matériels survenant dans le cadre des manifestations du concours.
+          </p>
+      </div>
     </section>
     <section class="sm:w-5/6 xs:mx-5 sm:ms-auto sm:me-8 lg:w-5/6 lg:ms-auto lg:me-14 sm:mt-5 md:mt-10 lg:mt-15 xl:mt-20">
-      <button class="block mx-auto text-center bg-orange-600 rounded-xl xs:py-1 xs:px-3 xs:mt-10 xs:text-[10px] sm:py-2 sm:px-4 sm:mt-14 sm:text-[12px] md:py-3 md:px-5 md:mt-20 md:text-[14px] lg:text-[16px] xl:text-[18px]"><a class="text-decoration-none" href="{{ route('paris.reglement') }}">Lire le règlement</a></button>
+    <button class="block mx-auto text-center bg-orange-600 rounded-xl xs:py-1 xs:px-3 xs:mt-10 xs:text-[10px] sm:py-2 sm:px-4 sm:mt-14 sm:text-[12px] md:py-3 md:px-5 md:mt-20 md:text-[14px] lg:text-[16px] xl:text-[18px]"><a class="text-decoration-none" href="{{ route('marrakech.reglement') }}">Lire le règlement</a></button>
     </section>
     <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh] overflow-x-hidden">
-        <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
+      <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
+          <div class="flex relative z-[-2] items-center mt-10 slide-text xs:h-[5vh] sm:h-[20vh]">
             <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
             <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Inscription</h2>
-        </div>
-        <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
-            <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
+          </div>
+          <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
               <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset('Images/Galerie Piano/galerie-33.png') }}" alt="Inscription">
-            </div>
-            <p class="text-[#a3a3a3] my-10 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
-              Rejoignez le Concours International de Piano Mouvement Contraire et révélez votre talent sur une scène prestigieuse dédiée à l'excellence musicale. Que vous soyez amateur ou professionnel, cette compétition unique vous offre l'opportunité de partager votre passion, de vous mesurer à des pianistes du monde entier et de bénéficier de l’expertise d’un jury renommé. Inscrivez-vous dès maintenant pour vivre une expérience inoubliable, marquée par l'innovation, la créativité et l'amour de la musique.
-            </p>
+          </div>
+          <p class="text-[#a3a3a3] my-10 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
+            Rejoignez le Concours International de Piano Mouvement Contraire et révélez votre talent sur une scène prestigieuse dédiée à l'excellence musicale. Que vous soyez amateur ou professionnel, cette compétition unique vous offre l'opportunité de partager votre passion, de vous mesurer à des pianistes du monde entier et de bénéficier de l’expertise d’un jury renommé. Inscrivez-vous dès maintenant pour vivre une expérience inoubliable, marquée par l'innovation, la créativité et l'amour de la musique.
+          </p>
             <form class="w-full py-5 my-5" action="{{ route('paris.inscription.store') }}" method="post">
                 @csrf
                 <div class="mx-auto border border-gold xs:w-full xs:py-5 xs:px-3 xs:rounded-xl sm:w-11/12 sm:py-16 sm:px-10 sm:rounded-3xl xl:w-4/5">

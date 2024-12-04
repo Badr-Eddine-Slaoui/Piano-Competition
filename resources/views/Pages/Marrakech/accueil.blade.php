@@ -24,15 +24,15 @@
 
 @section('content')
     <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh]">
-        <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-            <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
-            <h2 class="font-[400] text-center text-gold capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Concours</h2>
+        <div class="flex relative col-span-2 z-[-2] items-center mt-10 slide-text xs:h-[5vh] xs:ms-5 sm:h-[20vh] sm:ms-20 md:ms-24 lg:ms-28 xl:ms-44">
+          <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
+          <h2 class="font-[400] text-center text-gold capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Un voyage pianistique</h2>
         </div>
         <div class="w-5/6 m-auto min-h-[20vh] grid sm:grid-cols-2 sm:grid-rows-1 sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[65vh]">
-            <div class="sm:flex sm:items-center sm:justify-center">
+          <div class="sm:flex sm:items-center sm:justify-center">
                 <div class="xs:w-full xs:flex xs:justify-between sm:block sm:w-2/3">
                     <h1 class="font-extrabold capitalize mb-5 xs:w-1/2 xs:text-xs sm:w-2/3 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Un voyage pianistique</h1>
-                    <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">La 4ème édition<br> Du 1 Mai 2025<br> Au 4 Mai 2025</p>
+                    <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">La 3ème édition<br> Du 1 Mai 2025<br> Au 4 Mai 2025</p>
                 </div>
             </div>
             <div class="flex items-center justify-center xs:mt-5 sm:mt-0">
@@ -43,14 +43,11 @@
         </div>
     </section>
     <section id="mot-de-la-presidente" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh]">
-      <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-          <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
-          <h2 class="font-[400] text-center text-gold capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Les Mots</h2>
-      </div>
       <div class="grid grid-cols-1 grid-rows-1 xs:gap-y-10 xs:min-h-[20vh] sm:gap-y-16 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] md:gap-y-32 lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14 lg:gap-y-40 xl:gap-y-52">
-        <p class="text-[#a3a3a3] xs:mx-5 xs:text-[10px] sm:text-[12px] sm:mx-0 md:text-[14px] lg:text-[16px] xl:text-[18px]">
-          Découvrez les messages inspirants de nos leaders : Lamia Boukaa, directrice du concours, nous encourage à vivre des émotions à travers la musique, tandis que Joshua LaFont-Cohen, directeur du concours, nous invite à une fête de notes et d’émotions. Rachida Dati, marraine du concours, adresse ses vœux de réussite et annonce l’édition suivante à Paris. Enfin, Racha Arodaky, présidente du jury, nous invite à partager cette belle aventure musicale avec passion et convivialité.
-        </p>
+        <div class="flex relative z-[-2] items-center mt-10 slide-text xs:h-[5vh] sm:h-[20vh]">
+          <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
+          <h2 class="font-[400] text-center text-gold capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Mot de la présidente</h2>
+        </div>
         <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
           <i class="fa-solid fa-quote-left absolute xs:text[30px] xs:-top-5 xs:left-2 sm:text-[35px] sm:-top-10 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-top-10 xl:left-0"></i>
           <i class="fa-solid fa-quote-right absolute xs:text[30px] xs:-bottom-0 xs:right-3 sm:text-[35px] sm:bottom-0 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-bottom-10 xl:right-0"></i>
@@ -67,6 +64,10 @@
             <p class="w-4/5 m-auto font-bold mb-2 xs:mt-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:mt-10 lg:text-[16px] xl:text-[18px]">La musique nous réunira</p>
             <p class="description w-4/5 m-auto mb-10 text-justify text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Stimuler l’apprentissage autour d’un programme thématique, permettra à tous les pianistes d’exprimer leurs talents et leurs sensibilités ! De Bach à Schumann, de Liszt à Thomas Adès, les candidats nous feront vivre différentes émotions et leurs notes continueront de vibrer après leur passage. De Paris à Marrakech, la musique nous réunira et fera battre nos cœurs sur des notes et rythme . Êtes-vous prêt et prête pour le Concours International de Piano Mouvement Contraire édition 2024 ?
                 A tous les inscrits au concours , Bonne chance à tous !</p>
+        </div>
+        <div class="flex relative z-[-2] items-center mt-10 slide-text xs:h-[5vh] sm:h-[20vh]">
+          <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
+          <h2 class="font-[400] text-center text-gold capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Les Mots</h2>
         </div>
         <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
           <i class="fa-solid fa-quote-left absolute xs:text[30px] xs:-top-5 xs:left-2 sm:text-[35px] sm:-top-10 md:text-[40px] lg:text-[45px] xl:text-[60px] xl:-top-10 xl:left-0"></i>
@@ -123,11 +124,11 @@
       </div>
     </section>
     <section id="partenaires" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh]">
-        <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
+        <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
+          <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh]">
             <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
             <h2 class="font-[400] text-center text-gold capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Nos Partenaires</h2>
-        </div>
-        <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
+          </div>
           <p class="text-[#a3a3a3] xs:text-[10px] xs:mb-5 sm:mb-20 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
             Nous sommes fiers de collaborer avec nos partenaires précieux qui rendent possible le Concours International de Piano Mouvement Contraire. Grâce à Poly Plumes, Meydene, M Avenue et Re 'Belle Communication, cet événement prend vie dans un esprit de collaboration et de soutien. Leur engagement contribue à offrir une expérience exceptionnelle à tous les participants et à faire de cette compétition un moment unique.
           </p>
