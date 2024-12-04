@@ -58,7 +58,7 @@
             <li>Hommages</li>
             <li>Street performance</li>
             <li>Afterwork</li>
-            <li>Exposition "Un Storie du Piano"</li>
+            <li>Exposition "Histoire du Piano"</li>
           </ul>
       </div>
   </section>
