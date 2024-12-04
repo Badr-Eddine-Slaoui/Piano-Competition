@@ -44,17 +44,17 @@
                 <div id="menu" class="xs:w-3/5 xs:transition-all xs:opacity-0 xs:duration-500 xs:translate-x-[100%] xs:fixed xs:right-0 xs:top-[10vh] xs:z-20 xs:bg-black xs:h-screen xs:py-10 xs:px-10 sm:transition-none sm:translate-x-0 sm:opacity-100 sm:relative sm:p-0 sm:right-[unset] sm:top-[unset] sm:z-[unset] sm:bg-[unset] sm:h-[unset] sm:flex sm:flex-col sm:items-center sm:w-8/12 md:mr-5 lg:w-7/12">
                     <div class="w-full text-white xs:text-[10px] xs:hidden sm:ml-auto sm:flex sm:items-center sm:justify-end sm:font-semibold sm:gap-y-4 sm:text-[8px] sm:mb-[1vh] sm:gap-x-6 md:text-[10px] md:gap-x-8 lg:text-[12px] lg:mb-[1.5vh] lg:gap-y-6 xl:text-[16px] xl:mb-[3.5vh] xl:gap-y-8 xl:gap-x-12">
                       <div class="me-auto grid grid-rows-1 w-4/12 grid-cols-2 gap-x-2 sm:me-5 lg:me-10">
-                        <a href="{{ route('paris.home') }}" title="Concours International de Piano Paris">
-                            <div class="flex h-full items-center justify-around cursor-pointer">
-                                <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
-                                    <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Paris doré 1.png') }}" alt="Concours International de Piano Paris Logo" title="Concours International de Piano Paris Logo">
-                                </div>
-                            </div>
-                        </a>
                         <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
                             <div class="flex flex-col h-full items-center justify-around cursor-pointer">
                                 <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
                                     <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Marrakech doré.png') }}" alt="Concours International de Piano Marrakech Logo" title="Concours International de Piano Marrakech Logo">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="{{ route('paris.home') }}" title="Concours International de Piano Paris">
+                            <div class="flex h-full items-center justify-around cursor-pointer">
+                                <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
+                                    <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Paris doré 1.png') }}" alt="Concours International de Piano Paris Logo" title="Concours International de Piano Paris Logo">
                                 </div>
                             </div>
                         </a>
@@ -126,7 +126,7 @@
         <aside class="fixed left-0 top-[25vh] w-1/12 z-20 xs:hidden sm:block">
             <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/MC dorté 1.png')  }}" alt="SideImg">
         </aside>
-        <div class="w-2/12 absolute top-[50%] right-5">
+        <div class="w-2/12 absolute xs:top-[16%] xs:right-2 sm:top-[25%] md:top-[32%] md:right-3 lg:top-[48%] lg:right-4 xl:top-[50%] xl:right-5">
           <a href="{{ route('paris.home') }}" title="Concours International de Piano Paris">
             <div class="flex flex-col h-full items-center justify-around cursor-pointer">
                 <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
