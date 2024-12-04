@@ -32,8 +32,8 @@
 
     </head>
     <body class="text-white bg-body">
-        <header class="w-full xs:h-[10vh] md:h-[15vh] xl:h-[20vh]">
-            <nav class="w-full fixed top-0 left-0 z-50 bg-black flex justify-between xs:h-[10vh] xs:p-[1vh] sm:p-[2vh] md:h-[15vh] xl:h-[20vh] xl:p-[3vh]">
+        <header class="w-full cmd:h-[15vh] lg:h-[17vh] xl:h-[25vh]">
+            <nav class="w-full fixed top-0 left-0 z-50 bg-black flex justify-between xs:h-[10vh] xs:p-[1vh] sm:h-[12vh] sm:p-[2vh] md:h-[15vh] lg:h-[17vh] xl:h-[25vh] xl:p-[3vh]">
                 <div class="flex justify-center items-center xs:w-5/12 sm:w-3/12">
                     <a href="{{ route('home') }}"><img loading="lazy" class="h-full py-[2vh]" src="{{ asset('Images/LOGO PIANO SITE WEB/LOGO OFF CONCOURS BLANC.png') }}" alt=""></a>
                     <img loading="lazy" class="h-full py-[2vh] xs:ms-5 sm:py-0 md:py-[2vh] lg:ms-10 lg:py-[1vh]" src="{{ asset('Images/LOGO PIANO SITE WEB/PIANIST blanc.png') }}" alt="">
@@ -42,9 +42,7 @@
                     <i id="menuBar" class="fa-solid fa-bars text-white"></i>
                 </div>
                 <div id="menu" class="xs:w-3/5 xs:transition-all xs:opacity-0 xs:duration-500 xs:translate-x-[100%] xs:fixed xs:right-0 xs:top-[10vh] xs:z-20 xs:bg-black xs:h-screen xs:py-10 xs:px-10 sm:transition-none sm:translate-x-0 sm:opacity-100 sm:relative sm:p-0 sm:right-[unset] sm:top-[unset] sm:z-[unset] sm:bg-[unset] sm:h-[unset] sm:flex sm:flex-col sm:items-center sm:w-8/12 md:mr-5 lg:w-7/12">
-                    <script>
-                    </script>
-                    <div class="w-full text-white xs:text-[10px] xs:hidden sm:ml-auto sm:flex sm:items-center sm:justify-end sm:font-semibold sm:gap-y-4 sm:text-[9px] md:text-[12px] lg:text-[14px] lg:gap-y-6 xl:text-[17px] xl:gap-y-8">
+                    <div class="w-full text-white xs:text-[10px] xs:hidden sm:ml-auto sm:flex sm:items-center sm:justify-end sm:font-semibold sm:gap-y-4 sm:text-[9px] sm:mb-[1vh] md:text-[12px] lg:text-[14px] lg:mb-[1.5vh] lg:gap-y-6 xl:text-[17px] xl:mb-[3.5vh] xl:gap-y-8">
                       <div class="me-auto grid grid-rows-1 w-3/12 grid-cols-2 gap-x-2 sm:me-5 lg:me-10">
                         <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
                             <div class="flex flex-col h-full items-center justify-around cursor-pointer">
