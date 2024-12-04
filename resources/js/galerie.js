@@ -33,7 +33,7 @@ function show_more_vids(start){
 function downloadVideoPoster(){
   const videos = document.querySelectorAll("video");
     videos.forEach((video,index) => {
-      video.addEventListener('loadeddata', function () {
+      video.addEventListener("canplay", function () {
       const canvas = document.createElement('canvas');
       const ctx = canvas.getContext('2d');
       canvas.width = video.videoWidth;
