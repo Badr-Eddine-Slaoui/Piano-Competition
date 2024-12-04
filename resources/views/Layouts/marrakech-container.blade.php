@@ -130,7 +130,7 @@
           <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
             <div class="flex flex-col h-full items-center justify-around cursor-pointer">
                 <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
-                    <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Marrakech blanc.png') }}" alt="Concours International de Piano Marrakech Logo" title="Concours International de Piano Marrakech Logo">
+                    <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Marrakech blanc.png ') }}" alt="Concours International de Piano Marrakech Logo" title="Concours International de Piano Marrakech Logo">
                 </div>
             </div>
          </a>
