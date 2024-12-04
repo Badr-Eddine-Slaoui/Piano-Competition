@@ -76,6 +76,7 @@ class ParisController extends Controller
           "galerie-18",
           "galerie-19",
           "galerie-20",
+          "galerie-21",
       ];
 
       return view("Pages.Paris.galerie",compact('pics','videos'));

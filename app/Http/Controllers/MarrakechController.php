@@ -76,8 +76,9 @@ class MarrakechController extends Controller
           "galerie-18",
           "galerie-19",
           "galerie-20",
+          "galerie-21",
       ];
-      
+
       return view("Pages.Marrakech.galerie",compact('pics','videos'));
     }
 
