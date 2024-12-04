@@ -38,36 +38,36 @@
                     <a href="{{ route('home') }}"><img loading="lazy" class="h-full py-[2vh]" src="{{ asset('Images/LOGO PIANO SITE WEB/LOGO OFF CONCOURS BLANC.png') }}" alt=""></a>
                     <img loading="lazy" class="h-full py-[2vh] xs:ms-5 sm:py-0 md:py-[2vh] lg:ms-10 lg:py-[1vh]" src="{{ asset('Images/LOGO PIANO SITE WEB/PIANIST blanc.png') }}" alt="">
                 </div>
-                <a class="ms-5 w-[10%]" href="{{ route('paris.home') }}" title="Concours International de Piano Marrakech">
-                  <div class="flex flex-col h-full items-center justify-around cursor-pointer">
-                      <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
-                          <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Paris doré 1.png') }}" alt="Concours International de Piano Marrakech Logo" title="Concours International de Piano Marrakech Logo">
-                      </div>
-                  </div>
-                </a>
                 <div class="w-1/12 flex justify-center items-center sm:hidden">
                     <i id="menuBar" class="fa-solid fa-bars text-white"></i>
                 </div>
                 <div id="menu" class="xs:w-3/5 xs:transition-all xs:opacity-0 xs:duration-500 xs:translate-x-[100%] xs:fixed xs:right-0 xs:top-[10vh] xs:z-20 xs:bg-black xs:h-screen xs:py-10 xs:px-10 sm:transition-none sm:translate-x-0 sm:opacity-100 sm:relative sm:p-0 sm:right-[unset] sm:top-[unset] sm:z-[unset] sm:bg-[unset] sm:h-[unset] sm:flex sm:flex-col sm:items-center sm:w-8/12 md:mr-5 lg:w-7/12">
-                    <div class="w-full text-white xs:text-[10px] xs:hidden sm:ml-auto sm:flex sm:items-center sm:justify-end sm:font-semibold sm:gap-y-4 sm:text-[9px] sm:mb-[1vh] md:text-[12px] lg:text-[14px] lg:mb-[1.5vh] lg:gap-y-6 xl:text-[17px] xl:mb-[3.5vh] xl:gap-y-8">
+                    <div class="w-full text-white xs:text-[10px] xs:hidden sm:ml-auto sm:flex sm:items-center sm:justify-end sm:font-semibold sm:gap-y-4 sm:text-[8px] sm:mb-[1vh] sm:gap-x-6 md:text-[10px] md:gap-x-8 lg:text-[12px] lg:mb-[1.5vh] lg:gap-y-6 xl:text-[16px] xl:mb-[3.5vh] xl:gap-y-8 xl:gap-x-12">
                       <div class="me-auto grid grid-rows-1 w-4/12 grid-cols-2 gap-x-2 sm:me-5 lg:me-10">
-                        <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Paris">
+                        <a href="{{ route('paris.home') }}" title="Concours International de Piano Paris">
                             <div class="flex h-full items-center justify-around cursor-pointer">
                                 <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
-                                    <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Marrakech doré.png') }}" alt="Concours International de Piano Paris Logo" title="Concours International de Piano Paris Logo">
+                                    <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Paris doré 1.png') }}" alt="Concours International de Piano Paris Logo" title="Concours International de Piano Paris Logo">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
+                            <div class="flex flex-col h-full items-center justify-around cursor-pointer">
+                                <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
+                                    <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Marrakech doré.png') }}" alt="Concours International de Piano Marrakech Logo" title="Concours International de Piano Marrakech Logo">
                                 </div>
                             </div>
                         </a>
                       </div>
                       <div class="flex items-center justify-end sm:my-2 md:my-4 xl:my-5">
-                        <button class="bg-gold rounded-full py-1 px-5 me-10"><a href="{{ route('paris.inscription') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Inscription</a></button>
-                        <button class="border border-gold rounded-full py-1 px-5 me-10"><a href="{{ route('paris.reservation') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Reservation</a></button>
+                        <button class="bg-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10"><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Inscription</a></button>
+                        <button class="border border-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10"><a href="{{ route('marrakech.reservation') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Reservation</a></button>
                       </div>
-                      <div class="grid grid-rows-1 grid-cols-4 gap-x-10">
-                        <a href="#" target="_blank"><i class="fa-brands fa-facebook xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
-                        <a href="https://www.instagram.com/concoursmouvementcontraire/profilecard/?igsh=dmQxZjc4dGowMzBh" target="_blank"><i class="fa-brands fa-instagram xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
-                        <a href="#" target="_blank"><i class="fa-brands fa-tiktok xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
-                        <a href="https://www.youtube.com/@InternationalDuPianoOfficiel" target="_blank"><i class="fa-brands fa-youtube xs:w-full xs:text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] xl:text-[28px]"></i></a>
+                      <div class="grid grid-rows-1 grid-cols-4 sm:gap-x-5 lg:gap-x-8 xl:gap-x-5">
+                        <a href="#" target="_blank"><i class="fa-brands fa-facebook xs:w-full xs:text-[16px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"></i></a>
+                        <a href="https://www.instagram.com/concoursmouvementcontraire/profilecard/?igsh=dmQxZjc4dGowMzBh" target="_blank"><i class="fa-brands fa-instagram xs:w-full xs:text-[16px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-tiktok xs:w-full xs:text-[16px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"></i></a>
+                        <a href="https://www.youtube.com/@InternationalDuPianoOfficiel" target="_blank"><i class="fa-brands fa-youtube xs:w-full xs:text-[16px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"></i></a>
                       </div>
                     </div>
                     <ul class="w-full mx-5 text-white xs:text-[10px] sm:ml-auto sm:flex sm:items-center sm:justify-between sm:font-semibold sm:gap-y-4 sm:text-[9px] md:text-[12px] lg:text-[14px] lg:gap-y-6 xl:text-[17px] xl:gap-y-8">
