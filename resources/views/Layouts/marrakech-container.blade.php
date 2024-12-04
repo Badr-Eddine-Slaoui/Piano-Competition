@@ -126,6 +126,15 @@
         <aside class="fixed left-0 top-[25vh] w-1/12 z-20 xs:hidden sm:block">
             <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/MC dorté 1.png')  }}" alt="SideImg">
         </aside>
+        <div class="w-2/12 absolute top-[50%] right-5">
+          <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
+            <div class="flex flex-col h-full items-center justify-around cursor-pointer">
+                <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
+                    <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/Marrakech blanc.png') }}" alt="Concours International de Piano Marrakech Logo" title="Concours International de Piano Marrakech Logo">
+                </div>
+            </div>
+         </a>
+        </div>
         @yield('content')
         {{-- @if($title !== "Contact")
             <section id="map" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] sm:w-11/12 sm:ms-auto sm:me-8 md:grid md:grid-cols-2 md:grid-rows-1 md:mt-5 md:m-auto md:gap-x-10 md:min-h-[40vh] lg:min-h-[50vh] lg:ms-auto lg:me-14">
