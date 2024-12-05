@@ -19,6 +19,9 @@ export default {
       backgroundImage: {
         'HeaderBg': "url('/public/Images/HeaderBg.png')",
       },
+      fontFamily: {
+        'Against': ['Against']
+      }
     },
     plugins: [],
 }

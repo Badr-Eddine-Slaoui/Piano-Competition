@@ -29,7 +29,7 @@
   <section id="composantes" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh] overflow-x-hidden">
       <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
           <div class="flex relative z-[-2] items-center mt-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-            <h2 class="font-[400] text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Les composantes du concours</h2>
+            <h2 class="font-[400] font-Against text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Les composantes du concours</h2>
           </div>
           <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
               <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset("Images/Galerie Piano/galerie-7.png") }}" alt="Les Composantes">
@@ -42,7 +42,7 @@
   <section id="programme" class="w-full mt-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh] overflow-x-hidden">
       <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
           <div class="flex relative z-[-2] items-center mt-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-            <h2 class="font-[400] text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Programme</h2>
+            <h2 class="font-[400] font-Against text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Programme</h2>
           </div>
           <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
             Découvrez le programme étoffé du Concours International de Piano Mouvement Contraire 2025! Cette édition exceptionnelle vous offre un programme rempli et diversifié, combinant la richesse du répertoire classique avec l'innovation audacieuse de la musique contemporaine. Préparez-vous à vivre une expérience musicale intense, marquée par des performances éblouissantes et des moments d'émotion inoubliables.
@@ -66,7 +66,7 @@
   <section id="classe-categories" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] overflow-x-hidden">
     <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:w-5/6 lg:ms-auto lg:me-14">
         <div class="flex relative z-[-2] items-center mt-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-          <h2 class="font-[400] text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Les classes et categories</h2>
+          <h2 class="font-[400] font-Against text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Les classes et categories</h2>
         </div>
         <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
             <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset("Images/Galerie Piano/galerie-9.png") }}" alt="les Classes">
@@ -101,7 +101,7 @@
   <section id="partitions" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] overflow-x-hidden">
     <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:w-5/6 lg:ms-auto lg:me-14">
         <div class="flex relative z-[-2] items-center mt-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-          <h2 class="font-[400] text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Partitions</h2>
+          <h2 class="font-[400] font-Against text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Partitions</h2>
         </div>
         <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
             <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset("Images/Galerie Piano/galerie-8.png") }}" alt="Partitions">
@@ -192,7 +192,7 @@
   <section id="recompenses" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] overflow-x-hidden">
     <div class="xs:min-h-[20vh] xs:mx-5 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:w-5/6 lg:ms-auto lg:me-14">
         <div class="flex relative z-[-2] items-center mt-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-          <h2 class="font-[400] text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Récompenses</h2>
+          <h2 class="font-[400] font-Against text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Récompenses</h2>
         </div>
         <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
             <img loading="lazy" class="w-full h-full object-cover object-center" src="{{ asset('Images/Galerie Piano/galerie-30.png') }}" alt="Récompenses">

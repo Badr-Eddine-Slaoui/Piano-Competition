@@ -29,7 +29,7 @@
   <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh] overflow-x-hidden">
       <div class="laureats min-h-screen mb-5 m-auto xs:w-4/6 sm:w-9/12 sm:grid sm:grid-cols-2 sm:grid-rows-1 sm:gap-x-1 sm:gap-y-10 md:gap-x-10 md:gap-y-20 xl:w-4/6">
         <div class="flex relative z-[-2] items-center mt-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-          <h2 class="font-[400] text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Les Laureats 2024</h2>
+          <h2 class="font-[400] font-Against text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Les Laureats 2024</h2>
         </div>
         <div class="w-full my-10 col-span-2 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
           <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset('Images/Galerie Piano/galerie-20.png') }}" alt="Objectifs">
