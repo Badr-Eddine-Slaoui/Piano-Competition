@@ -30,7 +30,7 @@
       <div class="w-5/6 m-auto min-h-[20vh] grid sm:grid-cols-2 sm:grid-rows-1 sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[65vh]">
         <div class="sm:flex sm:items-center sm:justify-center">
               <div class="xs:w-full xs:flex xs:justify-between sm:block sm:w-2/3">
-                  <h1 class="font-extrabold capitalize mb-5 xs:w-1/2 xs:text-xs sm:w-2/3 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Un voyage pianistique</h1>
+                  <h1 class="font-extrabold font-Against capitalize mb-5 xs:w-1/2 xs:text-xs sm:w-2/3 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Un voyage pianistique</h1>
                   <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">La 3ème édition<br> Du 1 Mai 2025<br> Au 4 Mai 2025</p>
               </div>
           </div>
