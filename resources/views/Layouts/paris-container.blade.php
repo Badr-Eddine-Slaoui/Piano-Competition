@@ -89,7 +89,6 @@
                           <ul class="dropdown hidden bg-black ps-2 -ms-2 hover:grid grid-cols-1 grid-rows-1 xs:pt-5 xs:w-full sm:absolute sm:w-[200%] sm:py-3 sm:gap-y-5 md:gap-y-4 lg:gap-y-3 xl:gap-y-2 xl:py-2">
                             <li><a href="{{ route('paris.home') }}#mot-de-le-president" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Mot de le président</a></li>
                             <li><a href="{{ route('paris.edition_2025') }}#composantes" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Organisation du concours</a></li>
-                            <li><a href="{{ route('paris.presentation') }}#association-culturers-sans-frontieres" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Association Culturers sans frontières</a></li>
                             <li><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Comité d’honneur</a></li>
                             <li><a href="{{ route('paris.jury') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Jury</a></li>
                             <li><a href="{{ route('paris.home') }}#partenaires" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Partenaires</a></li>
