@@ -139,7 +139,7 @@
         {{-- @if($title !== "Contact")
             <section id="map" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] sm:w-11/12 sm:ms-auto sm:me-8 md:grid md:grid-cols-2 md:grid-rows-1 md:mt-5 md:m-auto md:gap-x-10 md:min-h-[40vh] lg:min-h-[50vh] lg:ms-auto lg:me-14">
                 <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh] md:col-span-2">
-                    <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
+                    <div class="w-1/5 border-b-[4px] border-dotted xs:me-1 sm:me-5"></div>
                     <h2 class="font-[400] text-center text-gold xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Contactez-nous</h2>
                 </div>
                 <form class="w-full py-5 mb-5" action="{{ route('marrakech.contact.store') }}" method="post">
