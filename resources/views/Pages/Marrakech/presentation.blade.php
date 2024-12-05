@@ -47,6 +47,13 @@
           <li>Faciliter l’accès aux activités culturelles et artistiques pour les populations défavorisées.</li>
         </ul>
         <p class="font-semibold text-stone-50 my-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Les membres de l’association </p>
+        <ul class="text-gold font-semibold ps-10 list-decimal xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
+          <li>Lamia BOUKKA : <span class="text-[#a3a3a3] font-light">Présidente de l’association cultures sans frontières.</span></li>
+          <li>Said ELWARRADI : <span class="text-[#a3a3a3] font-light">Vice président</span></li>
+          <li>Nada HMIDI : <span class="text-[#a3a3a3] font-light">la Trésorière</span></li>
+          <li>Hind LAHLOU : <span class="text-[#a3a3a3] font-light">la Secrétaire générale</span></li>
+          <li>Horia SERHANE : <span class="text-[#a3a3a3] font-light">la Secrétaire adjointe</span></li>
+        </ul>
         {{-- <ul class="text-gold ps-10 list-decimal xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
           <li>
             <ul class="text-[#a3a3a3] list-disc xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
