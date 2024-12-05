@@ -70,7 +70,7 @@
                         <a href="https://www.youtube.com/@InternationalDuPianoOfficiel" target="_blank"><i class="fa-brands fa-youtube xs:w-full xs:text-[16px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"></i></a>
                       </div>
                     </div>
-                    <ul class="w-full mx-5 text-white xs:text-[10px] sm:ml-auto sm:flex sm:items-center sm:justify-between sm:font-semibold sm:gap-y-4 sm:text-[9px] md:text-[12px] lg:text-[14px] lg:gap-y-6 xl:text-[17px] xl:gap-y-8">
+                    <ul class="w-full mx-5 text-white xs:text-[10px] sm:ml-auto sm:flex sm:items-center sm:justify-between sm:font-semibold sm:gap-y-4 sm:text-[9px] md:text-[12px] lg:text-[14px] lg:gap-y-6 xl:text-[17px] xl:gap-y-8 2xl:text-[12px] 2xl:w-10/12">
                         <li><a href="{{ route('marrakech.home') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 hover:text-gold">Accueil</a></li>
                         <li class="dropdown-container text-decoration-none relative xs:block xs:mb-5 sm:mb-0">
                           <span class="me-2">Concours 2025</span>
