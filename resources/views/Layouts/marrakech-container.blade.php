@@ -43,7 +43,7 @@
                 </div>
                 <div id="menu" class="xs:w-3/5 xs:transition-all xs:opacity-0 xs:duration-500 xs:translate-x-[100%] xs:fixed xs:right-0 xs:top-[10vh] xs:z-20 xs:bg-black xs:h-screen xs:py-10 xs:px-10 sm:transition-none sm:translate-x-0 sm:opacity-100 sm:relative sm:p-0 sm:right-[unset] sm:top-[unset] sm:z-[unset] sm:bg-[unset] sm:h-[unset] sm:flex sm:flex-col sm:items-center sm:w-8/12 md:mr-5 lg:w-7/12">
                     <div class="w-full text-white xs:text-[10px] xs:hidden sm:ml-auto sm:flex sm:items-center sm:justify-end sm:font-semibold sm:gap-y-4 sm:text-[8px] sm:mb-[1vh] sm:gap-x-6 md:text-[10px] md:gap-x-8 lg:text-[12px] lg:mb-[1.5vh] lg:gap-y-6 xl:text-[16px] xl:mb-[3.5vh] xl:gap-y-8 xl:gap-x-12">
-                      <div class="me-auto grid grid-rows-1 w-4/12 grid-cols-2 gap-x-2 sm:me-5 lg:me-10">
+                      <div class="me-auto grid grid-rows-1 w-4/12 grid-cols-2 gap-x-2 sm:me-5 lg:me-10 2xl:w-2/12">
                         <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
                             <div class="flex flex-col h-full items-center justify-around cursor-pointer">
                                 <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
@@ -60,8 +60,8 @@
                         </a>
                       </div>
                       <div class="flex items-center justify-end sm:my-2 md:my-4 xl:my-5">
-                        <button class="bg-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10"><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Inscription</a></button>
-                        <button class="border border-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10"><a href="{{ route('marrakech.reservation') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Reservation</a></button>
+                        <button class="bg-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10 2xl:text-[12px]"><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Inscription</a></button>
+                        <button class="border border-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10 2xl:text-[12px]"><a href="{{ route('marrakech.reservation') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Reservation</a></button>
                       </div>
                       <div class="grid grid-rows-1 grid-cols-4 sm:gap-x-5 lg:gap-x-8 xl:gap-x-5">
                         <a href="#" target="_blank"><i class="fa-brands fa-facebook xs:w-full xs:text-[16px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"></i></a>

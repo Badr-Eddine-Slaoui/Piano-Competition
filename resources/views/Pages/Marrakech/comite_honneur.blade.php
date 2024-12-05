@@ -33,7 +33,7 @@
             <h2 class="font-[400] text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Comité d’honneur</h2>
           </div>
           <p class="text-[#a3a3a3] xs:text-[10px] xs:mb-5 sm:mb-20 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
-            Le Comité d'Honneur du Concours International de Piano Mouvement Contraire rassemble des figures emblématiques du monde artistique, académique et institutionnel. Ces invités de prestige, issus de divers horizons, incarnent l'excellence et la passion pour la culture et la musique. Leur présence témoigne du rayonnement et de la reconnaissance internationale de cet événement, tout en mettant en lumière l'importance de l'engagement artistique et éducatif dans la promotion de la musique classique et contemporaine. Ces personnalités, unies par leur amour pour la musique, enrichissent le concours par leur soutien, leur expertise et leur inspiration.
+            Nous sommes fiers de collaborer avec nos partenaires précieux qui rendent possible le Concours International de Piano Mouvement Contraire. Grâce à Poly Plumes, Meydene, M Avenue et Re 'Belle Communication, cet événement prend vie dans un esprit de collaboration et de soutien. Leur engagement contribue à offrir une expérience exceptionnelle à tous les participants et à faire de cette compétition un moment unique.
           </p>
           <div class="comite left xs:h-[20vh] xs:mb-5 sm:h-[30vh] sm:mb-20 sm:w-1/2">
               <div class="info-container flex">

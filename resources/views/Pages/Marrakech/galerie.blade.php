@@ -36,7 +36,7 @@
                 <img loading="lazy" class="w-full h-full object-cover object-top" src="{{ asset('Images/Galerie Piano/galerie-28.png') }}" alt="Galerie">
             </div>
             <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
-              Plongez dans l’univers captivant du Concours International de Piano Mouvement Contraire à travers notre galerie. Découvrez en images et en vidéos les moments forts des éditions précédentes : des performances émouvantes, des instants de partage entre talents du monde entier et des souvenirs inoubliables. Laissez-vous inspirer par ces témoignages visuels de passion et d’excellence musicale, et vivez la magie de ce concours unique.
+              La galerie du Concours International de Piano Mouvement Contraire vous offre l'opportunité de revivre les moments les plus marquants de cette manifestation. Découvrez les performances des artistes, l'atmosphère des répétitions et les moments d'émotion partagés à travers des photos, des vidéos et des souvenirs.
             </p>
         </div>
     </section>

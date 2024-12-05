@@ -24,7 +24,7 @@
 
 @section('content')
     <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh]">
-        <div class="flex relative col-span-2 z-[-2] items-center mt-10 slide-text xs:h-[5vh] xs:ms-5 sm:h-[20vh] sm:ms-20 md:ms-24 lg:ms-28 xl:ms-44">
+        <div class="flex relative col-span-2 z-[-2] items-center mt-10 slide-text xs:h-[5vh] xs:ms-5 sm:h-[20vh] sm:ms-20 md:ms-24 lg:ms-28 xl:ms-44 2xl:ms-56">
           <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
           <h2 class="font-[400] text-center text-gold xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Un voyage pianistique</h2>
         </div>
@@ -130,7 +130,7 @@
             <h2 class="font-[400] text-center text-gold xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Nos Partenaires</h2>
           </div>
           <p class="text-[#a3a3a3] xs:text-[10px] xs:mb-5 sm:mb-20 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
-            Nous sommes fiers de collaborer avec nos partenaires précieux qui rendent possible le Concours International de Piano Mouvement Contraire. Grâce à Poly Plumes, Meydene, M Avenue et Re 'Belle Communication, cet événement prend vie dans un esprit de collaboration et de soutien. Leur engagement contribue à offrir une expérience exceptionnelle à tous les participants et à faire de cette compétition un moment unique.
+            C’est grâce au soutien précieux et la générosité de nos partenaires que le concours du piano mouvement contraire  prend une vie dans un esprit  de collaboration et de l’engagement .Polyplumes,Meydene ,M avenue et Rebelle communication partagent notre vision d’une compétition qui regroupe l’excellence et la créativité . Grace à eux, chaque détail de cette compétition prend vie avec élégance et profondeur. Ensemble nous donnons vie a un événement unique pensé pour offrir une expérience inoubliable aux participants.
           </p>
           <div class="partners-track overflow-x-hidden relative">
               <div class="partners-list grid grid-cols-4 grid-rows-1 xs:w-[140%] sm:w-full h-full">

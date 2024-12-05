@@ -47,7 +47,7 @@
             <h2 class="font-[400] text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Programme</h2>
           </div>
           <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
-            Découvrez le programme passionnant du Concours International de Piano Mouvement Contraire 2024 ! Au fil de cette édition, nous vous offrirons une série de moments forts : la cérémonie d’ouverture, les concours de piano, le récital des lauréats, ainsi que la cérémonie de clôture. Vous pourrez également profiter des hommages, des street performances, d'un afterwork convivial et de l'exposition Un Storie du Piano. Un programme riche en émotions et en découvertes vous attend !
+            Découvrez le programme étoffé du Concours International de Piano Mouvement Contraire 2025! Cette édition exceptionnelle vous offre un programme rempli et diversifié, combinant la richesse du répertoire classique avec l'innovation audacieuse de la musique contemporaine. Préparez-vous à vivre une expérience musicale intense, marquée par des performances éblouissantes et des moments d'émotion inoubliables.
           </p>
           <p class="font-semibold text-stone-50 my-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Moments forts du concours</p>
           <ul class="text-[#a3a3a3] ps-10 list-disc xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">

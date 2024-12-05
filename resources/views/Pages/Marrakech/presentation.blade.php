@@ -114,7 +114,7 @@
     </div>
   </section>
   <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh] overflow-x-hidden">
-      <div class="flex relative col-span-2 z-[-2] items-center mt-10 slide-text xs:h-[5vh] xs:ms-5 sm:h-[20vh] sm:ms-20 md:ms-24 lg:ms-28 xl:ms-44">
+      <div class="flex relative col-span-2 z-[-2] items-center mt-10 slide-text xs:h-[5vh] xs:ms-5 sm:h-[20vh] sm:ms-20 md:ms-24 lg:ms-28 xl:ms-44 2xl:ms-56">
         <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
         <h2 class="font-[400] text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Fiche technique du concours</h2>
       </div>
