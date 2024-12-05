@@ -42,7 +42,7 @@
                     <i id="menuBar" class="fa-solid fa-bars text-white"></i>
                 </div>
                 <div id="menu" class="xs:w-3/5 xs:transition-all xs:opacity-0 xs:duration-500 xs:translate-x-[100%] xs:fixed xs:right-0 xs:top-[10vh] xs:z-20 xs:bg-black xs:h-screen xs:py-10 xs:px-10 sm:transition-none sm:translate-x-0 sm:opacity-100 sm:relative sm:p-0 sm:right-[unset] sm:top-[unset] sm:z-[unset] sm:bg-[unset] sm:h-[unset] sm:flex sm:flex-col sm:items-center sm:w-8/12 md:mr-5 lg:w-7/12">
-                    <div class="w-full text-white xs:text-[10px] xs:hidden sm:ml-auto sm:flex sm:items-center sm:justify-end sm:font-semibold sm:gap-y-4 sm:text-[8px] sm:mb-[1vh] sm:gap-x-6 md:text-[10px] md:gap-x-8 lg:text-[12px] lg:mb-[1.5vh] lg:gap-y-6 xl:text-[16px] xl:mb-[3.5vh] xl:gap-y-8 xl:gap-x-12">
+                    <div class="w-full text-white xs:text-[10px] xs:hidden sm:ml-auto sm:flex sm:items-center sm:justify-end sm:font-semibold sm:gap-y-4 sm:text-[8px] sm:mb-[1vh] sm:gap-x-6 md:text-[10px] md:gap-x-8 lg:text-[12px] lg:mb-[1.5vh] lg:gap-y-6 xl:text-[16px] xl:mb-[3.5vh] xl:gap-y-8 xl:gap-x-12 2xl:w-11/12 2xl:justify-between 2xl:ms-0 2xl:me-auto">
                       <div class="me-auto grid grid-rows-1 w-4/12 grid-cols-2 gap-x-2 sm:me-5 lg:me-10 2xl:w-2/12">
                         <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
                             <div class="flex flex-col h-full items-center justify-around cursor-pointer">
@@ -70,7 +70,7 @@
                         <a href="https://www.youtube.com/@InternationalDuPianoOfficiel" target="_blank"><i class="fa-brands fa-youtube xs:w-full xs:text-[16px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"></i></a>
                       </div>
                     </div>
-                    <ul class="w-full mx-5 text-white xs:text-[10px] sm:ml-auto sm:flex sm:items-center sm:justify-between sm:font-semibold sm:gap-y-4 sm:text-[9px] md:text-[12px] lg:text-[14px] lg:gap-y-6 xl:text-[17px] xl:gap-y-8 2xl:text-[12px] 2xl:w-10/12">
+                    <ul class="w-full mx-5 text-white xs:text-[10px] sm:ml-auto sm:flex sm:items-center sm:justify-between sm:font-semibold sm:gap-y-4 sm:text-[9px] md:text-[12px] lg:text-[14px] lg:gap-y-6 xl:text-[17px] xl:gap-y-8 2xl:text-[12px] 2xl:w-11/12 2xl:ms-0 2xl:me-auto">
                         <li><a href="{{ route('paris.home') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 hover:text-gold">Accueil</a></li>
                         <li class="dropdown-container text-decoration-none relative xs:block xs:mb-5 sm:mb-0">
                           <span class="me-2">Concours 2025</span>
