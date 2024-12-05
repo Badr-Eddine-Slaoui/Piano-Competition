@@ -24,8 +24,7 @@
 
 @section('content')
     <section class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh]">
-        <div class="flex relative col-span-2 z-[-2] items-center mt-10 slide-text xs:h-[5vh] xs:ms-5 sm:h-[20vh] sm:ms-20 md:ms-24 lg:ms-28 xl:ms-44 2xl:ms-56">
-          <div class="w-1/5 border-b-[4px] border-dotted xs:me-1 sm:me-5"></div>
+        <div class="flex relative col-span-2 z-[-2] items-center mt-10 slide-text xs:h-[5vh] xs:ms-5 sm:h-[20vh] sm:ms-20 md:ms-24 lg:ms-28 xl:ms-52 2xl:ms-56">
           <h2 class="font-[400] text-center text-gold xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Un voyage pianistique</h2>
         </div>
         <div class="w-5/6 m-auto min-h-[20vh] grid sm:grid-cols-2 sm:grid-rows-1 sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[65vh]">
@@ -45,7 +44,6 @@
     <section id="mot-de-la-presidente" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh]">
       <div class="grid grid-cols-1 grid-rows-1 xs:gap-y-10 xs:min-h-[20vh] sm:gap-y-16 sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] md:gap-y-32 lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14 lg:gap-y-40 xl:gap-y-52">
         <div class="flex relative z-[-2] items-center mt-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-          <div class="w-1/5 border-b-[4px] border-dotted xs:me-1 sm:me-5"></div>
           <h2 class="font-[400] text-center text-gold xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Mot de la présidente</h2>
         </div>
         <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
@@ -66,7 +64,6 @@
                 A tous les inscrits au concours , Bonne chance à tous !</p>
         </div>
         <div class="flex relative z-[-2] items-center mt-10 slide-text xs:h-[5vh] sm:h-[20vh]">
-          <div class="w-1/5 border-b-[4px] border-dotted xs:me-1 sm:me-5"></div>
           <h2 class="font-[400] text-center text-gold xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Les Mots</h2>
         </div>
         <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
