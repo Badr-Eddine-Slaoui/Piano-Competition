@@ -10,7 +10,7 @@
     <meta name="twitter:description" content="">
 @endsection
 
-@section('title', 'Comite d’Honneur')
+@section('title', 'Comité d’honneur')
 
 @section('resources')
     @vite(['resources/css/app.css','resources/css/comite.css', 'resources/js/comite.js', 'resources/js/carousel.js', 'resources/js/app.js'])
@@ -30,7 +30,7 @@
       <div class="xs:min-h-[20vh] xs:mx-5 sm:flex sm:flex-wrap sm:justify-between sm:min-h-[30vh] sm:w-5/6 sm:ms-auto sm:me-8 md:min-h-[40vh] lg:min-h-[65vh] lg:w-5/6 lg:ms-auto lg:me-14">
           <div class="flex relative w-full z-[-2] items-center  mt-10 slide-text xs:h-[5vh] sm:h-[20vh]">
             <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
-            <h2 class="font-[400] text-center text-[#bc8c2d] capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Comite d’Honneur</h2>
+            <h2 class="font-[400] text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Comité d’honneur</h2>
           </div>
           <p class="text-[#a3a3a3] xs:text-[10px] xs:mb-5 sm:mb-20 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
             Le Comité d'Honneur du Concours International de Piano Mouvement Contraire rassemble des figures emblématiques du monde artistique, académique et institutionnel. Ces invités de prestige, issus de divers horizons, incarnent l'excellence et la passion pour la culture et la musique. Leur présence témoigne du rayonnement et de la reconnaissance internationale de cet événement, tout en mettant en lumière l'importance de l'engagement artistique et éducatif dans la promotion de la musique classique et contemporaine. Ces personnalités, unies par leur amour pour la musique, enrichissent le concours par leur soutien, leur expertise et leur inspiration.

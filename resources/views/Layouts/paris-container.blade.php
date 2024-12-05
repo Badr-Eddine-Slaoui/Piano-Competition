@@ -32,7 +32,7 @@
 
     </head>
     <body class="text-white bg-body">
-      <header class="w-full cmd:h-[15vh] lg:h-[17vh] xl:h-[25vh]">
+      <header class="w-full xs:h-[10vh] sm:h-[12vh] md:h-[15vh] lg:h-[17vh] xl:h-[25vh]">
         <nav class="w-full fixed top-0 left-0 z-50 bg-black flex justify-between xs:h-[10vh] xs:p-[1vh] sm:h-[12vh] sm:p-[2vh] md:h-[15vh] lg:h-[17vh] xl:h-[25vh] xl:p-[3vh]">
                 <div class="flex justify-center items-center xs:w-5/12 sm:w-3/12">
                     <a href="{{ route('home') }}"><img loading="lazy" class="h-full py-[2vh]" src="{{ asset('Images/LOGO PIANO SITE WEB/LOGO OFF CONCOURS BLANC.png') }}" alt=""></a>
@@ -90,7 +90,7 @@
                             <li><a href="{{ route('paris.home') }}#mot-de-le-president" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Mot de le président</a></li>
                             <li><a href="{{ route('paris.edition_2025') }}#composantes" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Organisation du concours</a></li>
                             <li><a href="{{ route('paris.presentation') }}#association-culturers-sans-frontieres" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Association Culturers sans frontières</a></li>
-                            <li><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Comité d’Honneur</a></li>
+                            <li><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Comité d’honneur</a></li>
                             <li><a href="{{ route('paris.jury') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Jury</a></li>
                             <li><a href="{{ route('paris.home') }}#partenaires" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Partenaires</a></li>
                             <li><a href="{{ route('paris.galerie') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Galerie</a></li>
@@ -140,7 +140,7 @@
             <section id="map" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] sm:w-11/12 sm:ms-auto sm:me-8 md:grid md:grid-cols-2 md:grid-rows-1 md:mt-5 md:m-auto md:gap-x-10 md:min-h-[40vh] lg:min-h-[50vh] lg:ms-auto lg:me-14">
                 <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh] md:col-span-2">
                     <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
-                    <h2 class="font-[400] text-center text-gold capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Contactez-nous</h2>
+                    <h2 class="font-[400] text-center text-gold xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Contactez-nous</h2>
                 </div>
                 <form class="w-full py-5 mb-5" action="{{ route('paris.contact.store') }}" method="post">
                     @csrf
@@ -212,7 +212,7 @@
                         <p><a href="{{ route('paris.presentation') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Presentation</a></p>
                         <p><a href="{{ route('paris.edition_2025') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Edition 2025</a></p>
                         <p><a href="{{ route('paris.jury') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Jury</a></p>
-                        <p><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Comite d’Honneur</a></p>
+                        <p><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Comité d’honneur</a></p>
                         <p><a href="{{ route('paris.inscription') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Inscription</a></p>
                         <p><a href="{{ route('paris.galerie') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Galerie</a></p>
                         <p><a href="{{ route('paris.laureats') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Laureats</a></p>
