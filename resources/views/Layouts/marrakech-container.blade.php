@@ -32,7 +32,7 @@
 
     </head>
     <body class="text-white bg-body">
-        <header class="w-full cmd:h-[15vh] lg:h-[17vh] xl:h-[25vh]">
+        <header class="w-full xs:h-[10vh] sm:h-[12vh] md:h-[15vh] lg:h-[17vh] xl:h-[25vh]">
             <nav class="w-full fixed top-0 left-0 z-50 bg-black flex justify-between xs:h-[10vh] xs:p-[1vh] sm:h-[12vh] sm:p-[2vh] md:h-[15vh] lg:h-[17vh] xl:h-[25vh] xl:p-[3vh]">
                 <div class="flex justify-center items-center xs:w-5/12 sm:w-3/12">
                     <a href="{{ route('home') }}"><img loading="lazy" class="h-full py-[2vh]" src="{{ asset('Images/LOGO PIANO SITE WEB/LOGO OFF CONCOURS BLANC.png') }}" alt=""></a>
@@ -43,7 +43,7 @@
                 </div>
                 <div id="menu" class="xs:w-3/5 xs:transition-all xs:opacity-0 xs:duration-500 xs:translate-x-[100%] xs:fixed xs:right-0 xs:top-[10vh] xs:z-20 xs:bg-black xs:h-screen xs:py-10 xs:px-10 sm:transition-none sm:translate-x-0 sm:opacity-100 sm:relative sm:p-0 sm:right-[unset] sm:top-[unset] sm:z-[unset] sm:bg-[unset] sm:h-[unset] sm:flex sm:flex-col sm:items-center sm:w-8/12 md:mr-5 lg:w-7/12">
                     <div class="w-full text-white xs:text-[10px] xs:hidden sm:ml-auto sm:flex sm:items-center sm:justify-end sm:font-semibold sm:gap-y-4 sm:text-[8px] sm:mb-[1vh] sm:gap-x-6 md:text-[10px] md:gap-x-8 lg:text-[12px] lg:mb-[1.5vh] lg:gap-y-6 xl:text-[16px] xl:mb-[3.5vh] xl:gap-y-8 xl:gap-x-12">
-                      <div class="me-auto grid grid-rows-1 w-4/12 grid-cols-2 gap-x-2 sm:me-5 lg:me-10">
+                      <div class="me-auto grid grid-rows-1 w-4/12 grid-cols-2 gap-x-2 sm:me-5 lg:me-10 2xl:w-2/12">
                         <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
                             <div class="flex flex-col h-full items-center justify-around cursor-pointer">
                                 <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
@@ -60,8 +60,8 @@
                         </a>
                       </div>
                       <div class="flex items-center justify-end sm:my-2 md:my-4 xl:my-5">
-                        <button class="bg-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10"><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Inscription</a></button>
-                        <button class="border border-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10"><a href="{{ route('marrakech.reservation') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Reservation</a></button>
+                        <button class="bg-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10 2xl:text-[12px]"><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Inscription</a></button>
+                        <button class="border border-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10 2xl:text-[12px]"><a href="{{ route('marrakech.reservation') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Reservation</a></button>
                       </div>
                       <div class="grid grid-rows-1 grid-cols-4 sm:gap-x-5 lg:gap-x-8 xl:gap-x-5">
                         <a href="#" target="_blank"><i class="fa-brands fa-facebook xs:w-full xs:text-[16px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"></i></a>
@@ -90,7 +90,7 @@
                             <li><a href="{{ route('marrakech.home') }}#mot-de-la-presidente" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Mot de la présidente</a></li>
                             <li><a href="{{ route('marrakech.edition_2025') }}#composantes" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Organisation du concours</a></li>
                             <li><a href="{{ route('marrakech.presentation') }}#association-culturers-sans-frontieres" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Association Culturers sans frontières</a></li>
-                            <li><a href="{{ route('marrakech.comite_honneur') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Comité d’Honneur</a></li>
+                            <li><a href="{{ route('marrakech.comite_honneur') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Comité d’honneur</a></li>
                             <li><a href="{{ route('marrakech.jury') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Jury</a></li>
                             <li><a href="{{ route('marrakech.home') }}#partenaires" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Partenaires</a></li>
                             <li><a href="{{ route('marrakech.galerie') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-2 hover:text-gold">Galerie</a></li>
@@ -140,7 +140,7 @@
             <section id="map" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] sm:w-11/12 sm:ms-auto sm:me-8 md:grid md:grid-cols-2 md:grid-rows-1 md:mt-5 md:m-auto md:gap-x-10 md:min-h-[40vh] lg:min-h-[50vh] lg:ms-auto lg:me-14">
                 <div class="flex relative z-[-2] items-center my-10 slide-text xs:h-[5vh] sm:h-[20vh] md:col-span-2">
                     <div class="h-[1px] w-1/5 bg-white xs:me-1 sm:me-5"></div>
-                    <h2 class="font-[400] text-center text-gold capitalize xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Contactez-nous</h2>
+                    <h2 class="font-[400] text-center text-gold xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Contactez-nous</h2>
                 </div>
                 <form class="w-full py-5 mb-5" action="{{ route('marrakech.contact.store') }}" method="post">
                     @csrf
@@ -212,7 +212,7 @@
                         <p><a href="{{ route('marrakech.presentation') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Presentation</a></p>
                         <p><a href="{{ route('marrakech.edition_2025') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Edition 2025</a></p>
                         <p><a href="{{ route('marrakech.jury') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Jury</a></p>
-                        <p><a href="{{ route('marrakech.comite_honneur') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Comite d’Honneur</a></p>
+                        <p><a href="{{ route('marrakech.comite_honneur') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Comité d’honneur</a></p>
                         <p><a href="{{ route('marrakech.inscription') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Inscription</a></p>
                         <p><a href="{{ route('marrakech.galerie') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Galerie</a></p>
                         <p><a href="{{ route('marrakech.laureats') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Laureats</a></p>
