@@ -61,7 +61,7 @@
                       </div>
                       <div class="flex items-center justify-end sm:my-2 md:my-4 xl:my-5">
                         <button class="bg-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10 2xl:text-[12px]"><a href="{{ route('marrakech.inscription') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Inscription</a></button>
-                        <button class="border border-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10 2xl:text-[12px]"><a href="{{ route('marrakech.reservation') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Reservation</a></button>
+                        <button class="border border-gold rounded-full py-1 sm:px-3 sm:me-5 md:px-4 lg:px-5 lg:me-10 2xl:text-[12px]"><a href="{{ route('marrakech.reservation') }}" class="text-decoration-none xs:block xs:mb-2 sm:mb-0">Réservation</a></button>
                       </div>
                       <div class="grid grid-rows-1 grid-cols-4 sm:gap-x-5 lg:gap-x-8 xl:gap-x-5">
                         <a href="#" target="_blank"><i class="fa-brands fa-facebook xs:w-full xs:text-[16px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]"></i></a>
@@ -98,7 +98,7 @@
                         <li><a href="{{ route('paris.laureats') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 hover:text-gold">Lauréats 2024</a></li>
                         <li><a href="{{ route('paris.contact') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 hover:text-gold">Contact</a></li>
                         <li class="xs:block sm:hidden"><a href="{{ route('paris.inscription') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 hover:text-gold">Inscription</a></li>
-                        <li class="xs:block sm:hidden"><a href="{{ route('paris.reservation') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 hover:text-gold">Reservation</a></li>
+                        <li class="xs:block sm:hidden"><a href="{{ route('paris.reservation') }}" class="text-decoration-none xs:block xs:mb-5 sm:mb-0 hover:text-gold">Réservation</a></li>
                         <li class="sm:hidden">
                           <div class="me-auto grid grid-rows-1 w-7/12 grid-cols-2 gap-x-5">
                             <a href="{{ route('marrakech.home') }}" title="Concours International de Piano Marrakech">
@@ -214,9 +214,9 @@
                         <p><a href="{{ route('paris.comite_honneur') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Comité d’honneur</a></p>
                         <p><a href="{{ route('paris.inscription') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Inscription</a></p>
                         <p><a href="{{ route('paris.galerie') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Galerie</a></p>
-                        <p><a href="{{ route('paris.laureats') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Laureats</a></p>
-                        <p><a href="{{ route('paris.reglement') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Reglement</a></p>
-                        <p><a href="{{ route('paris.reservation') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Reservation</a></p>
+                        <p><a href="{{ route('paris.laureats') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Lauréats</a></p>
+                        <p><a href="{{ route('paris.reglement') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Règlements</a></p>
+                        <p><a href="{{ route('paris.reservation') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Réservation</a></p>
                         <p><a href="{{ route('paris.contact') }}" class="text-decoration-nonetext-white hover:text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Contact</a></p>
                     </div>
                 </div>
