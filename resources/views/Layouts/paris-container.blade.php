@@ -122,10 +122,10 @@
             </nav>
         </header>
         @yield('hero')
-        <aside class="fixed left-0 top-[25vh] w-1/12 z-20 xs:hidden sm:block md:top-[30%] lg:top-[36%] xl:w-[8%]">
+        <aside class="fixed left-0 top-[25vh] w-1/12 z-20 xs:hidden sm:block md:top-[30%] lg:top-[36%] xl:w-[8%] 2xl:w-[6%] 2xl:top-[33%]">
             <img loading="lazy" class="w-full" src="{{ asset('Images/LOGO PIANO SITE WEB/MC dorté 1.png')  }}" alt="SideImg">
         </aside>
-        <div class="w-2/12 absolute xs:w-[12%] xs:top-[10.5%] xs:left-0 xs:right-2 sm:w-[12%] sm:top-[14.5%] sm:-left-2 md:w-[12%] md:top-[18.5%] md:-left-2 lg:w-1/12 lg:top-[20.5%] lg:left-0 xl:top-[25.5%] xl:-left-3">
+        <div class="w-2/12 absolute xs:w-[12%] xs:top-[10.5%] xs:left-0 xs:right-2 sm:w-[12%] sm:top-[14.5%] sm:-left-2 md:w-[12%] md:top-[18.5%] md:-left-2 lg:w-1/12 lg:top-[20.5%] lg:left-0 xl:top-[25.5%] xl:-left-3 2xl:w-[6.5%] 2xl:top-[25%]">
           <a href="{{ route('paris.home') }}" title="Concours International de Piano Paris">
             <div class="flex flex-col h-full items-center justify-around cursor-pointer">
                 <div class="xs:w-3/4 sm:w-2/3 lg:w-11/12 xl:w-4/6">
