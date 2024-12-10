@@ -21,7 +21,7 @@
         "dev": "npm run env:dev && concurrently -k -n SERVER,CLIENT -c yellow,blue \"npm run server\" \"npm run start\"",
         "build": "vite build",
         "start": "vite",
-        "prod": "npm run env:prod && npm run down && npm run clear && npm run build && npm run optimize && npm run cache && npm run up && npm run sitemap && npm run server"
+        "prod": "sudo npm run env:prod && sudo npm run down && sudo npm run clear && sudo npm run build && sudo npm run optimize && sudo npm run cache && sudo npm run up && sudo npm run sitemap"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.20",
