@@ -31,7 +31,7 @@ class GenerateSitemap extends Command
             $uri = $route->uri();
 
             // Exclude specific routes if necessary (e.g., API or store routes)
-            if (str_contains($uri, 'storage')) {
+            if (str_contains($uri, 'storage') || str_contains($uri, 'up')) {
                 continue;
             }
 
