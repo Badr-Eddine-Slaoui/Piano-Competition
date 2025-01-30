@@ -17,7 +17,8 @@
 @endsection
 
 @section('hero')
-    <main class="w-full xs:h-[30vh] sm:h-[50vh] md:h-[60vh] lg:h-[80vh]">
+    <main class="w-full relative xs:h-[30vh] sm:h-[50vh] md:h-[60vh] lg:h-[80vh]">
+        <img class="absolute xs:w-11/12 xs:left-[4%] xs:top-3 sm:w-5/6 sm:left-[10%] top-5" src="{{ asset('Images/logo partenaires officels.png') }}" alt="logo partenaires officels">
         <video class="w-[100vw] object-cover xs:h-[30vh] sm:h-[50vh] md:h-[60vh] lg:h-[80vh]" poster="{{ asset('Videos/Posters/HomeHeaderVideo.png') }}" src="{{ asset('Videos/HomeHeaderVideo.mp4') }}" muted autoplay loop></video>
     </main>
 @endsection
@@ -28,17 +29,18 @@
           <h2 class="font-[400] font-Against text-center text-gold xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Un voyage pianistique</h2>
         </div>
         <div class="w-5/6 m-auto min-h-[20vh] grid sm:grid-cols-2 sm:grid-rows-1 sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[65vh]">
+          <div class="h-full flex justify-center items-center xs:mb-5 md:mb-0">
+            <img loading="lazy" src="{{ asset('Images/PosterMarrakech.png') }}" alt="PosterMarrakech">
+          </div>
           <div class="sm:flex sm:items-center sm:justify-center">
-                <div class="xs:w-full xs:flex xs:justify-between sm:block sm:w-2/3">
-                    <h1 class="font-extrabold font-Against capitalize mb-5 xs:w-1/2 xs:text-xs sm:w-2/3 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Un voyage pianistique</h1>
-                    <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">La 3ème édition<br> Du 1 Mai 2025<br> Au 4 Mai 2025</p>
-                </div>
+            <div class="w-full xs:mt-5 sm:mt-0">
+              <h1 class="font-extrabold font-Against capitalize mb-5 xs:w-1/2 xs:text-xs sm:w-2/3 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">Un voyage pianistique</h1>
+              <p class="text-[#a3a3a3] my-5 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">La 3ème édition Du 1 Mai 2025 Au 4 Mai 2025</p>
+              <q class="text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
+                  Imaginé comme une rencontre musicale, le Concours de Piano Mouvement Contraire se veut un trait d’union entre le patrimoine musical et la création contemporaine. Depuis 2012, des pianistes de tout âge sont de plus en plus nombreux à participer au concours et l’exigence du message relative les aide à progresser. Aujourd’hui grâce au soutien des partenaires et à l’adhésions des écoles professeurs et parents, Mouvement Contraire devient un concours international de premier plan.
+              </q>
             </div>
-            <div class="flex items-center justify-center xs:mt-5 sm:mt-0">
-                <q class="text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
-                    Imaginé comme une rencontre musicale, le Concours de Piano Mouvement Contraire se veut un trait d’union entre le patrimoine musical et la création contemporaine. Depuis 2012, des pianistes de tout âge sont de plus en plus nombreux à participer au concours et l’exigence du message relative les aide à progresser. Aujourd’hui grâce au soutien des partenaires et à l’adhésions des écoles professeurs et parents, Mouvement Contraire devient un concours international de premier plan.
-                </q>
-            </div>
+          </div>
         </div>
     </section>
     <section id="mot-de-la-presidente" class="w-full my-5 xs:min-h-[20vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[50vh]">
@@ -128,42 +130,89 @@
           <p class="text-[#a3a3a3] xs:text-[10px] xs:mb-5 sm:mb-20 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">
             C’est grâce au soutien précieux et la générosité de nos partenaires que le concours du piano mouvement contraire  prend une vie dans un esprit  de collaboration et de l’engagement .Polyplumes,Meydene ,M avenue et Rebelle communication partagent notre vision d’une compétition qui regroupe l’excellence et la créativité . Grace à eux, chaque détail de cette compétition prend vie avec élégance et profondeur. Ensemble nous donnons vie a un événement unique pensé pour offrir une expérience inoubliable aux participants.
           </p>
+          <div class="flex relative z-[-2] items-center my-6 slide-text xs:h-[5vh] sm:h-[20vh]">
+            <h3 class="font-[400] font-Against text-center text-gold xs:text-[10px] sm:text-[18px] md:text-[22px] lg:text-[26px] xl:text-[30px]">Partenaires Principaux</h3>
+          </div>
+          <img src="{{ asset('Images/logo partenaires officels.png') }}" alt="logo partenaires officels">
+          <div class="flex relative z-[-2] items-center my-6 slide-text xs:h-[5vh] sm:h-[20vh]">
+            <h3 class="font-[400] font-Against text-center text-gold xs:text-[10px] sm:text-[18px] md:text-[22px] lg:text-[26px] xl:text-[30px]">Sponsors</h3>
+          </div>
           <div class="partners-track overflow-x-hidden relative">
-              <div class="partners-list grid grid-cols-4 grid-rows-1 xs:w-[140%] sm:w-full h-full">
+              <div class="partners-list grid grid-cols-9 grid-rows-1 xs:w-[280%] sm:w-[200%] h-full">
                   <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Poly-Plumes.webp') }}" alt="Poly plumes">
-                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Poly Plumes</p>
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/AUDI 1.png') }}" alt="Audi">
+                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Audi</p>
                   </div>
                   <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Meydene.webp') }}" alt="Meydene">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Kenzi 2.png') }}" alt="Kenzi">
+                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Kenzi</p>
+                  </div>
+                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Mifa 3.png') }}" alt="Mifa">
+                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Mifa</p>
+                  </div>
+                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Meydene 4.png') }}" alt="Meydene">
                       <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Meydene</p>
                   </div>
                   <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/M-Avenue.webp') }}" alt="M Avenue">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/M Avenue 5.png') }}" alt="M Avenue">
                       <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">M Avenue</p>
                   </div>
                   <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Re-Belle-Communication.webp') }}" alt="Re ‘ Belle communication">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Rebelle com 6.png') }}" alt="Re ‘ Belle communication">
                       <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Re ‘ Belle communication</p>
+                  </div>
+                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Rebelle com 7.png') }}" alt="Art Academy">
+                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Art Academy</p>
+                  </div>
+                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Poly plumes 8.png') }}" alt="Poly Plumes">
+                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Poly Plumes</p>
+                  </div>
+                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Chauffeur privé 9.png') }}" alt="Chauffeur privé">
+                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Chauffeur privé</p>
                   </div>
               </div>
-              <div class="partners-list grid grid-cols-4 grid-rows-1 absolute top-0 xs:w-[140%] xs:left-[140%] sm:left-[100%] sm:w-full h-full">
-                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Poly-Plumes.webp') }}" alt="Poly plumes">
-                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Poly Plumes</p>
-                  </div>
-                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Meydene.webp') }}" alt="Meydene">
-                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Meydene</p>
-                  </div>
-                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/M-Avenue.webp') }}" alt="M Avenue">
-                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">M Avenue</p>
-                  </div>
-                  <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
-                      <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Re-Belle-Communication.webp') }}" alt="Re ‘ Belle communication">
-                      <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Re ‘ Belle communication</p>
-                  </div>
+              <div class="partners-list grid grid-cols-9 grid-rows-1 absolute top-0 xs:w-[280%] xs:left-[280%] sm:left-[200%] sm:w-[200%] h-full">
+                <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                  <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/AUDI 1.png') }}" alt="Audi">
+                  <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Audi</p>
+                </div>
+                <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                    <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Kenzi 2.png') }}" alt="Kenzi">
+                    <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Kenzi</p>
+                </div>
+                <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                    <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Mifa 3.png') }}" alt="Mifa">
+                    <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Mifa</p>
+                </div>
+                <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                    <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Meydene 4.png') }}" alt="Meydene">
+                    <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Meydene</p>
+                </div>
+                <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                    <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/M Avenue 5.png') }}" alt="M Avenue">
+                    <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">M Avenue</p>
+                </div>
+                <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                    <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Rebelle com 6.png') }}" alt="Re ‘ Belle communication">
+                    <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Re ‘ Belle communication</p>
+                </div>
+                <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                    <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Rebelle com 7.png') }}" alt="Art Academy">
+                    <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Art Academy</p>
+                </div>
+                <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                    <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Poly plumes 8.png') }}" alt="Poly Plumes">
+                    <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Poly Plumes</p>
+                </div>
+                <div class="partner-item hover:translate-y-[-20px] hover:scale-105 cursor-pointer">
+                    <img loading="lazy" class="mt-5 m-auto xs:w-[15vw] sm:w-[10vw]" src="{{ asset('Images/Chauffeur privé 9.png') }}" alt="Chauffeur privé">
+                    <p class="text-center font-bold my-5 text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Chauffeur privé</p>
+                </div>
               </div>
           </div>
         </div>
