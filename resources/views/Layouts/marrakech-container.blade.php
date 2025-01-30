@@ -32,8 +32,8 @@
 
     </head>
     <body class="text-white bg-body">
-        <header class="w-full xs:h-[10vh] sm:h-[12vh] md:h-[15vh] lg:h-[17vh] xl:h-[25vh]">
-            <nav class="w-full fixed top-0 left-0 z-50 bg-black flex justify-between xs:h-[10vh] xs:p-[1vh] sm:h-[12vh] sm:p-[2vh] md:h-[15vh] lg:h-[17vh] xl:h-[25vh] xl:p-[3vh]">
+        <header class="w-full xs:h-[10vh] sm:h-[12vh] md:h-[15vh] lg:h-[17vh] xl:h-[20vh]">
+            <nav class="w-full fixed top-0 left-0 z-50 bg-black flex justify-between xs:h-[10vh] xs:p-[1vh] sm:h-[12vh] sm:p-[2vh] md:h-[15vh] lg:h-[17vh] xl:h-[20vh] xl:p-[3vh]">
                 <div class="flex justify-center items-center xs:w-5/12 sm:w-3/12">
                     <a href="{{ route('home') }}"><img loading="lazy" class="h-full py-[2vh]" src="{{ asset('Images/LOGO PIANO SITE WEB/LOGO OFF CONCOURS BLANC.png') }}" alt=""></a>
                     <img loading="lazy" class="h-full py-[2vh] xs:ms-5 sm:py-0 md:py-[2vh] lg:ms-10 lg:py-[1vh]" src="{{ asset('Images/LOGO PIANO SITE WEB/PIANIST blanc.png') }}" alt="">
