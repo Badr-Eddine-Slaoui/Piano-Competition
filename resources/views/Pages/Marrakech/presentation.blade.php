@@ -31,8 +31,8 @@
         <div class="flex relative z-[-2] items-center mt-10 slide-text xs:h-[5vh] sm:h-[20vh]">
           <h2 class="font-[400] font-Against text-center text-[#bc8c2d] xs:text-[14px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px]">Association culture sans frontieres</h2>
         </div>
-        <div class="w-full my-10 xs:h-[15vh] sm:h-[20vh] md:h-[25vh] lg:h-[30vh] xl:h-[35vh]">
-            <img loading="lazy" class="w-full h-full object-cover" src="{{ asset('Images/Association-Culture-Sans-Frontieres-2.jpg') }}" alt="Association Culture Sans Frontieres">
+        <div class="w-full my-10 xs:h-[5vh] sm:h-[6vh] md:h-[8vh] lg:h-[10vh] xl:h-[15vh]">
+            <img loading="lazy" class="w-1/4 h-full" src="{{ asset('Images/logo association cultures sans frontières.png') }}" alt="Association Culture Sans Frontieres">
         </div>
         <p class="text-[#a3a3a3] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">L’association est une organisation non gouvernementale, apolitique et independante de toute considération a caractère syndical confessionnel ou idéologique. C’est une association culturelle et artistique a but non lucratif. Elle a été crée pour une duréé illimité.Son siège est situé « 6,Résidence Oussama ,Route de Targa.Camp EL Ghoul-40000.MARRAKECH », ce siége peut etre transféré en vertu d’une délibération du comité conseil.Confermement aux dispositions du Dahir 1-58-376 du 15 novembre tel qu’il été modifié et complété par la loi 75.00 promulgée par le Dahir du 23 juillet 2002 .il a été decidé entre membres fondateurs de créer cette association autonomme regroupant principalement des professionnels de la musique , l’art et la culture ainsi que toute personne qui y adhére dans le cadre des objectifs.
             L’organisateur n’est pas responsable des dommages corporels ou matériels survenant dans le cadre des manifestations du concours.
@@ -137,7 +137,7 @@
               </div>
           </div>
           <div class="h-full flex justify-center items-center xs:mb-5 md:mb-0">
-              <img loading="lazy" src="{{ asset('Images/PosterMarrakech.webp') }}" alt="PosterMarrakech">
+              <img loading="lazy" src="{{ asset('Images/PosterMarrakech.png') }}" alt="PosterMarrakech">
           </div>
       </div>
   </section>
