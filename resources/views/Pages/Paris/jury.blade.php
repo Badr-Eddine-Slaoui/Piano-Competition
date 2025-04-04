@@ -92,23 +92,6 @@
           </div>
           <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
             <div class="info-container w-4/5 m-auto flex mb-5">
-                  <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Louis-Dugué.jpg') }}" alt="Caroline Fauchet">
-                  <div class="infos flex items-center">
-                    <div>
-                      <p class="font-bold text-gold xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Louis Dugué</p>
-                      <p class="text-gray-400 xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">COMPOSITEUR - MUSICOLOGUE. France</p>
-                  </div>
-                </div>
-              </div>
-              <p class="description w-4/5 m-auto mb-10 text-justify text-gray-400 xs:text-[10px] xs:mt-5 sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[18px]">Certificat d’études musicales au conservatoire de Courbevoie.
-                Études de la musicologie et de l’histoire de l’art à La Sorbonne.
-                Brevet de concert et Diplôme d’exécution à  l’École Normale de Musique de Paris.
-                Passionné de composition, il suit des cours d’écriture de musique de films et d’orchestration avec Patrice Mestral.
-                Il suit une formation à la direction d’orchestre avec Laurent Brack.
-                Il se produit régulièrement dans diverses formations de musique de chambre ainsi qu’en soliste. Son répertoire s’étend de la musique baroque à la musique contemporaine, en passant par Debussy, son compositeur fétiche. Il travaille d’ailleurs actuellement à la création d’une pièce de théâtre sur la vie du compositeur.</p>
-          </div>
-          <div class="message relative xs:min-h-[40vh] xs:mb-10 md:mb-0 lg:min-h-[65vh]">
-            <div class="info-container w-4/5 m-auto flex mb-5">
                   <img loading="lazy" class="rounded-full xs:me-5 xs:w-[10vh] xs:h-[10vh] md:w-[15vh] md:h-[15vh] lg:w-[20vh] lg:h-[20vh] xl:w-[30vh] xl:h-[30vh] xl:me-10" src="{{ asset('Images/Mounia-Dadi.webp') }}" alt="Caroline Fauchet">
                   <div class="infos flex items-center">
                     <div>
