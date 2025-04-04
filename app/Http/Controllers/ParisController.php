@@ -113,4 +113,8 @@ class ParisController extends Controller
     public function reservation(){
         return view("Pages.Paris.reservation");
     }
+
+    public function partenaires(){
+      return view("Pages.Paris.partenaires");
+  }
 }

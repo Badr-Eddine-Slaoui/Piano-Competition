@@ -113,4 +113,8 @@ class MarrakechController extends Controller
     public function reservation(){
         return view("Pages.Marrakech.reservation");
     }
+
+    public function partenaires(){
+        return view("Pages.Marrakech.partenaires");
+    }
 }

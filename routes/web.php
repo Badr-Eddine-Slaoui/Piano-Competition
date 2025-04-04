@@ -21,11 +21,12 @@ Route::prefix('marrakech')->as('marrakech.')->group(function () {
         Route::get('edition-2025', 'edition_2025')->name('edition_2025');
         Route::get('inscription', 'inscription')->name('inscription');
         Route::get('jury', 'jury')->name('jury');
-        Route::get('comite-honneur', 'comite_honneur')->name('comite_honneur');
+        /* Route::get('comite-honneur', 'comite_honneur')->name('comite_honneur'); */
         Route::get('laureats', 'laureats')->name('laureats');
         Route::get('contact', 'contact')->name('contact');
         Route::get('reglement', 'reglement')->name('reglement');
         Route::get('reservation', 'reservation')->name('reservation');
+        Route::get('partenaires', 'partenaires')->name('partenaires');
     });
     Route::post('inscription/store', [MarrakechInscriptionController::class, 'store'])->name('inscription.store');
     Route::post('contact/store', [MarrakechContactController::class ,'store'])->name('contact.store');
@@ -40,11 +41,12 @@ Route::prefix('paris')->as('paris.')->group(function () {
         Route::get('edition-2025', 'edition_2025')->name('edition_2025');
         Route::get('inscription', 'inscription')->name('inscription');
         Route::get('jury', 'jury')->name('jury');
-        Route::get('comite-honneur', 'comite_honneur')->name('comite_honneur');
+        /* Route::get('comite-honneur', 'comite_honneur')->name('comite_honneur'); */
         Route::get('laureats', 'laureats')->name('laureats');
         Route::get('contact', 'contact')->name('contact');
         Route::get('reglement', 'reglement')->name('reglement');
         Route::get('reservation', 'reservation')->name('reservation');
+        Route::get('partenaires', 'partenaires')->name('partenaires');
     });
     Route::post('inscription/store', [ParisInscriptionController::class, 'store'])->name('inscription.store');
     Route::post('contact/store', [ParisContactController::class ,'store'])->name('contact.store');
